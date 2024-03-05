@@ -4,6 +4,7 @@ import json
 from mes.otheruser import *
 from mes.brokenacess import *
 
+#comit check
 def append_details(payload,csrf,id=None,data=None):
     if(id==None and data==None):
         payload["csrfmiddlewaretoken"]=csrf
