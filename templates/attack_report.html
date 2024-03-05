@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MES Final Report</title>
     <style>
+        body {
+            background-color: #000;
+            color: #0f0; /* Green color for text */
+            text-align: center; /* Center align text */
+        }
+        h2 {
+            color: #0f0; /* Green color for heading */
+        }
         table {
             border-collapse: collapse;
             width: 100%;
+            color: #0f0; /* Green color for table text */
         }
         th, td {
             border: 1px solid #dddddd;
-            text-align: left;
+            text-align: center; /* Center align text within table cells */
             padding: 8px;
         }
         th {
-            background-color: #f2f2f2;
+            background-color: #3b3b3b; /* Darker green background for table header */
         }
         /* Add CSS for success and failure classes */
         .success {
@@ -24,13 +33,19 @@
         .failure {
             color: green;
         }
+        .title-header {
+            text-align: center; /* Align the text of the title header to the center */
+        }
+        .title-body {
+            text-align: left; /* Align the text of the body of the title header to the left */
+        }
     </style>
 </head>
 <body>
     <h2>MES Final Report</h2>
     <table>
         <tr>
-            <th>Page</th>
+            <th class="title-header">Page</th>
             <th>XSS Attack</th>
             <th>HTML Attack</th>
             <th>Attack From Other User</th>
@@ -46,7 +61,7 @@
         </tr>
         {% for page, attacks in data.items() %}
             <tr>
-                <td>{{ page }}</td>
+                <td class="title-body">{{ page }}</td>
                 <!-- Apply conditional formatting based on the value -->
                 <td class="{% if attacks.get('xss_attack', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('xss_attack', '') }}</td>
                 <td class="{% if attacks.get('html_attack', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('html_attack', '') }}</td>
