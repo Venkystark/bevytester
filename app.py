@@ -6,7 +6,6 @@ from mes.test import *
 from mes.otheruser import *
 from mes.brokenacess import *
 
-#change in 138
 # Define a global variable
 selected_option = None
 

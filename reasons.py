@@ -2,7 +2,7 @@ import requests
 from mes.otheruser import get_other_user_session
 #from mqtt.test import get_session
 import json
-
+#main
 session=get_other_user_session()
 # post_res=session.post("https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createUser",data={"display_name":"from other user","username":"other_user@gmail.com",
 # "mobile_no": 44444444444,
