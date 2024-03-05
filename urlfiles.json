@@ -1,0 +1,410 @@
+{
+    "https://mes.bevywise.com/process_page": {
+        "https://mes.bevywise.com/process": {
+            "xss_attack": {
+                "process_name": "<script>console.log(\"script process\");</script>"
+            },
+            "html_attack": {
+                "process_name":"<button>hello process</button>"
+            },
+            "from_other_user":{
+                "process_name":"other user posted process"
+            },
+            "session_cookies_theft":{
+                "process_name":"posted through cookies theft"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+        },
+        "https://mes.bevywise.com/master_delete":{
+            "from_other_user":{
+                "master":"process"
+            },
+            "session_cookies_theft":{
+                "master":"process"
+            }
+        }
+    },
+    "https://mes.bevywise.com/machine_page":{
+        "https://mes.bevywise.com/machine":{
+            "xss_attack": {
+                "machine_id": "<script>console.log(\"script machine\");</script>"
+            },
+            "html_attack": {
+                "machine_id":"<button>hello machine</button>"
+            },
+            "from_other_user":{
+                "machine_id":"other user posted machine"
+            },
+            "session_cookies_theft":{
+                "machine_id":"posted through cookies theft"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+        },
+        "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"machine"
+            },
+        "session_cookies_theft":{
+            "master":"machine"
+            }
+        }
+    },
+    "https://mes.bevywise.com/parts_page":{
+        "https://mes.bevywise.com/parts":{
+            "xss_attack": {
+                "part_no": "<script>console.log(\"script parts\");</script>"
+            },
+            "html_attack": {
+                "part_no":"<button>hello parts</button>"
+            },
+            "from_other_user":{
+                "part_no":"other user posted part"
+            },
+            "session_cookies_theft":{
+                "part_no":"posted through cookies theft"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"parts"
+            },
+        "session_cookies_theft":{
+            "master":"parts"
+            }
+        }
+    },
+    "https://mes.bevywise.com/tools":{
+        "https://mes.bevywise.com/tools_page":{
+            "xss_attack": {
+                "tools_number": "<script>console.log(\"script tools\");</script>","process":"script attack"
+            },
+            "html_attack": {
+                "tools_number":"<button>hello tools</button>","process":"html_attack"
+            },
+            "from_other_user":{
+                "tools_number":"other user posted part","process":"other user posted tool"
+            },
+            "session_cookies_theft":{
+                "tools_number":"posted through cookies theft","process":"posted through session thief"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"tools"
+            },
+        "session_cookies_theft":{
+            "master":"tools"
+            }
+        }
+    },
+    "https://mes.bevywise.com/cycle_page":{
+        "https://mes.bevywise.com/cycle_times":{
+            "xss_attack": {
+                "part_number":"<button>hello parts</button>",
+                "process":"<button>hello process</button>",
+                "oporder":7,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"<script>console.log('hello cycle times')</script>",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "html_attack": {
+                "part_number":"<button>hello parts</button>",
+                "process":"posted through cookies theft",
+                "oporder":7,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"<button>html attack</button>",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "from_other_user":{
+                "part_number":"posted through cookies theft",
+                "process":"<button>hello process</button>",
+                "oporder":7,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"other user posted cycle time",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "session_cookies_theft":{
+                "part_number":"posted through cookies theft",
+                "process":"posted through cookies theft",
+                "oporder":7,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"posted through cookies theft",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"cycle_times"
+            },
+        "session_cookies_theft":{
+            "master":"cycle_times"
+            }
+        }
+    },
+    "https://mes.bevywise.com/error-reason":{
+        "https://mes.bevywise.com/bad_quality_reason":{
+            "xss_attack": {
+                "department": "<script>console.log(\"script r-reason\");</script>","reason":"script attack"
+            },
+            "html_attack": {
+                "department":"<button>hello r-reason</button>","reason":"html_attack"
+            },
+            "from_other_user":{
+                "department":"other user posted r-reason","reason":"other user posted r-reason"
+            },
+            "session_cookies_theft":{
+                "department":"posted through cookies theft","reason":"posted through session thief"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"quality_reasons"
+            },
+        "session_cookies_theft":{
+            "master":"quality_reasons"
+            }
+        }
+    },
+    "https://mes.bevywise.com/downtime-reason":{
+        "https://mes.bevywise.com/downtime_reason":{
+            "xss_attack": {
+                "department": "<script>console.log(\"script d-reason\");</script>","reason":"script attack"
+            },
+            "html_attack": {
+                "department":"<button>hello d-reason</button>","reason":"html_attack"
+            },
+            "from_other_user":{
+                "department":"other user posted d-reason","reason":"other user posted d-reason"
+            },
+            "session_cookies_theft":{
+                "department":"posted through cookies theft","reason":"posted through session thief"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"downtime_reasons"
+            },
+        "session_cookies_theft":{
+            "master":"downtime_reasons"
+            }
+        }
+    },
+    "https://mes.bevywise.com/targets":{
+        "https://mes.bevywise.com/target":{
+            "xss_attack": {
+                "department": "<script>console.log(\"script target\");</script>"
+            },
+            "html_attack": {
+                "department":"<button>hello target</button>"
+            },
+            "from_other_user":{
+                "department":"other user posted target"
+            },
+            "session_cookies_theft":{
+                "department":"posted through cookies theft"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"target"
+            },
+        "session_cookies_theft":{
+            "master":"target"
+            }
+        }
+    },
+    "https://mes.bevywise.com/rawmaterial":{
+        "https://mes.bevywise.com/raw_material_page":{
+            "xss_attack": {
+                "raw_material_number": "<script>console.log(\"script rawmaterial\");</script>"
+            },
+            "html_attack": {
+                "raw_material_number":"<button>hello raw material</button>"
+            },
+            "from_other_user":{
+                "raw_material_number":"other user posted raw material"
+            },
+            "session_cookies_theft":{
+                "raw_material_number":"posted through cookies theft"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"raw_material"
+            },
+        "session_cookies_theft":{
+            "master":"raw_material"
+            }
+        }
+    },
+    "https://mes.bevywise.com/rm_vs_parts":{
+        "https://mes.bevywise.com/rm_vs_parts_page":{
+            "xss_attack": {
+                "part_name":"<script>console.log(\"script non-existant part\");</script>","raw_material":"<script>console.log(\"script non-existant raw material\");</script>","part_rm_factor":1
+            },
+            "html_attack": {
+                "part_name":"<button>non-exist part</button>","raw_material":"<button>non-exist raw material</button>","part_rm_factor":1
+            },
+            "from_other_user":{
+                "part_name":"other user posted non-exist part","raw_material":"other user posted non-exist raw material","part_rm_factor":1
+            },
+            "session_cookies_theft":{
+                "part_name":"posted through cookies theft","raw_material":"posted through cookies theft","part_rm_factor":1
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"rm_vs_parts"
+            },
+        "session_cookies_theft":{
+            "master":"rm_vs_parts"
+            }
+        }
+    },
+    "https://mes.bevywise.com/consumable":{
+        "https://mes.bevywise.com/consumable_page":{
+            "xss_attack": {
+                "consumable_number": "<script>console.log(\"script consumable\");</script>"
+            },
+            "html_attack": {
+                "consumable_number":"<button>hello consumable</button>"
+            },
+            "from_other_user":{
+                "consumable_number":"other user posted consumable"
+            },
+            "session_cookies_theft":{
+                "consumable_number":"posted through cookies theft"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"consumable"
+            },
+        "session_cookies_theft":{
+            "master":"consumable"
+            }
+        }
+    },
+    "https://mes.bevywise.com/customer":{
+        "https://mes.bevywise.com/customer_page":{
+            "xss_attack": {
+                "customer_name": "<script>console.log(\"script customer\");</script>"
+            },
+            "html_attack": {
+                "customer_name":"<button>hello customer</button>"
+            },
+            "from_other_user":{
+                "customer_name":"other user posted customer"
+            },
+            "session_cookies_theft":{
+                "customer_name":"posted through cookies theft"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"customer"
+            },
+        "session_cookies_theft":{
+            "master":"customer"
+            }
+        }
+    },
+    "https://mes.bevywise.com/vendor":{
+        "https://mes.bevywise.com/vendor_page":{
+            "xss_attack": {
+                "vendor_name": "<script>console.log(\"script vendor\");</script>"
+            },
+            "html_attack": {
+                "vendor_name":"<button>hello vendor</button>"
+            },
+            "from_other_user":{
+                "vendor_name":"other user posted vendor"
+            },
+            "session_cookies_theft":{
+                "vendor_name":"posted through cookies theft"
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"vendor"
+            },
+        "session_cookies_theft":{
+            "master":"vendor"
+            }
+        }
+    },
+    "https://mes.bevywise.com/employee_page":{
+        "https://mes.bevywise.com/employee":{
+            "xss_attack": {
+                "department":"store","employee_id":"<script>console.log(\"script employee\");</script>","role":"Executive","password":"123","role_id":11
+            },
+            "html_attack": {
+                "department":"store","employee_id":"<button>hello employee</button>","role":"Executive","password":"123","role_id":11
+            },
+            "from_other_user":{
+                "department":"store","employee_id":"other user posted employee","role":"Executive","password":"123","role_id":11
+            },
+            "session_cookies_theft":{
+                "department":"store","employee_id":"posted through cookies theft","role":"Executive","password":"123","role_id":11
+            },
+            "BA_SE":{},
+            "BA_SM":{}
+    },
+    "https://mes.bevywise.com/emp_master_delete_emp":{
+        "from_other_user":{
+            "master":"employee"
+            },
+        "session_cookies_theft":{
+            "master":"employee"
+            }
+        }
+    }
+}

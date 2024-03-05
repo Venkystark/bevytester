@@ -1,0 +1,36 @@
+{
+    "https://publicmqtt.bevywise.com/#settings-user":{
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createUser":{
+            "xss_attack":{
+                "display_name":"<script>console.log(\"script user\");</script>","username":"other_user@gmail.com","mobile_no": 44444444444,"permission": 1
+            },
+            "html_attack":{
+                "display_name":"<button>hello user</button>","username":"other_user@gmail.com","mobile_no": 44444444444,"permission": 1
+            },
+            "from_other_user":{
+                "display_name":"from other user","username":"other_user@gmail.com","mobile_no": 44444444444,"permission": 1
+            },
+            "session_cookies_theft":{
+                "display_name":"from cookie theif","username":"cookie_theif@gmail.com","mobile_no": 44444444444,"permission": 1
+            }
+        },
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeUser":{}
+    },
+    "https://publicmqtt.bevywise.com/#settings-deviceGroup":{
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDeviceGroup":{
+            "xss_attack":{
+                "group_name":"<script>console.log(\"script group\");</script>","description": "script group"
+            },
+            "html_attack":{
+                "group_name":"<button>hello group</button>","description": "html group"
+            },
+            "from_other_user":{
+                "group_name":"from other user","description": "other user group"
+            },
+            "session_cookies_theft":{
+                "group_name":"from cookie theif","description": "cookie theif group"
+            }
+        },
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeDeviceGroup":{}
+    }
+}

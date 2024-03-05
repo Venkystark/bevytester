@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MES Final Report</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>MES Final Report</h2>
+    <table>
+        <tr>
+            <th>Page</th>
+            <th>XSS Attack</th>
+            <th>HTML Attack</th>
+            <th>Attack From Other User</th>
+            <th>Session Cookies Theft Attack</th>
+            <th>BAC-Store-Executive</th>
+            <th>BAC-Store-Manager</th>
+            <th>BAC-Store-Viewer</th>
+            <th>BAC-Main-Executive</th>
+            <th>BAC-Main-Manager</th>
+            <th>BAC-Process-Head</th>
+            <th>BAC-Process-Supervisor</th>
+            <th>BAC-Process-Operator</th>
+        </tr>
+        {% for page, attacks in data.items() %}
+            <tr>
+                <td>{{ page }}</td>
+                <td>{{ attacks.get('xss_attack', '') }}</td>
+                <td>{{ attacks.get('html_attack', '') }}</td>
+                <td>{{ attacks.get('from_other_user', '') }}</td>
+                <td>{{ attacks.get('session_cookies_theft', '') }}</td>
+                <td>{{ attacks.get('BA_SE', '') }}</td>
+                <td>{{ attacks.get('BA_SM', '') }}</td>
+                <td>{{ attacks.get('BA_SV', '') }}</td>
+                <td>{{ attacks.get('BA_ME', '') }}</td>
+                <td>{{ attacks.get('BA_MM', '') }}</td>
+                <td>{{ attacks.get('BA_PH', '') }}</td>
+                <td>{{ attacks.get('BA_PS', '') }}</td>
+                <td>{{ attacks.get('BA_PO', '') }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

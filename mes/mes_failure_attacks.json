@@ -1,0 +1,348 @@
+[
+    {
+        "Page": "https://mes.bevywise.com/process_page",
+        "Endpoint": "https://mes.bevywise.com/process",
+        "Attack": "from_other_user",
+        "Payload": {
+            "process_name": "other user posted process",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/process_page",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "process",
+            "id": "Rt34DI4BDPJ0E_pPbM5D",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/machine_page",
+        "Endpoint": "https://mes.bevywise.com/machine",
+        "Attack": "from_other_user",
+        "Payload": {
+            "machine_id": "other user posted machine",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/machine_page",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "machine",
+            "id": "X935DI4BDPJ0E_pPEc7Q",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/parts_page",
+        "Endpoint": "https://mes.bevywise.com/parts",
+        "Attack": "from_other_user",
+        "Payload": {
+            "part_no": "other user posted part",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/parts_page",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "parts",
+            "id": "Yd35DI4BDPJ0E_pPc847",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/tools",
+        "Endpoint": "https://mes.bevywise.com/tools_page",
+        "Attack": "from_other_user",
+        "Payload": {
+            "tools_number": "other user posted part",
+            "process": "other user posted tool",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/tools",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "tools",
+            "id": "ad35DI4BDPJ0E_pP-M6P",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/error-reason",
+        "Endpoint": "https://mes.bevywise.com/bad_quality_reason",
+        "Attack": "from_other_user",
+        "Payload": {
+            "department": "other user posted r-reason",
+            "reason": "other user posted r-reason",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/error-reason",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "quality_reasons",
+            "id": "bd36DI4BDPJ0E_pPas73",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/downtime-reason",
+        "Endpoint": "https://mes.bevywise.com/downtime_reason",
+        "Attack": "from_other_user",
+        "Payload": {
+            "department": "other user posted d-reason",
+            "reason": "other user posted d-reason",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/downtime-reason",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "downtime_reasons",
+            "id": "cd36DI4BDPJ0E_pPys7S",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/targets",
+        "Endpoint": "https://mes.bevywise.com/target",
+        "Attack": "from_other_user",
+        "Payload": {
+            "department": "other user posted target",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/targets",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "target",
+            "id": "dd37DI4BDPJ0E_pPTs6R",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/rawmaterial",
+        "Endpoint": "https://mes.bevywise.com/raw_material_page",
+        "Attack": "from_other_user",
+        "Payload": {
+            "raw_material_number": "other user posted raw material",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/rawmaterial",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "raw_material",
+            "id": "e937DI4BDPJ0E_pPyM41",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://mes.bevywise.com/rm_vs_parts_page",
+        "Attack": "from_other_user",
+        "Payload": {
+            "part_name": "other user posted non-exist part",
+            "raw_material": "other user posted non-exist raw material",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "rm_vs_parts",
+            "id": "f938DI4BDPJ0E_pPRM6e",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/consumable",
+        "Endpoint": "https://mes.bevywise.com/consumable_page",
+        "Attack": "from_other_user",
+        "Payload": {
+            "consumable_number": "other user posted consumable",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/consumable",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "consumable",
+            "id": "ht38DI4BDPJ0E_pPvM7-",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/customer",
+        "Endpoint": "https://mes.bevywise.com/customer_page",
+        "Attack": "from_other_user",
+        "Payload": {
+            "customer_name": "other user posted customer",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/customer",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "customer",
+            "id": "iN39DI4BDPJ0E_pPIM7_",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/vendor",
+        "Endpoint": "https://mes.bevywise.com/vendor_page",
+        "Attack": "from_other_user",
+        "Payload": {
+            "vendor_name": "other user posted vendor",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/vendor",
+        "Endpoint": "https://mes.bevywise.com/master_delete",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "vendor",
+            "id": "kd39DI4BDPJ0E_pPrM4s",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/employee_page",
+        "Endpoint": "https://mes.bevywise.com/employee",
+        "Attack": "from_other_user",
+        "Payload": {
+            "department": "store",
+            "employee_id": "other user posted employee",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 11,
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/employee_page",
+        "Endpoint": "https://mes.bevywise.com/emp_master_delete_emp",
+        "Attack": "from_other_user",
+        "Payload": {
+            "master": "employee",
+            "id": "Mt32DI4BDPJ0E_pPVs7V",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ",
+            "email_id": "main-manager@gmail.com"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/management/",
+        "Endpoint": "https://mes.bevywise.com/ppc/api/edit_workorder/",
+        "Attack": "from_other_user",
+        "Payload": {
+            "e_wono": "WO-002",
+            "e_toolcode": "edited by other user",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-10",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    },
+    {
+        "Page": "https://mes.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://mes.bevywise.com/store/productionparts/",
+        "Attack": "from_other_user",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "from other user",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "7zoqblnwvU8tu0hwsQyg8RQBzL85Wf9xHu4dDxyE2nfxoxvt3Sk9EVjRuF4MiDHJ"
+        },
+        "Statuscode": 403,
+        "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
+    }
+]

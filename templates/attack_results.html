@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Successfull attacks</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Page</th>
+                <th>Endpoint</th>
+                <th>Attack</th>
+                <th>Payload</th>
+                <th>Status Code</th>
+                <th>Attack Response</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            {% for item in success_data %}
+            <tr>
+                <td>{{ item['Page'] }}</td>
+                <td>{{ item['Endpoint'] }}</td>
+                <td>{{ item['Attack'] }}</td>
+                <td>{{ item['Payload'] }}</td>
+                <td>{{ item['Statuscode'] }}</td>
+                <td>{{ item['AttackResponse'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h2>failure attacks</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Page</th>
+                <th>Endpoint</th>
+                <th>Attack</th>
+                <th>Payload</th>
+                <th>Status Code</th>
+                <th>Attack Response</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            {% for item in failure_data %}
+            <tr>
+                <td>{{ item['Page'] }}</td>
+                <td>{{ item['Endpoint'] }}</td>
+                <td>{{ item['Attack'] }}</td>
+                <td>{{ item['Payload'] }}</td>
+                <td>{{ item['Statuscode'] }}</td>
+                <td>{{ item['AttackResponse'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
