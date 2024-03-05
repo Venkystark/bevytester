@@ -1,6 +1,6 @@
 import json
 import os
-from flask import Flask,render_template, request,jsonify
+from flask import Flask,render_template, request,jsonify,redirect, url_for
 app = Flask(__name__)
 from mes.test import *
 from mes.otheruser import *
@@ -19,7 +19,9 @@ def attack_results():
     return render_template('attack_results.html')
 @app.route('/attack_report')
 def attack_report():
-    return render_template('attack_report.html')
+    with open('mes\\mes_final_report.json', 'r') as file:
+            report_data = json.load(file)
+    return render_template('attack_report.html',data=report_data)
 
 @app.route('/update', methods=['POST'])
 def update():
@@ -70,7 +72,8 @@ def update():
     #return render_template('attack_results.html',success_data=success_data,failure_data=failure_data)
         with open('mes\\mes_final_report.json', 'r') as file:
             report_data = json.load(file)
-        return render_template('attack_report.html',data=report_data)
+        #return render_template('attack_report.html',data=report_data)
+        return redirect(url_for('attack_report'))
     if(selected_option=="mqtt"):
         return render_template('index.html')
     

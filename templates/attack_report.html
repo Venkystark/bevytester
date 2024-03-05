@@ -17,6 +17,13 @@
         th {
             background-color: #f2f2f2;
         }
+        /* Add CSS for success and failure classes */
+        .success {
+            color: red;
+        }
+        .failure {
+            color: green;
+        }
     </style>
 </head>
 <body>
@@ -40,18 +47,19 @@
         {% for page, attacks in data.items() %}
             <tr>
                 <td>{{ page }}</td>
-                <td>{{ attacks.get('xss_attack', '') }}</td>
-                <td>{{ attacks.get('html_attack', '') }}</td>
-                <td>{{ attacks.get('from_other_user', '') }}</td>
-                <td>{{ attacks.get('session_cookies_theft', '') }}</td>
-                <td>{{ attacks.get('BA_SE', '') }}</td>
-                <td>{{ attacks.get('BA_SM', '') }}</td>
-                <td>{{ attacks.get('BA_SV', '') }}</td>
-                <td>{{ attacks.get('BA_ME', '') }}</td>
-                <td>{{ attacks.get('BA_MM', '') }}</td>
-                <td>{{ attacks.get('BA_PH', '') }}</td>
-                <td>{{ attacks.get('BA_PS', '') }}</td>
-                <td>{{ attacks.get('BA_PO', '') }}</td>
+                <!-- Apply conditional formatting based on the value -->
+                <td class="{% if attacks.get('xss_attack', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('xss_attack', '') }}</td>
+                <td class="{% if attacks.get('html_attack', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('html_attack', '') }}</td>
+                <td class="{% if attacks.get('from_other_user', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('from_other_user', '') }}</td>
+                <td class="{% if attacks.get('session_cookies_theft', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('session_cookies_theft', '') }}</td>
+                <td class="{% if attacks.get('BA_SE', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_SE', '') }}</td>
+                <td class="{% if attacks.get('BA_SM', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_SM', '') }}</td>
+                <td class="{% if attacks.get('BA_SV', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_SV', '') }}</td>
+                <td class="{% if attacks.get('BA_ME', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_ME', '') }}</td>
+                <td class="{% if attacks.get('BA_MM', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_MM', '') }}</td>
+                <td class="{% if attacks.get('BA_PH', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_PH', '') }}</td>
+                <td class="{% if attacks.get('BA_PS', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_PS', '') }}</td>
+                <td class="{% if attacks.get('BA_PO', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_PO', '') }}</td>
             </tr>
         {% endfor %}
     </table>
