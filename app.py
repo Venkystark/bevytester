@@ -61,7 +61,7 @@ def update():
             result_dict[page][attack] = success
         attacks=["xss_attack","html_attack","from_other_user","session_cookies_theft"]
         for attack in attacks:
-            result_dict["https://mes.bevywise.com/maintenance/main_dashboard/#Dashboard"][attack]="-"
+            result_dict["http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard"][attack]="-"
         # Write the result_dict to a new JSON file
         with open('mes\\mes_final_report.json', 'w') as output_file:
             json.dump(result_dict, output_file, indent=2)

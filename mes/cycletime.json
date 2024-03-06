@@ -1,14 +1,14 @@
-"https://mes.bevywise.com/cycle_page":{
-    "https://mes.bevywise.com/cycle_times":{
+"http://192.168.0.178:8080/cycle_page":{
+    "http://192.168.0.178:8080/cycle_times":{
         "xss_attack": {
             "part_number":"part1",
             "process":"process1",
-            "oporder":7,
+            "oporder":1,
             "part_ideal_cycle_time":5,
             "allowence":5,
             "part_per_cycle":5,
-            "target_per_shift":"<script>console.log('hello cycle times')</script>",
-            "quality_check":"sample",
+            "target_per_shift":"240",
+            "quality_check":"<script>console.log('hello cycle times')</script>",
             "parts_to_inspect":"",
             "inspect_interval":"1hr",
             "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
@@ -17,12 +17,12 @@
         "html_attack": {
             "part_number":"part1",
             "process":"process2",
-            "oporder":7,
+            "oporder":2,
             "part_ideal_cycle_time":5,
             "allowence":5,
             "part_per_cycle":5,
-            "target_per_shift":"<button>html attack</button>",
-            "quality_check":"sample",
+            "target_per_shift":"240",
+            "quality_check":"<button>html attack</button>",
             "parts_to_inspect":"",
             "inspect_interval":"1hr",
             "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
@@ -31,12 +31,12 @@
         "from_other_user":{
             "part_number":"part2",
             "process":"process1",
-            "oporder":7,
+            "oporder":3,
             "part_ideal_cycle_time":5,
             "allowence":5,
             "part_per_cycle":5,
-            "target_per_shift":"other user posted cycle time",
-            "quality_check":"sample",
+            "target_per_shift":"240",
+            "quality_check":"other user posted cycle time",
             "parts_to_inspect":"",
             "inspect_interval":"1hr",
             "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
@@ -45,12 +45,12 @@
         "session_cookies_theft":{
             "part_number":"part2",
             "process":"process2",
-            "oporder":7,
+            "oporder":4,
             "part_ideal_cycle_time":5,
             "allowence":5,
             "part_per_cycle":5,
-            "target_per_shift":"posted through cookies theft",
-            "quality_check":"sample",
+            "target_per_shift":"240",
+            "quality_check":"posted through cookies theft",
             "parts_to_inspect":"",
             "inspect_interval":"1hr",
             "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
@@ -65,7 +65,7 @@
         "BA_PS":{},
         "BA_PO":{}
 },
-"https://mes.bevywise.com/master_delete":{
+"http://192.168.0.178:8080/master_delete":{
     "from_other_user":{
         "master":"cycle_times"
         },

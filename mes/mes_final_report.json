@@ -1,5 +1,5 @@
 {
-  "https://mes.bevywise.com/process_page": {
+  "http://192.168.0.178:8080/process_page": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -13,7 +13,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/machine_page": {
+  "http://192.168.0.178:8080/machine_page": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -27,7 +27,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/parts_page": {
+  "http://192.168.0.178:8080/parts_page": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -41,7 +41,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/tools": {
+  "http://192.168.0.178:8080/tools": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -55,7 +55,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/error-reason": {
+  "http://192.168.0.178:8080/error-reason": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -69,7 +69,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/downtime-reason": {
+  "http://192.168.0.178:8080/downtime-reason": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -83,7 +83,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/targets": {
+  "http://192.168.0.178:8080/targets": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -97,7 +97,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/rawmaterial": {
+  "http://192.168.0.178:8080/rawmaterial": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -111,7 +111,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/rm_vs_parts": {
+  "http://192.168.0.178:8080/rm_vs_parts": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -125,7 +125,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/consumable": {
+  "http://192.168.0.178:8080/consumable": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -139,7 +139,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/customer": {
+  "http://192.168.0.178:8080/customer": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -153,7 +153,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/vendor": {
+  "http://192.168.0.178:8080/vendor": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -167,7 +167,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/employee_page": {
+  "http://192.168.0.178:8080/employee_page": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -181,7 +181,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/management/": {
+  "http://192.168.0.178:8080/management/": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -195,7 +195,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/store/#Dashboard": {
+  "http://192.168.0.178:8080/store/#Dashboard": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -209,7 +209,7 @@
     "BA_PS": "success",
     "BA_PO": "success"
   },
-  "https://mes.bevywise.com/maintenance/main_dashboard/#Dashboard": {
+  "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard": {
     "BA_SE": "success",
     "BA_SM": "success",
     "BA_SV": "success",

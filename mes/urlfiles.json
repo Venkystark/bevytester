@@ -1,6 +1,6 @@
 {
-    "https://mes.bevywise.com/process_page": {
-        "https://mes.bevywise.com/process": {
+    "http://192.168.0.178:8080/process_page": {
+        "http://192.168.0.178:8080/process": {
             "xss_attack": {
                 "process_name": "<script>console.log(\"script process\");</script>","quality_check":"Yes"
             },
@@ -22,7 +22,7 @@
             "BA_PS":{},
             "BA_PO":{}
         },
-        "https://mes.bevywise.com/master_delete":{
+        "http://192.168.0.178:8080/master_delete":{
             "from_other_user":{
                 "master":"process"
             },
@@ -31,8 +31,8 @@
             }
         }
     },
-    "https://mes.bevywise.com/machine_page":{
-        "https://mes.bevywise.com/machine":{
+    "http://192.168.0.178:8080/machine_page":{
+        "http://192.168.0.178:8080/machine":{
             "xss_attack": {
                 "machine_id": "<script>console.log(\"script machine\");</script>","process":"vmpprocess"
             },
@@ -54,7 +54,7 @@
             "BA_PS":{},
             "BA_PO":{}
         },
-        "https://mes.bevywise.com/master_delete":{
+        "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"machine"
             },
@@ -63,19 +63,19 @@
             }
         }
     },
-    "https://mes.bevywise.com/parts_page":{
-        "https://mes.bevywise.com/parts":{
+    "http://192.168.0.178:8080/parts_page":{
+        "http://192.168.0.178:8080/parts":{
             "xss_attack": {
-                "part_no": "<script>console.log(\"script parts\");</script>"
+                "part_no": "<script>console.log(\"script parts\");</script>","part_cost":5
             },
             "html_attack": {
-                "part_no":"<button>hello parts</button>"
+                "part_no":"<button>hello parts</button>","part_cost":5
             },
             "from_other_user":{
-                "part_no":"other user posted part"
+                "part_no":"other user posted part","part_cost":5
             },
             "session_cookies_theft":{
-                "part_no":"posted through cookies theft"
+                "part_no":"posted through cookies theft","part_cost":5
             },
             "BA_SE":{},
             "BA_SM":{},
@@ -86,7 +86,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"parts"
             },
@@ -95,19 +95,27 @@
             }
         }
     },
-    "https://mes.bevywise.com/tools":{
-        "https://mes.bevywise.com/tools_page":{
+    "http://192.168.0.178:8080/tools":{
+        "http://192.168.0.178:8080/tools_page":{
             "xss_attack": {
-                "tools_number": "<script>console.log(\"script tools\");</script>","process":"script attack"
+                "tools_number": "<script>console.log(\"script tools\");</script>","process":"vmpprocess","tool_cost": "5",
+                "tool_sides": "5",
+                "tool_contact_time": "Parts"
             },
             "html_attack": {
-                "tools_number":"<button>hello tools</button>","process":"html_attack"
+                "tools_number":"<button>hello tools</button>","process":"vmpprocess","tool_cost": "5",
+                "tool_sides": "5",
+                "tool_contact_time": "Parts"
             },
             "from_other_user":{
-                "tools_number":"other user posted part","process":"other user posted tool"
+                "tools_number":"other user posted part","process":"vmpprocess","tool_cost": "5",
+                "tool_sides": "5",
+                "tool_contact_time": "Parts"
             },
             "session_cookies_theft":{
-                "tools_number":"posted through cookies theft","process":"posted through session thief"
+                "tools_number":"posted through cookies theft","process":"vmpprocess","tool_cost": "5",
+                "tool_sides": "5",
+                "tool_contact_time": "Parts"
             },
             "BA_SE":{},
             "BA_SM":{},
@@ -118,7 +126,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"tools"
             },
@@ -127,20 +135,63 @@
             }
         }
     },
-    
-    "https://mes.bevywise.com/error-reason":{
-        "https://mes.bevywise.com/bad_quality_reason":{
+    "http://192.168.0.178:8080/cycle_page":{
+        "http://192.168.0.178:8080/cycle_times":{
             "xss_attack": {
-                "department": "<script>console.log(\"script r-reason\");</script>","reason":"script attack"
+                "part_number":"part1",
+                "process":"process1",
+                "oporder":1,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"<script>console.log('hello cycle times')</script>",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
             },
             "html_attack": {
-                "department":"<button>hello r-reason</button>","reason":"html_attack"
+                "part_number":"part1",
+                "process":"process2",
+                "oporder":2,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"<button>hello cycle</button>",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
             },
             "from_other_user":{
-                "department":"other user posted r-reason","reason":"other user posted r-reason"
+                "part_number":"part2",
+                "process":"process1",
+                "oporder":3,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"other user posted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
             },
             "session_cookies_theft":{
-                "department":"posted through cookies theft","reason":"posted through session thief"
+                "part_number":"part2",
+                "process":"process2",
+                "oporder":4,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"posted through cookies theft",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
             },
             "BA_SE":{},
             "BA_SM":{},
@@ -151,28 +202,28 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
-            "master":"quality_reasons"
+            "master":"cycle_times"
             },
         "session_cookies_theft":{
-            "master":"quality_reasons"
+            "master":"cycle_times"
             }
         }
     },
-    "https://mes.bevywise.com/downtime-reason":{
-        "https://mes.bevywise.com/downtime_reason":{
+    "http://192.168.0.178:8080/error-reason":{
+        "http://192.168.0.178:8080/bad_quality_reason":{
             "xss_attack": {
-                "department": "<script>console.log(\"script d-reason\");</script>","reason":"script attack"
+                "department": "vmpprocess","reason":"<script>console.log(\"script r-rejection\");"
             },
             "html_attack": {
-                "department":"<button>hello d-reason</button>","reason":"html_attack"
+                "department":"vmpprocess","reason":"<button>hello r-reason"
             },
             "from_other_user":{
-                "department":"other user posted d-reason","reason":"other user posted d-reason"
+                "department":"vmpprocess","reason":"other user posted r-reason"
             },
             "session_cookies_theft":{
-                "department":"posted through cookies theft","reason":"posted through session thief"
+                "department":"vmpprocess","reason":"posted through session thief"
             },
             "BA_SE":{},
             "BA_SM":{},
@@ -183,7 +234,39 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
+        "from_other_user":{
+            "master":"quality_reasons"
+            },
+        "session_cookies_theft":{
+            "master":"quality_reasons"
+            }
+        }
+    },
+    "http://192.168.0.178:8080/downtime-reason":{
+        "http://192.168.0.178:8080/downtime_reason":{
+            "xss_attack": {
+                "department": "vmpprocess","reason":"<script>console.log(\"script d-rejection\");","type":"availability","color":"#ffffff"
+            },
+            "html_attack": {
+                "department": "vmpprocess","reason":"<button>hello d-rejection</button>","type":"availability","color":"#ffffff"
+            },
+            "from_other_user":{
+                "department": "vmpprocess","reason":"other user posted d-reason","type":"availability","color":"#ffffff"
+            },
+            "session_cookies_theft":{
+                "department": "vmpprocess","reason":"posted through session thief","type":"availability","color":"#ffffff"
+            },
+            "BA_SE":{},
+            "BA_SM":{},
+            "BA_SV":{},
+            "BA_ME":{},
+            "BA_MM":{},
+            "BA_PH":{},
+            "BA_PS":{},
+            "BA_PO":{}
+    },
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"downtime_reasons"
             },
@@ -192,8 +275,8 @@
             }
         }
     },
-    "https://mes.bevywise.com/targets":{
-        "https://mes.bevywise.com/target":{
+    "http://192.168.0.178:8080/targets":{
+        "http://192.168.0.178:8080/target":{
             "xss_attack": {
                 "department": "<script>console.log(\"script target\");</script>","availability": 5,"performance": 5,"quality":5
             },
@@ -201,10 +284,10 @@
                 "department":"<button>hello target</button>","availability": 5,"performance": 5,"quality":5
             },
             "from_other_user":{
-                "department":"other user posted target","availability": 5,"performance": 5,"quality":5
+                "department":"vmpprocess","availability": 5,"performance": 5,"quality":5
             },
             "session_cookies_theft":{
-                "department":"posted through cookies theft","availability": 5,"performance": 5,"quality":5
+                "department":"vmpprocess","availability": 5,"performance": 5,"quality":5
             },
             "BA_SE":{},
             "BA_SM":{},
@@ -215,7 +298,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"target"
             },
@@ -224,19 +307,39 @@
             }
         }
     },
-    "https://mes.bevywise.com/rawmaterial":{
-        "https://mes.bevywise.com/raw_material_page":{
+    "http://192.168.0.178:8080/rawmaterial":{
+        "http://192.168.0.178:8080/raw_material_page":{
             "xss_attack": {
-                "raw_material_number": "<script>console.log(\"script rawmaterial\");</script>"
+                "raw_material_number": "xss",
+                "raw_material_name": "xss",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "<script>console.log(\"hello raw\");</script>",
+                "rm_measurement_unit": "<script>console.log(\"hello raw\");</script>"
             },
             "html_attack": {
-                "raw_material_number":"<button>hello raw material</button>"
+                "raw_material_number": "html",
+                "raw_material_name": "html",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "<button>hello raw</button>",
+                "rm_measurement_unit": "<button>hello raw</button>"
             },
             "from_other_user":{
-                "raw_material_number":"other user posted raw material"
+                "raw_material_number": "otheruser posted",
+                "raw_material_name": "otheruser posted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "otheruser",
+                "rm_measurement_unit": "otheruser"
             },
             "session_cookies_theft":{
-                "raw_material_number":"posted through cookies theft"
+                "raw_material_number": "cookie theif",
+                "raw_material_name": "cookie theif",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "cookie theif",
+                "rm_measurement_unit": "cookie theif"
             },
             "BA_SE":{},
             "BA_SM":{},
@@ -247,7 +350,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"raw_material"
             },
@@ -256,8 +359,8 @@
             }
         }
     },
-    "https://mes.bevywise.com/rm_vs_parts":{
-        "https://mes.bevywise.com/rm_vs_parts_page":{
+    "http://192.168.0.178:8080/rm_vs_parts":{
+        "http://192.168.0.178:8080/rm_vs_parts_page":{
             "xss_attack": {
                 "part_name":"<script>console.log(\"script non-existant part\");</script>","raw_material":"<script>console.log(\"script non-existant raw material\");</script>","part_rm_factor":1
             },
@@ -279,7 +382,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"rm_vs_parts"
             },
@@ -288,8 +391,8 @@
             }
         }
     },
-    "https://mes.bevywise.com/consumable":{
-        "https://mes.bevywise.com/consumable_page":{
+    "http://192.168.0.178:8080/consumable":{
+        "http://192.168.0.178:8080/consumable_page":{
             "xss_attack": {
                 "consumable_number": "<script>console.log(\"script consumable\");</script>"
             },
@@ -311,7 +414,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"consumable"
             },
@@ -320,19 +423,19 @@
             }
         }
     },
-    "https://mes.bevywise.com/customer":{
-        "https://mes.bevywise.com/customer_page":{
+    "http://192.168.0.178:8080/customer":{
+        "http://192.168.0.178:8080/customer_page":{
             "xss_attack": {
-                "customer_name": "<script>console.log(\"script customer\");</script>"
+                "customer_name": "<script>console.log(\"script customer\");</script>","country":"<script>console.log(\"script customercountry\");</script>"
             },
             "html_attack": {
-                "customer_name":"<button>hello customer</button>"
+                "customer_name":"<button>hello customer</button>","country":"<button>customer country</button>"
             },
             "from_other_user":{
-                "customer_name":"other user posted customer"
+                "customer_name":"other user posted customer","country":"other user country"
             },
             "session_cookies_theft":{
-                "customer_name":"posted through cookies theft"
+                "customer_name":"posted through cookies theft","country":"session theif country"
             },
             "BA_SE":{},
             "BA_SM":{},
@@ -343,7 +446,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"customer"
             },
@@ -352,8 +455,8 @@
             }
         }
     },
-    "https://mes.bevywise.com/vendor":{
-        "https://mes.bevywise.com/vendor_page":{
+    "http://192.168.0.178:8080/vendor":{
+        "http://192.168.0.178:8080/vendor_page":{
             "xss_attack": {
                 "vendor_name": "<script>console.log(\"script vendor\");</script>"
             },
@@ -375,7 +478,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/master_delete":{
+    "http://192.168.0.178:8080/master_delete":{
         "from_other_user":{
             "master":"vendor"
             },
@@ -384,8 +487,8 @@
             }
         }
     },
-    "https://mes.bevywise.com/employee_page":{
-        "https://mes.bevywise.com/employee":{
+    "http://192.168.0.178:8080/employee_page":{
+        "http://192.168.0.178:8080/employee":{
             "xss_attack": {
                 "department":"store","employee_id":"<script>console.log(\"script employee\");</script>","role":"Executive","password":"123","role_id":11
             },
@@ -407,7 +510,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "https://mes.bevywise.com/emp_master_delete_emp":{
+    "http://192.168.0.178:8080/emp_master_delete_emp":{
         "from_other_user":{
             "master":"employee"
             },
@@ -416,8 +519,8 @@
             }
         }
     },
-    "https://mes.bevywise.com/management/":{
-        "https://mes.bevywise.com/ppc/api/edit_workorder/":{
+    "http://192.168.0.178:8080/management/":{
+        "http://192.168.0.178:8080/ppc/api/edit_workorder/":{
             "xss_attack": {
                 "e_wono":"WO-002","e_toolcode":"<script>console.log(\"script workorder\");</script>","e_startdate":"2024-02-28","e_enddate":"2024-03-10"
             },
@@ -440,8 +543,8 @@
             "BA_PO":{}
     }
     },
-    "https://mes.bevywise.com/store/#Dashboard":{
-        "https://mes.bevywise.com/store/productionparts/":{
+    "http://192.168.0.178:8080/store/#Dashboard":{
+        "http://192.168.0.178:8080/store/productionparts/":{
             "xss_attack": {
                 "date": "2024-02-28","material_name": "<script>console.log(\"script inventory\");</script>","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
             },
@@ -464,8 +567,8 @@
             "BA_PO":{}
     }
     },
-    "https://mes.bevywise.com/maintenance/main_dashboard/#Dashboard":{
-        "https://mes.bevywise.com/maintenance/main_dashboard":{
+    "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard":{
+        "http://192.168.0.178:8080/maintenance/main_dashboard":{
             "BA_SE":{},
             "BA_SM":{},
             "BA_SV":{},
