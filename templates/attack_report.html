@@ -75,19 +75,19 @@
                 <th colspan="12">
                     <div class="icon-container">
                         <div class="icon" style="background-color:white;"></div>
-                        <span>-Low Risk</span>
+                        <span id="lowrisk">-Low Risk</span>
                     </div>
                     <div class="icon-container">
                         <div class="icon" style="background-color:yellow;"></div>
-                        <span>-Medium Risk</span>
+                        <span id="mediumrisk">-Medium Risk</span>
                     </div>
                     <div class="icon-container">
                         <div class="icon" style="background-color:orange;"></div>
-                        <span>-High Risk</span>
+                        <span id="highrisk">-High Risk</span>
                     </div>
                     <div class="icon-container">
                         <div class="icon" style="background-color:red;"></div>
-                        <span>-Critical Risk</span>
+                        <span id="criticalrisk">-Critical Risk</span>
                     </div>
                 </th>
             </tr>
@@ -125,5 +125,49 @@
             </tr>
         {% endfor %}
     </table>
+    <script>
+        var data={{data | tojson | safe}};
+        var low_risk_pages=0;
+        var medium_risk_pages=0;
+        var high_risk_pages=0;
+        var Critical_risk_pages=0;
+        for(var page in data) {
+            var haslow=false;
+            var hasmedium=false;
+            var hashigh=false;
+            var hascritical=false;
+            if(data[page]["xss_attack"]=="success" || data[page]["xss_attack"]=="success") {
+                hasmedium=true;
+            }
+            if(data[page]["session_cookies_theft"]=="success") {
+                haslow=true;
+            }
+            if(data[page]["from_other_user"]=="success"){
+                hascritical=true;
+            }
+            if(data[page]["BA_SE"]=="success" || 
+               data[page]["BA_SM"]=="success" || 
+               data[page]["BA_SV"]=="success" || 
+               data[page]["BA_PO"]=="success" || 
+               data[page]["BA_ME"]=="success" || 
+               data[page]["BA_MM"]=="success" || 
+               data[page]["BA_PH"]=="success" || 
+               data[page]["BA_PS"]=="success") {
+                hashigh=true;
+            }
+            if(haslow) low_risk_pages++;
+            if(hasmedium)  medium_risk_pages++;
+            if(hashigh) high_risk_pages++;
+            if(hascritical) Critical_risk_pages++;
+        }
+        console.log('low_risk_pages:',low_risk_pages)
+        console.log('medium_risk_pages:',medium_risk_pages)
+        console.log('high_risk_pages:',high_risk_pages)
+        console.log('Critical_risk_pages:',Critical_risk_pages)
+        document.getElementById("lowrisk").textContent=document.getElementById("lowrisk").textContent+"("+low_risk_pages+" pages)";
+        document.getElementById("mediumrisk").textContent=document.getElementById("mediumrisk").textContent+"("+medium_risk_pages+" pages)";
+        document.getElementById("highrisk").textContent=document.getElementById("highrisk").textContent+"("+high_risk_pages+" pages)";
+        document.getElementById("criticalrisk").textContent=document.getElementById("criticalrisk").textContent+"("+Critical_risk_pages+" pages)";
+    </script>
 </body>
 </html>
