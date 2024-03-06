@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+6TIcjs4ZcNDV6od68t2SzP8gCv3z+q1bhP2Byh2bjBf7fz" crossorigin="anonymous">
     <title>MES Final Report</title>
     <style>
         body {
-            background-color:linear-gradient(-45deg, #FFFFFF 0%, #ECF2FB 40.97%, #ECF2FB 59.04%, #FFFFFF 100%);; /*#000; */
-            color: #000; /* Green color for text #ofo*/
-            text-align: center; /* Center align text */
+            background-color: linear-gradient(-45deg, #FFFFFF 0%, #ECF2FB 40.97%, #ECF2FB 59.04%, #FFFFFF 100%);
+            color: #000;
+            text-align: center;
         }
         h2 {
-            color: #0f0; /* Green color for heading */
+            color: #000;
         }
         table {
             border-collapse: collapse;
             width: 100%;
-            color: #000; /* Green color for table text */
+            color: #000;
         }
         th, td {
-            border: 1px solid #00000017;/*dddddd*/
-            text-align: center; /* Center align text within table cells */
+            border: 1px solid #00000017;
+            text-align: center;
             padding: 8px;
         }
         th {
-            background-color: #c2d6f5; /* Darker gray background for table header #3b3b3b */
-            color:#444
+            background-color: #c2d6f5;
+            color: #000;
         }
         td {
-            background-color:transparent;
+            background-color: transparent;
         }
-        /* Add CSS for success and failure classes */
         .success {
             color: green;
         }
@@ -38,31 +38,74 @@
             color: red;
         }
         .title-header {
-            text-align: center; /* Align the text of the title header to the center */
+            text-align: center;
         }
         .title-body {
-            text-align: left; /* Align the text of the body of the title header to the left */
+            text-align: left;
         }
+        .icon-container {
+            display: inline-block;
+            margin-right: 40px; /* Adjust spacing between icon-text pairs */
+            vertical-align: middle; /* Align icon and text vertically */
+        }
+        
+        .icon {
+            border:1px solid black;
+            border-radius:5px;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-right: 5px; /* Adjust spacing between icon and text */
+            background-color: #ccc; /* Default background color for the icons */
+            vertical-align: middle; /* Align icon and text vertically */
+        }
+        
+        span {
+            vertical-align: middle; /* Align text vertically with the icon */
+        }
+        
     </style>
 </head>
 <body>
     <h2>MES Final Report</h2>
     <table>
-        <tr>
-            <th class="title-header">Page</th>
-            <th>XSS Attack</th>
-            <th>HTML Attack</th>
-            <th>Attack From Other User</th>
-            <th>Session Cookies Theft Attack</th>
-            <th>BAC-Store-Executive</th>
-            <th>BAC-Store-Manager</th>
-            <th>BAC-Store-Viewer</th>
-            <th>BAC-Main-Executive</th>
-            <th>BAC-Main-Manager</th>
-            <th>BAC-Process-Head</th>
-            <th>BAC-Process-Supervisor</th>
-            <th>BAC-Process-Operator</th>
-        </tr>
+        <thead>
+            <tr>
+                <th class="title-header" rowspan="2">Page</th>
+                <th colspan="12">
+                    <div class="icon-container">
+                        <div class="icon" style="background-color:white;"></div>
+                        <span>-Low Risk</span>
+                    </div>
+                    <div class="icon-container">
+                        <div class="icon" style="background-color:yellow;"></div>
+                        <span>-Medium Risk</span>
+                    </div>
+                    <div class="icon-container">
+                        <div class="icon" style="background-color:orange;"></div>
+                        <span>-High Risk</span>
+                    </div>
+                    <div class="icon-container">
+                        <div class="icon" style="background-color:red;"></div>
+                        <span>-Critical Risk</span>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th style="background-color: yellow">XSS Attack</th>
+                <th style="background-color: yellow">HTML Attack</th>
+                <th style="background-color: red">Other User Attack</th>
+                <th style="background-color: white">Session Theft Attack</th>
+                <th style="background-color: orange">BAC-Store-Executive</th>
+                <th style="background-color: orange">BAC-Store-Manager</th>
+                <th style="background-color: orange">BAC-Store-Viewer</th>
+                <th style="background-color: orange">BAC-Main-Executive</th>
+                <th style="background-color: orange">BAC-Main-Manager</th>
+                <th style="background-color: orange">BAC-Process-Head</th>
+                <th style="background-color: orange">BAC-Process-Supervisor</th>
+                <th style="background-color: orange">BAC-Process-Operator</th>
+            </tr>
+        </thead>    
         {% for page, attacks in data.items() %}
             <tr>
                 <td class="title-body">{{ page }}</td>
