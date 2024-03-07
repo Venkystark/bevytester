@@ -61,7 +61,7 @@ def create_users(session):
         print("process-operator created")
     else:
         print("error in creating process-operator")
-    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-supervisor10@gmail.com", "role":"supervisor","password":password,"role_id":2},headers={'Referer':'http://192.168.0.178:8080/'})
+    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"venky@gmail.com", "role":"supervisor","password":password,"role_id":2},headers={'Referer':'http://192.168.0.178:8080/'})
     if res.ok:
         print(res.json())
         print("process supervisor created")
@@ -119,7 +119,7 @@ def login(user):
     elif(user=="BA_PH"):
         userId="vprocess-head@gmail.com"
     elif(user=="BA_PS"):
-        userId="vprocess-supervisor10@gmail.com"
+        userId="venky@gmail.com"
     elif(user=="BA_PO"):
         userId="vprocess-operator@gmail.com"  
     broken=requests.Session()
