@@ -40,7 +40,14 @@ def get_element(session,url):
     res=session.get(url)
     if res.ok:
         data=res.json()
-        id_values=[item['id']for item in data['data']]
+        if(url=="http://192.168.0.178:8080/process"):
+            id_values=[item['id'] for item in data['data'] if item["process_name"] != "vmpprocess" and item["process_name"]!="process1" and item["process_name"]!="process2"]
+        elif(url=="http://192.168.0.178:8080/machine"):
+            id_values=[item['id'] for item in data['data'] if item["machine_id"] != "vmpmachine"]
+        elif(url=="http://192.168.0.178:8080/parts"):
+            id_values=[item['id'] for item in data['data'] if item["part_no"] != "part1" and item["part_no"]!="part2"]
+        else:
+            id_values=[item['id']for item in data['data']]
         return id_values[0]
     else:
         print("error getting endpoint")
