@@ -490,16 +490,16 @@
     "http://192.168.0.178:8080/employee_page":{
         "http://192.168.0.178:8080/employee":{
             "xss_attack": {
-                "department":"store","employee_id":"<script>console.log(\"script employee\");</script>","role":"Executive","password":"123","role_id":11
+                "department":"store","employee_id":"<script>console.log(\"script employee\");</script>","role":"Executive","password":"123","role_id":10
             },
             "html_attack": {
-                "department":"store","employee_id":"<button>hello employee</button>","role":"Executive","password":"123","role_id":11
+                "department":"store","employee_id":"<button>hello employee</button>","role":"Executive","password":"123","role_id":10
             },
             "from_other_user":{
-                "department":"store","employee_id":"other user posted employee","role":"Executive","password":"123","role_id":11
+                "department":"store","employee_id":"other user posted employee","role":"Executive","password":"123","role_id":10
             },
             "session_cookies_theft":{
-                "department":"store","employee_id":"posted through cookies theft","role":"Executive","password":"123","role_id":11
+                "department":"store","employee_id":"posted through cookies theft","role":"Executive","password":"123","role_id":10
             },
             "BA_SE":{},
             "BA_SM":{},

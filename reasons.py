@@ -4,8 +4,8 @@ from mes.otheruser import get_other_user_session
 import json
 #main
 session=get_other_user_session()
-post_res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),
-"department":"store","employee_id":"<button>hello</button>","role":"Executive","password":"123","role_id":11         
+post_res=session.post("http://192.168.0.178:8080/ppc/machine_list_op/",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),
+"assign_operator":"process operator","assign_machine":"broken"     
 },headers={'Referer':'http://192.168.0.178:8080/'})
 if post_res.ok:
     print("posted successfully")
