@@ -61,9 +61,12 @@ def create_users(session):
         print("process-operator created")
     else:
         print("error in creating process-operator")
-    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-supervisor@gmail.com", "role":"supervisor","password":password,"role_id":2},headers={'Referer':'http://192.168.0.178:8080/'})
+    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-supervisor10@gmail.com", "role":"supervisor","password":password,"role_id":2},headers={'Referer':'http://192.168.0.178:8080/'})
     if res.ok:
+        print(res.json())
         print("process supervisor created")
+        print(res.status_code)
+        print(res.text)
         supsess=get_ba_session("BA_PS")
         op_res=supsess.post("http://192.168.0.178:8080/ppc/machine_list_op/",data={"csrfmiddlewaretoken":supsess.cookies.get('csrftoken'),"assign_operator":"process operator","assign_machine":"vmpmachine"},headers={'Referer':'http://192.168.0.178:8080/'})
         if op_res.ok:
@@ -116,7 +119,7 @@ def login(user):
     elif(user=="BA_PH"):
         userId="vprocess-head@gmail.com"
     elif(user=="BA_PS"):
-        userId="vprocess-supervisor@gmail.com"
+        userId="vprocess-supervisor10@gmail.com"
     elif(user=="BA_PO"):
         userId="vprocess-operator@gmail.com"  
     broken=requests.Session()
@@ -135,5 +138,6 @@ def login(user):
         return broken   
     else:
         print("failed in user login")
+        print(login_response.status_code)
 def get_ba_session(user):
     return login(user)
