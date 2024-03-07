@@ -14,9 +14,10 @@ def append_details(payload,csrf,id=None,data=None):
     else:
         for item in data['data']:
             if item['id']==id:
-                payload['id']=id
+                payload['id']=id #hfl-GI4B42VFDMKGkMW1
                 payload['csrfmiddlewaretoken']=csrf
                 payload['email_id']=item['employee_no']
+                print(payload)
     return payload
 def delete_elements(session,url,endpoint,payload):
     res=session.get(url)

@@ -63,7 +63,18 @@
         span {
             vertical-align: middle; /* Align text vertically with the icon */
         }
-        
+        .yellow {
+            background-color:"yellow";
+        }
+        .red {
+            background-color:"red";
+        }
+        .white {
+            background-color:"white";
+        }
+        .orange {
+            background-color:"orange";
+        }
     </style>
 </head>
 <body>
@@ -92,18 +103,18 @@
                 </th>
             </tr>
             <tr>
-                <th style="background-color: yellow">XSS Attack</th>
-                <th style="background-color: yellow">HTML Attack</th>
-                <th style="background-color: red">Other User Attack</th>
-                <th style="background-color: white">Session Theft Attack</th>
-                <th style="background-color: orange">BAC-Store-Executive</th>
-                <th style="background-color: orange">BAC-Store-Manager</th>
-                <th style="background-color: orange">BAC-Store-Viewer</th>
-                <th style="background-color: orange">BAC-Main-Executive</th>
-                <th style="background-color: orange">BAC-Main-Manager</th>
-                <th style="background-color: orange">BAC-Process-Head</th>
-                <th style="background-color: orange">BAC-Process-Supervisor</th>
-                <th style="background-color: orange">BAC-Process-Operator</th>
+                <th style="background-color: yellow" class="yellow">XSS Attack</th>
+                <th style="background-color: yellow" class="yellow">HTML Attack</th>
+                <th style="background-color: red" class="red">Other User Attack</th>
+                <th style="background-color: white" class="white">Session Theft Attack</th>
+                <th style="background-color: orange" class="orange">BAC-Store-Executive</th>
+                <th style="background-color: orange" class="orange">BAC-Store-Manager</th>
+                <th style="background-color: orange" class="orange">BAC-Store-Viewer</th>
+                <th style="background-color: orange" class="orange">BAC-Main-Executive</th>
+                <th style="background-color: orange" class="orange">BAC-Main-Manager</th>
+                <th style="background-color: orange" class="orange">BAC-Process-Head</th>
+                <th style="background-color: orange" class="orange">BAC-Process-Supervisor</th>
+                <th style="background-color: orange" class="orange">BAC-Process-Operator</th>
             </tr>
         </thead>    
         {% for page, attacks in data.items() %}
