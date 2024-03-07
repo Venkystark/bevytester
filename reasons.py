@@ -4,8 +4,8 @@ from mes.otheruser import get_other_user_session
 import json
 #main
 session=get_other_user_session()
-post_res=session.post("http://192.168.0.178:8080/ppc/machine_list_op/",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),
-"assign_operator":"process operator","assign_machine":"broken"     
+post_res=session.post("http://192.168.0.178:8080/store/productionparts/",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),
+"date": "2024-02-28","material_name": "<script>console.log(\"script inventory\");</script>","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools" 
 },headers={'Referer':'http://192.168.0.178:8080/'})
 if post_res.ok:
     print("posted successfully")
