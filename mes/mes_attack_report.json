@@ -22,42 +22,42 @@
     {
         "Page": "http://192.168.0.178:8080/process_page",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/process_page",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/process_page",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/process_page",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/process_page",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/process_page",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/process_page",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/process_page",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/machine_page",
@@ -82,42 +82,42 @@
     {
         "Page": "http://192.168.0.178:8080/machine_page",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/machine_page",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/machine_page",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/machine_page",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/machine_page",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/machine_page",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/machine_page",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/machine_page",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/parts_page",
@@ -142,42 +142,42 @@
     {
         "Page": "http://192.168.0.178:8080/parts_page",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/parts_page",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/parts_page",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/parts_page",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/parts_page",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/parts_page",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/parts_page",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/parts_page",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/tools",
@@ -202,42 +202,42 @@
     {
         "Page": "http://192.168.0.178:8080/tools",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/tools",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/tools",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/tools",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/tools",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/tools",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/tools",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/tools",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
@@ -262,42 +262,42 @@
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/error-reason",
@@ -322,42 +322,42 @@
     {
         "Page": "http://192.168.0.178:8080/error-reason",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/error-reason",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/error-reason",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/error-reason",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/error-reason",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/error-reason",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/error-reason",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/error-reason",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
@@ -382,42 +382,42 @@
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/downtime-reason",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/targets",
@@ -442,42 +442,42 @@
     {
         "Page": "http://192.168.0.178:8080/targets",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/targets",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/targets",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/targets",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/targets",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/targets",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/targets",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/targets",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
@@ -502,42 +502,42 @@
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rawmaterial",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
@@ -562,42 +562,42 @@
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/rm_vs_parts",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/consumable",
@@ -622,42 +622,42 @@
     {
         "Page": "http://192.168.0.178:8080/consumable",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/consumable",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/consumable",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/consumable",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/consumable",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/consumable",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/consumable",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/consumable",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/customer",
@@ -682,42 +682,42 @@
     {
         "Page": "http://192.168.0.178:8080/customer",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/customer",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/customer",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/customer",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/customer",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/customer",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/customer",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/customer",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/vendor",
@@ -742,42 +742,42 @@
     {
         "Page": "http://192.168.0.178:8080/vendor",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/vendor",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/vendor",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/vendor",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/vendor",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/vendor",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/vendor",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/vendor",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",
@@ -802,42 +802,42 @@
     {
         "Page": "http://192.168.0.178:8080/employee_page",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/employee_page",

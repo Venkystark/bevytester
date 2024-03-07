@@ -3,7 +3,7 @@ import uuid
 import json
 from mes.otheruser import *
 from mes.brokenacess import *
-
+from bs4 import BeautifulSoup
 #comit check
 def append_details(payload,csrf,id=None,data=None):
     if(id==None and data==None):
@@ -114,8 +114,26 @@ def mes_test():
                             inner_json[inner_key]=append_details(inner_json[inner_key],theif_session.cookies.get('csrftoken'))
                         attack_res=theif_session.post(sub_key,data=inner_json[inner_key],headers={'Referer':'http://192.168.0.178:8080'})
                     elif(inner_key=="BA_SE" or inner_key=="BA_SM" or inner_key=="BA_SV" or inner_key=="BA_ME" or inner_key=="BA_MM" or inner_key=="BA_PH" or inner_key=="BA_PS" or inner_key=="BA_PO"):
+                        bac=False
                         broken=get_ba_session(inner_key)
+                        broken_text=broken.get(top_key).text
+                        auth_text=session.get(top_key).text
+                        soup1 = BeautifulSoup(broken_text, 'html.parser')
+                        soup2 = BeautifulSoup(auth_text, 'html.parser')
+
+                        # Extract body content
+                        body_content1 = soup1.find('body').get_text().strip()
+                        body_content2 = soup2.find('body').get_text().strip()
+
+                        # Check if the body content is the same
+                        if body_content1 == body_content2:
+                            bac=True
                         attack_res=broken.get(top_key)
+                        print("page:",top_key,"bac:",bac)
+                        if(bac):
+                            attack_res.status_code=200
+                        else:
+                            attack_res.status_code=250
                     else:
                         inner_json[inner_key]=append_details(inner_json[inner_key],session.cookies.get('csrftoken'))
                         print("in for loop",inner_json[inner_key])

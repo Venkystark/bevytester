@@ -6,7 +6,7 @@
         "Payload": {
             "process_name": "other user posted process",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -17,8 +17,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "process",
-            "id": "E_mtGI4B42VFDMKGB8a9",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "P_n_GI4B42VFDMKGFsik",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -30,7 +30,7 @@
         "Payload": {
             "machine_id": "other user posted machine",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -41,8 +41,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "machine",
-            "id": "FvmtGI4B42VFDMKGJcZB",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "Qvn_GI4B42VFDMKGPsgP",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -54,7 +54,7 @@
         "Payload": {
             "part_no": "other user posted part",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -65,8 +65,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "parts",
-            "id": "GPmtGI4B42VFDMKGRsbB",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "RPn_GI4B42VFDMKGZsgQ",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -81,7 +81,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -92,8 +92,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "tools",
-            "id": "GvmtGI4B42VFDMKGZcYt",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "Rvn_GI4B42VFDMKGjMi7",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -115,7 +115,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -126,8 +126,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "cycle_times",
-            "id": "HvmtGI4B42VFDMKGhcYH",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "SPn_GI4B42VFDMKGtcgl",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -139,7 +139,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "other user posted r-reason",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -150,8 +150,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "quality_reasons",
-            "id": "IPmtGI4B42VFDMKGpcYi",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "TPn_GI4B42VFDMKG3Mj1",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -165,7 +165,7 @@
             "reason": "other user posted d-reason",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -176,8 +176,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "downtime_reasons",
-            "id": "IvmtGI4B42VFDMKGw8Zi",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "TvkAGY4B42VFDMKGB8gv",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -191,7 +191,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -202,8 +202,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "target",
-            "id": "JPmtGI4B42VFDMKG4sYQ",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "UPkAGY4B42VFDMKGMMiu",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -219,7 +219,7 @@
             "raw_material_cost": 5,
             "measurement_type": "otheruser",
             "rm_measurement_unit": "otheruser",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -230,8 +230,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "raw_material",
-            "id": "KPmuGI4B42VFDMKGAsbN",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "VPkAGY4B42VFDMKGW8hD",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -244,7 +244,7 @@
             "part_name": "other user posted non-exist part",
             "raw_material": "other user posted non-exist raw material",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -255,8 +255,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "rm_vs_parts",
-            "id": "LPmuGI4B42VFDMKGJMaq",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "WPkAGY4B42VFDMKGhciX",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -267,7 +267,7 @@
         "Attack": "from_other_user",
         "Payload": {
             "consumable_number": "other user posted consumable",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -278,8 +278,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "consumable",
-            "id": "MPmuGI4B42VFDMKGRsYL",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "XPkAGY4B42VFDMKGsMgX",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -291,7 +291,7 @@
         "Payload": {
             "customer_name": "other user posted customer",
             "country": "other user country",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -302,8 +302,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "customer",
-            "id": "MvmuGI4B42VFDMKGY8aq",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "XvkAGY4B42VFDMKG1cjk",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -314,7 +314,7 @@
         "Attack": "from_other_user",
         "Payload": {
             "vendor_name": "other user posted vendor",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -325,8 +325,8 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "vendor",
-            "id": "OPmuGI4B42VFDMKGi8bM",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "id": "ZPkBGY4B42VFDMKGBshI",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -341,7 +341,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 10,
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -352,9 +352,9 @@
         "Attack": "from_other_user",
         "Payload": {
             "master": "employee",
-            "id": "v_mUGI4B42VFDMKGdcV4",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu",
-            "email_id": "vstore-viewer@gmail.com"
+            "id": "Hfn7GI4B42VFDMKG5shY",
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y",
+            "email_id": "vprocess-head@gmail.com"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -368,7 +368,7 @@
             "e_toolcode": "edited by other user",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
@@ -386,7 +386,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "jPi42jYAkqRNwGJlF90oQov8srKsaImgXuawf5rpvBLE7DfygvrP9sKfeU7OdpHu"
+            "csrfmiddlewaretoken": "B427rGQHc1Z81iPgJExoat3b9IoJEA8JMgSuJaV5XBT1zUC9Ywz1b4y2QIUNDT5Y"
         },
         "Statuscode": 403,
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
