@@ -56,12 +56,12 @@ def create_elements(session):
         print("error in creating part2")
 
 def create_users(session):
-    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-operator@gmail.com","first_name":"process","last_name":"operator", "role":"operator","password":password,"role_id":1},headers={'Referer':'http://192.168.0.178:8080/'})
+    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-operator@gmail.com","first_name":"process","last_name":"operator", "role":"operator","password":password,"role_id":5},headers={'Referer':'http://192.168.0.178:8080/'})
     if res.ok:
         print("process-operator created")
     else:
         print("error in creating process-operator")
-    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"venky@gmail.com", "role":"supervisor","password":password,"role_id":2},headers={'Referer':'http://192.168.0.178:8080/'})
+    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"venky@gmail.com", "role":"supervisor","password":password,"role_id":6},headers={'Referer':'http://192.168.0.178:8080/'})
     if res.ok:
         print(res.json())
         print("process supervisor created")
@@ -100,7 +100,7 @@ def create_users(session):
         print("main-manager created")
     else:
         print("error in creating main-manager")
-    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-head@gmail.com", "role":"Department Head","password":password,"role_id":5},headers={'Referer':'http://192.168.0.178:8080/'})
+    res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-head@gmail.com", "role":"Department Head","password":password,"role_id":7},headers={'Referer':'http://192.168.0.178:8080/'})
     if res.ok:
         print("process head created")
     else:

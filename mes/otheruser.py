@@ -8,10 +8,10 @@ def other_user_login():
     login_csrf_response=session.get("http://192.168.0.178:8080/login/")
     login_csrf=login_csrf_response.cookies.get('csrftoken')
     login_data={
-    # "username": "venkat7venkatesh77@gmail.com",
-    # "password": "@Venkystark77",
-    "username": "venkateshv2508@gmail.com",
+    "username": "venkat7venkatesh77@gmail.com",
     "password": "@Venkystark77",
+    # "username": "venkateshv2508@gmail.com",
+    # "password": "@Venkystark77",
     "req_id": generate_uuid(),
     "csrfmiddlewaretoken": login_csrf
     }
