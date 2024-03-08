@@ -47,6 +47,14 @@ def get_element(session,url):
             id_values=[item['id'] for item in data['data'] if item["machine_id"] != "vmpmachine"]
         elif(url=="http://192.168.0.178:8080/parts"):
             id_values=[item['id'] for item in data['data'] if item["part_no"] != "part1" and item["part_no"]!="part2"]
+        elif(url=="http://192.168.0.178:8080/cycle_times"):
+            id_values=[item['id'] for item in data['data'] if item["process_name"] != "vmpprocess"]
+        elif(url=="http://192.168.0.178:8080/bad_quality_reason"):
+            id_values=[item['id'] for item in data['data'] if item["reason"] != "admin navigation"]
+        elif(url=="http://192.168.0.178:8080/downtime_reason"):
+            id_values=[item['id'] for item in data['data'] if item["reason"] != "admin navigation"]
+        elif(url=="http://192.168.0.178:8080/target"):
+            id_values=[item['id'] for item in data['data'] if item["department"] != "vmpprocess"]
         else:
             id_values=[item['id']for item in data['data']]
         return id_values[0]

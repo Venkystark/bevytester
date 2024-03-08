@@ -54,6 +54,41 @@ def create_elements(session):
         print("part2 created")
     else:
         print("error in creating part2")
+    #cycle times
+    res=res=session.post("http://192.168.0.178:8080/cycle_times",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"part_number":"part1",
+                "process":"vmpprocess",
+                "oporder":7,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":'{"qty_parameter": {}, "min_value": {}, "max_value": {}}',
+                "toolinfo_parameter":'{"tool_number": {}, "tool_name": {}, "tool_time": {}, "tool_contact_time": {}, "no_of_cycles": {}}'},headers={'Referer':'http://192.168.0.178:8080/'})
+    if res.ok:
+        print("cycle time for admin navigation created")
+    else:
+        print("error in creating cycle time for admin navigation")
+    #rejection reasons
+    res=session.post("http://192.168.0.178:8080/bad_quality_reason",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","reason":"admin navigation"},headers={'Referer':'http://192.168.0.178:8080/'})
+    if res.ok:
+        print("quality reason created for admin navigation")
+    else:
+        print("error in creating qualaity reason for admin navigation")
+    #downtime reasons
+    res=session.post("http://192.168.0.178:8080/downtime_reason",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department": "vmpprocess","reason":"admin navigation","type":"availability","color":"#ffffff"},headers={'Referer':'http://192.168.0.178:8080/'})
+    if res.ok:
+        print("downtime reason created for admin navigation")
+    else:
+        print("error in creating downtime reason for admin navigation")
+    #target
+    res=session.post("http://192.168.0.178:8080/target",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","availability": 5,"performance": 5,"quality":5},headers={'Referer':'http://192.168.0.178:8080/'})
+    if res.ok:
+        print("target created for admin navigation")
+    else:
+        print("target for admin navigation")
 
 def create_users(session):
     res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-operator@gmail.com","first_name":"process","last_name":"operator", "role":"operator","password":password,"role_id":5},headers={'Referer':'http://192.168.0.178:8080/'})

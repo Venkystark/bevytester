@@ -284,10 +284,10 @@
                 "department":"<button>hello target</button>","availability": 5,"performance": 5,"quality":5
             },
             "from_other_user":{
-                "department":"vmpprocess","availability": 5,"performance": 5,"quality":5
+                "department":"process1","availability": 5,"performance": 5,"quality":5
             },
             "session_cookies_theft":{
-                "department":"vmpprocess","availability": 5,"performance": 5,"quality":5
+                "department":"process1","availability": 5,"performance": 5,"quality":5
             },
             "BA_SE":{},
             "BA_SM":{},

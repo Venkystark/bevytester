@@ -872,42 +872,42 @@
     {
         "Page": "http://192.168.0.178:8080/management/",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/management/",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/management/",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/management/",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/management/",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/management/",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/management/",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/management/",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
@@ -932,81 +932,81 @@
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SE",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SV",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_ME",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_MM",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PH",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PS",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PO",
-        "Statuscode": 200
+        "Statuscode": 250
     }
 ]
