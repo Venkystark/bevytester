@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+6TIcjs4ZcNDV6od68t2SzP8gCv3z+q1bhP2Byh2bjBf7fz" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tableexport@5.2.0/dist/js/tableexport.min.js"></script>
     <title>MES Final Report</title>
     <style>
         body {
@@ -78,7 +80,7 @@
     </style>
 </head>
 <body>
-    <h2>MES Final Report</h2>
+    <h2>MES Final Report</h2><button id="excelButton">Download Table as Excel</button>
     <table>
         <thead>
             <tr>
@@ -179,6 +181,16 @@
         document.getElementById("mediumrisk").textContent=document.getElementById("mediumrisk").textContent+"("+medium_risk_pages+" pages)";
         document.getElementById("highrisk").textContent=document.getElementById("highrisk").textContent+"("+high_risk_pages+" pages)";
         document.getElementById("criticalrisk").textContent=document.getElementById("criticalrisk").textContent+"("+Critical_risk_pages+" pages)";
+        document.getElementById('excelButton').addEventListener('click', function() {
+            var tableElement = document.getElementsByTagName('table')[0];
+            if (tableElement) {
+                var wb = XLSX.utils.table_to_book(tableElement, {sheet:"Sheet1"});
+                XLSX.writeFile(wb, 'MES_Final_Report.xlsx');
+            } else {
+                console.error('Table element not found.');
+            }
+        });
+        
     </script>
 </body>
 </html>
