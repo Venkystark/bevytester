@@ -242,12 +242,12 @@
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "xss_attack",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
         "Attack": "html_attack",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "http://192.168.0.178:8080/cycle_page",
@@ -966,6 +966,66 @@
     },
     {
         "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Attack": "BA_PO",
+        "Statuscode": 250
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "xss_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "html_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "from_other_user",
+        "Statuscode": 403
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "session_cookies_theft",
+        "Statuscode": 200
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "BA_SE",
+        "Statuscode": 250
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "BA_SM",
+        "Statuscode": 250
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "BA_SV",
+        "Statuscode": 250
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "BA_ME",
+        "Statuscode": 250
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "BA_MM",
+        "Statuscode": 250
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "BA_PH",
+        "Statuscode": 250
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
+        "Attack": "BA_PS",
+        "Statuscode": 250
+    },
+    {
+        "Page": "http://192.168.0.178:8080/department/",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
