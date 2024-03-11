@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+6TIcjs4ZcNDV6od68t2SzP8gCv3z+q1bhP2Byh2bjBf7fz" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/tableexport@5.2.0/dist/js/tableexport.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-regular-400.woff2" />-->
+    
     <title>MES Final Report</title>
     <style>
         body {
             background-color: linear-gradient(-45deg, #FFFFFF 0%, #ECF2FB 40.97%, #ECF2FB 59.04%, #FFFFFF 100%);
             color: #000;
             text-align: center;
+            position:relative;
         }
         h2 {
             color: #000;
@@ -34,10 +41,10 @@
             background-color: transparent;
         }
         .success {
-            color: green;
+            color: red;
         }
         .failure {
-            color: red;
+            color: green;
         }
         .title-header {
             text-align: center;
@@ -77,11 +84,138 @@
         .orange {
             background-color:"orange";
         }
+        #desc_container {
+            position: absolute;
+            top:-15px;
+            right: 350px;
+            display: flex;
+            align-items: center;
+            width:400px;
+            height:fit-content;
+            width:fit-content;
+        }
+        #desc_container h4 {
+            margin-left: 10px; /* Adjust spacing between icon and text */
+        }
+        #saveButton {
+            position:absolute;
+            top:0;
+            right:10px;
+        }
+        #saveButton {
+            padding: 10px 20px; /* Adjust padding as needed */
+            border: none;
+            border-radius: 20px; /* Rounded corners */
+            background-color: #007bff; /* Fill color */
+            color: #fff; /* Text color */
+            font-size: 16px;
+            cursor: pointer;
+            outline: none; /* Remove default focus outline */
+            transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+        }
+
+        /* Add outer effect on hover */
+        #saveButton:hover {
+            background-color: #0056b3; /* Darker color on hover */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Outer shadow effect */
+        }
+    </style>
+    <style media="print">
+        body {
+            background-color: linear-gradient(-45deg, #FFFFFF 0%, #ECF2FB 40.97%, #ECF2FB 59.04%, #FFFFFF 100%);
+            color: #000;
+            text-align: center;
+        }
+        h2 {
+            color: #000;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            color: #000;
+        }
+        th, td {
+            border: 1px solid #00000017;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #c2d6f5;
+            color: #000;
+        }
+        td {
+            background-color: transparent;
+        }
+        .success {
+            color: red;
+        }
+        .failure {
+            color: green;
+        }
+        .title-header {
+            text-align: center;
+        }
+        .title-body {
+            text-align: left;
+        }
+        .icon-container {
+            display: inline-block;
+            margin-right: 40px; /* Adjust spacing between icon-text pairs */
+            vertical-align: middle; /* Align icon and text vertically */
+        }
+        
+        .icon {
+            border:1px solid black;
+            border-radius:5px;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-right: 5px; /* Adjust spacing between icon and text */
+            background-color: #ccc; /* Default background color for the icons */
+            vertical-align: middle; /* Align icon and text vertically */
+        }
+        
+        span {
+            vertical-align: middle; /* Align text vertically with the icon */
+        }
+        .yellow {
+            background-color:"yellow";
+        }
+        .red {
+            background-color:"red";
+        }
+        .white {
+            background-color:"white";
+        }
+        .orange {
+            background-color:"orange";
+        }
+        #desc_container {
+            position: absolute;
+            top:-15px;
+            right: 350px;
+            display: flex;
+            align-items: center;
+            width:400px;
+            height:fit-content;
+            width:fit-content;
+        }
+        #desc_container h4 {
+            margin-left: 10px; /* Adjust spacing between icon and text */
+        }
+        #saveButton{
+            display:none;
+        }
     </style>
 </head>
-<body>
-    <h2>MES Final Report</h2><button id="excelButton">Download Table as Excel</button>
-    <table>
+<body id="body">
+    <h2>MES Final Report</h2>
+    <div id="desc_container">
+        <i class="fa fa-check" style="color:green;" ></i><h4>-Secure</h4>
+        <i class="fa fa-times" style="color:red; margin-left:30px;"></i><h4>-InSecure</h4>
+    </div>
+    <button id="saveButton">Download Report</button>
+    <table id="table">
         <thead>
             <tr>
                 <th class="title-header" rowspan="2">Page</th>
@@ -123,18 +257,99 @@
             <tr>
                 <td class="title-body">{{ page }}</td>
                 <!-- Apply conditional formatting based on the value -->
-                <td class="{% if attacks.get('xss_attack', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('xss_attack', '') }}</td>
-                <td class="{% if attacks.get('html_attack', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('html_attack', '') }}</td>
-                <td class="{% if attacks.get('from_other_user', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('from_other_user', '') }}</td>
-                <td class="{% if attacks.get('session_cookies_theft', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('session_cookies_theft', '') }}</td>
-                <td class="{% if attacks.get('BA_SE', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_SE', '') }}</td>
-                <td class="{% if attacks.get('BA_SM', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_SM', '') }}</td>
-                <td class="{% if attacks.get('BA_SV', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_SV', '') }}</td>
-                <td class="{% if attacks.get('BA_ME', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_ME', '') }}</td>
-                <td class="{% if attacks.get('BA_MM', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_MM', '') }}</td>
-                <td class="{% if attacks.get('BA_PH', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_PH', '') }}</td>
-                <td class="{% if attacks.get('BA_PS', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_PS', '') }}</td>
-                <td class="{% if attacks.get('BA_PO', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_PO', '') }}</td>
+                <td class="{% if attacks.get('xss_attack', '') == 'success' %}success{% else %}failure{% endif %}"> 
+                {% if attacks.get('xss_attack', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% elif attacks.get('xss_attack','')=='-' %}
+                    {{attacks.get('xss_attack','')}}
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('html_attack', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('html_attack', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% elif attacks.get('html_attack','')=='-' %}
+                    {{attacks.get('html_attack','')}}
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('from_other_user', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('from_other_user', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% elif attacks.get('from_other_user','')=='-' %}
+                    {{attacks.get('from_other_user','')}}
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('session_cookies_theft', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('session_cookies_theft', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% elif attacks.get('session_cookies_theft','')=='-' %}
+                    {{attacks.get('session_cookies_theft','')}}
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('BA_SE', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_SE', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('BA_SM', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_SM', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('BA_SV', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_SV', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('BA_ME', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_ME', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('BA_MM', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_MM', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('BA_PH', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_PH', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('BA_PS', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_PS', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <td class="{% if attacks.get('BA_PO', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_PO', '') == 'success' %}
+                    <i class="fa fa-times"></i>
+                {% else %}
+                    <i class="fa fa-check"></i>
+                {% endif %}
+                </td>
+                <!--<td class="{% if attacks.get('BA_PO', '') == 'success' %}success{% else %}failure{% endif %}">{{ attacks.get('BA_PO', '') }}</td>-->
             </tr>
         {% endfor %}
     </table>
@@ -181,7 +396,7 @@
         document.getElementById("mediumrisk").textContent=document.getElementById("mediumrisk").textContent+"("+medium_risk_pages+" pages)";
         document.getElementById("highrisk").textContent=document.getElementById("highrisk").textContent+"("+high_risk_pages+" pages)";
         document.getElementById("criticalrisk").textContent=document.getElementById("criticalrisk").textContent+"("+Critical_risk_pages+" pages)";
-        document.getElementById('excelButton').addEventListener('click', function() {
+        /*document.getElementById('excelButton').addEventListener('click', function() {
             var tableElement = document.getElementsByTagName('table')[0];
             if (tableElement) {
                 var wb = XLSX.utils.table_to_book(tableElement, {sheet:"Sheet1"});
@@ -189,8 +404,26 @@
             } else {
                 console.error('Table element not found.');
             }
+        });*/
+        //using native browser
+        document.getElementById('saveButton').addEventListener('click', function() {
+            // Print the header and table
+            window.print();
         });
-        
+       /* window.jsPDF = window.jspdf.jsPDF;
+        var doc = new jsPDF({orientation:'landscape',paper:'A4'}); 
+        var elementHTML = document.querySelector("#body");
+
+        doc.html(elementHTML, {
+        callback: function(doc) {
+            // Save the PDF
+            doc.save('sample-document.pdf');
+        },
+        x: 10,
+        y: 15,
+        width:397,
+        windowWidth://window width in CSS pixels
+    });*/
     </script>
 </body>
 </html>
