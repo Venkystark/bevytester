@@ -55,6 +55,8 @@ def get_element(session,url):
             id_values=[item['id'] for item in data['data'] if item["reason"] != "admin navigation"]
         elif(url=="http://192.168.0.178:8080/target"):
             id_values=[item['id'] for item in data['data'] if item["department"] != "vmpprocess"]
+        elif(url=="http://192.168.0.178:8080/rm_vs_parts_page"):
+            id_values=[item['id'] for item in data['data'] if item["raw_material"] != "vmp raw material"]
         else:
             id_values=[item['id']for item in data['data']]
         return id_values[0]

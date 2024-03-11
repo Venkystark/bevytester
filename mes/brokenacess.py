@@ -89,6 +89,12 @@ def create_elements(session):
         print("target created for admin navigation")
     else:
         print("target for admin navigation")
+    #raw material for mrp
+    res=session.post("http://192.168.0.178:8080/rm_vs_parts_page",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"part_name":"part1","raw_material":"vmp raw material","part_rm_factor":1},headers={'Referer':'http://192.168.0.178:8080/'})
+    if res.ok:
+        print("raw material assigned for mrp created")
+    else:
+        print("error in assigning raw material for mrp")
 
 def create_users(session):
     res=session.post("http://192.168.0.178:8080/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-operator@gmail.com","first_name":"process","last_name":"operator", "role":"operator","password":password,"role_id":5},headers={'Referer':'http://192.168.0.178:8080/'})

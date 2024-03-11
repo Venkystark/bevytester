@@ -567,6 +567,58 @@
             "BA_PO":{}
     }
     },
+    "http://192.168.0.178:8080/mrp/ppc_dashboard/":{
+        "http://192.168.0.178:8080/mrp/create_cust_po/":{
+            "xss_attack": {
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "<script>console.log(\"hello mrp\");</script>",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "html_attack": {
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "<button>hello mrp</button>",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "from_other_user":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "other user",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "session_cookies_theft":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "posted by cookie theif",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_SE":{},
+            "BA_SM":{},
+            "BA_SV":{},
+            "BA_ME":{},
+            "BA_MM":{},
+            "BA_PH":{},
+            "BA_PS":{},
+            "BA_PO":{}
+    }
+    },
     "http://192.168.0.178:8080/department/":{
         "http://192.168.0.178:8080/store/transaction":{
             "xss_attack": {

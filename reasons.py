@@ -14,11 +14,11 @@ login_data={
 "req_id": generate_uuid(),
 "csrfmiddlewaretoken": login_csrf
 }
+print("before login:",sessionuser.cookies)
 login_response=sessionuser.post("http://192.168.0.178:8080/entry/login_check",data=login_data)
+print("After login:",sessionuser.cookies)
 if login_response.ok:
     print("loggin success")
     print(login_response.text)
-    post_res=sessionuser.post("http://192.168.0.178:8080/store/transaction",data={"csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken'),"req_date": "10-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "<script>console.log('hello')</script>","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""},headers={'Referer':'http://192.168.0.178:8080/'})
-    if post_res.ok:
-        print(post_res.status_code)
-        print(post_res.text)
+    sessionuser.cookies.update({"role":"Admin"})
+    print(sessionuser.cookies)

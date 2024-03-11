@@ -223,6 +223,20 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
+  "http://192.168.0.178:8080/mrp/ppc_dashboard/": {
+    "xss_attack": "success",
+    "html_attack": "success",
+    "from_other_user": "failure",
+    "session_cookies_theft": "success",
+    "BA_SE": "failure",
+    "BA_SM": "failure",
+    "BA_SV": "failure",
+    "BA_ME": "failure",
+    "BA_MM": "failure",
+    "BA_PH": "failure",
+    "BA_PS": "failure",
+    "BA_PO": "failure"
+  },
   "http://192.168.0.178:8080/department/": {
     "xss_attack": "success",
     "html_attack": "success",
