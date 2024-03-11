@@ -645,6 +645,18 @@
     },
     "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard":{
         "http://192.168.0.178:8080/maintenance/main_dashboard":{
+            "xss_attack": {
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "<script>console.log(\"script department\")</script>","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "html_attack": {
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "<button>hello department</button>","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "from_other_user":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "other user posted this","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "session_cookies_theft":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "posted by session theif","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
             "BA_SE":{},
             "BA_SM":{},
             "BA_SV":{},
