@@ -20,5 +20,10 @@ print("After login:",sessionuser.cookies)
 if login_response.ok:
     print("loggin success")
     print(login_response.text)
-    sessionuser.cookies.update({"role":"Admin"})
-    print(sessionuser.cookies)
+    post_res=sessionuser.post("http://192.168.0.178:8080/consumable_page",data={"csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken'),"consumable_number":"print(10+20)"},headers={'Referer':'http://192.168.0.178:8080/'})
+    if post_res.ok:
+        print(post_res.status_code)
+        print(post_res.text)
+    else:
+        print(post_res.status_code)
+        print(post_res.text)
