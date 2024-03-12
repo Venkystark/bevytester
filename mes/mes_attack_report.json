@@ -1091,6 +1091,26 @@
     },
     {
         "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Attack": "xss_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Attack": "html_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Attack": "from_other_user",
+        "Statuscode": 403
+    },
+    {
+        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Attack": "session_cookies_theft",
+        "Statuscode": 200
+    },
+    {
+        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SE",
         "Statuscode": 250
     },

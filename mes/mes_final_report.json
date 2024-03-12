@@ -252,6 +252,10 @@
     "BA_PO": "failure"
   },
   "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard": {
+    "xss_attack": "-",
+    "html_attack": "-",
+    "from_other_user": "-",
+    "session_cookies_theft": "-",
     "BA_SE": "failure",
     "BA_SM": "failure",
     "BA_SV": "failure",
@@ -259,10 +263,6 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure",
-    "xss_attack": "-",
-    "html_attack": "-",
-    "from_other_user": "-",
-    "session_cookies_theft": "-"
+    "BA_PO": "failure"
   }
 }
