@@ -57,6 +57,12 @@ def get_element(session,url):
             id_values=[item['id'] for item in data['data'] if item["department"] != "vmpprocess"]
         elif(url=="https://smartfactory.bevywise.com/rm_vs_parts_page"):
             id_values=[item['id'] for item in data['data'] if item["raw_material"] != "vmp raw material"]
+        elif(url=="https://smartfactory.bevywise.com/consumable_page"):
+            id_values=[item['id'] for item in data['data'] if item["consumable_number"] != "adminnavconsumable"]
+        elif(url=="https://smartfactory.bevywise.com/customer_page"):
+            id_values=[item['id'] for item in data['data'] if item["customer_name"] != "adminnavcust"]
+        elif(url=="https://smartfactory.bevywise.com/vendor_page"):
+            id_values=[item['id'] for item in data['data'] if item["vendor_name"] != "adminnavvendor"]
         else:
             id_values=[item['id']for item in data['data']]
         return id_values[0]

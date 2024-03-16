@@ -490,16 +490,16 @@
     "https://smartfactory.bevywise.com/employee_page":{
         "https://smartfactory.bevywise.com/employee":{
             "xss_attack": {
-                "department":"store","employee_id":"<script>console.log(\"script employee\");</script>","role":"Executive","password":"123","role_id":10
+                "department":"store","employee_id":"<script>console.log(\"script employee\");</script>","role":"Executive","password":"123","role_id":6
             },
             "html_attack": {
-                "department":"store","employee_id":"<button>hello employee</button>","role":"Executive","password":"123","role_id":10
+                "department":"store","employee_id":"<button>hello employee</button>","role":"Executive","password":"123","role_id":6
             },
             "from_other_user":{
-                "department":"store","employee_id":"other user posted employee","role":"Executive","password":"123","role_id":10
+                "department":"store","employee_id":"other user posted employee","role":"Executive","password":"123","role_id":6
             },
             "session_cookies_theft":{
-                "department":"store","employee_id":"posted through cookies theft","role":"Executive","password":"123","role_id":10
+                "department":"store","employee_id":"posted through cookies theft","role":"Executive","password":"123","role_id":6
             },
             "BA_SE":{},
             "BA_SM":{},
