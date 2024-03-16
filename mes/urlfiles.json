@@ -1,6 +1,6 @@
 {
-    "http://192.168.0.178:8080/process_page": {
-        "http://192.168.0.178:8080/process": {
+    "https://smartfactory.bevywise.com/process_page": {
+        "https://smartfactory.bevywise.com/process": {
             "xss_attack": {
                 "process_name": "<script>console.log(\"script process\");</script>","quality_check":"Yes"
             },
@@ -22,7 +22,7 @@
             "BA_PS":{},
             "BA_PO":{}
         },
-        "http://192.168.0.178:8080/master_delete":{
+        "https://smartfactory.bevywise.com/master_delete":{
             "from_other_user":{
                 "master":"process"
             },
@@ -31,8 +31,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/machine_page":{
-        "http://192.168.0.178:8080/machine":{
+    "https://smartfactory.bevywise.com/machine_page":{
+        "https://smartfactory.bevywise.com/machine":{
             "xss_attack": {
                 "machine_id": "<script>console.log(\"script machine\");</script>","process":"vmpprocess"
             },
@@ -54,7 +54,7 @@
             "BA_PS":{},
             "BA_PO":{}
         },
-        "http://192.168.0.178:8080/master_delete":{
+        "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"machine"
             },
@@ -63,8 +63,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/parts_page":{
-        "http://192.168.0.178:8080/parts":{
+    "https://smartfactory.bevywise.com/parts_page":{
+        "https://smartfactory.bevywise.com/parts":{
             "xss_attack": {
                 "part_no": "<script>console.log(\"script parts\");</script>","part_cost":5
             },
@@ -86,7 +86,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"parts"
             },
@@ -95,8 +95,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/tools":{
-        "http://192.168.0.178:8080/tools_page":{
+    "https://smartfactory.bevywise.com/tools":{
+        "https://smartfactory.bevywise.com/tools_page":{
             "xss_attack": {
                 "tools_number": "<script>console.log(\"script tools\");</script>","process":"vmpprocess","tool_cost": "5",
                 "tool_sides": "5",
@@ -126,7 +126,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"tools"
             },
@@ -135,8 +135,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/cycle_page":{
-        "http://192.168.0.178:8080/cycle_times":{
+    "https://smartfactory.bevywise.com/cycle_page":{
+        "https://smartfactory.bevywise.com/cycle_times":{
             "xss_attack": {
                 "part_number":"part1",
                 "process":"process1",
@@ -202,7 +202,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"cycle_times"
             },
@@ -211,8 +211,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/error-reason":{
-        "http://192.168.0.178:8080/bad_quality_reason":{
+    "https://smartfactory.bevywise.com/error-reason":{
+        "https://smartfactory.bevywise.com/bad_quality_reason":{
             "xss_attack": {
                 "department": "vmpprocess","reason":"<script>console.log(\"script r-rejection\");"
             },
@@ -234,7 +234,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"quality_reasons"
             },
@@ -243,8 +243,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/downtime-reason":{
-        "http://192.168.0.178:8080/downtime_reason":{
+    "https://smartfactory.bevywise.com/downtime-reason":{
+        "https://smartfactory.bevywise.com/downtime_reason":{
             "xss_attack": {
                 "department": "vmpprocess","reason":"<script>console.log(\"script d-rejection\");","type":"availability","color":"#ffffff"
             },
@@ -266,7 +266,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"downtime_reasons"
             },
@@ -275,8 +275,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/targets":{
-        "http://192.168.0.178:8080/target":{
+    "https://smartfactory.bevywise.com/targets":{
+        "https://smartfactory.bevywise.com/target":{
             "xss_attack": {
                 "department": "<script>console.log(\"script target\");</script>","availability": 5,"performance": 5,"quality":5
             },
@@ -298,7 +298,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"target"
             },
@@ -307,8 +307,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/rawmaterial":{
-        "http://192.168.0.178:8080/raw_material_page":{
+    "https://smartfactory.bevywise.com/rawmaterial":{
+        "https://smartfactory.bevywise.com/raw_material_page":{
             "xss_attack": {
                 "raw_material_number": "xss",
                 "raw_material_name": "xss",
@@ -350,7 +350,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"raw_material"
             },
@@ -359,8 +359,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/rm_vs_parts":{
-        "http://192.168.0.178:8080/rm_vs_parts_page":{
+    "https://smartfactory.bevywise.com/rm_vs_parts":{
+        "https://smartfactory.bevywise.com/rm_vs_parts_page":{
             "xss_attack": {
                 "part_name":"<script>console.log(\"script non-existant part\");</script>","raw_material":"<script>console.log(\"script non-existant raw material\");</script>","part_rm_factor":1
             },
@@ -382,7 +382,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"rm_vs_parts"
             },
@@ -391,8 +391,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/consumable":{
-        "http://192.168.0.178:8080/consumable_page":{
+    "https://smartfactory.bevywise.com/consumable":{
+        "https://smartfactory.bevywise.com/consumable_page":{
             "xss_attack": {
                 "consumable_number": "<script>console.log(\"script consumable\");</script>"
             },
@@ -414,7 +414,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"consumable"
             },
@@ -423,8 +423,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/customer":{
-        "http://192.168.0.178:8080/customer_page":{
+    "https://smartfactory.bevywise.com/customer":{
+        "https://smartfactory.bevywise.com/customer_page":{
             "xss_attack": {
                 "customer_name": "<script>console.log(\"script customer\");</script>","country":"<script>console.log(\"script customercountry\");</script>"
             },
@@ -446,7 +446,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"customer"
             },
@@ -455,8 +455,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/vendor":{
-        "http://192.168.0.178:8080/vendor_page":{
+    "https://smartfactory.bevywise.com/vendor":{
+        "https://smartfactory.bevywise.com/vendor_page":{
             "xss_attack": {
                 "vendor_name": "<script>console.log(\"script vendor\");</script>"
             },
@@ -478,7 +478,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/master_delete":{
+    "https://smartfactory.bevywise.com/master_delete":{
         "from_other_user":{
             "master":"vendor"
             },
@@ -487,8 +487,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/employee_page":{
-        "http://192.168.0.178:8080/employee":{
+    "https://smartfactory.bevywise.com/employee_page":{
+        "https://smartfactory.bevywise.com/employee":{
             "xss_attack": {
                 "department":"store","employee_id":"<script>console.log(\"script employee\");</script>","role":"Executive","password":"123","role_id":10
             },
@@ -510,7 +510,7 @@
             "BA_PS":{},
             "BA_PO":{}
     },
-    "http://192.168.0.178:8080/emp_master_delete_emp":{
+    "https://smartfactory.bevywise.com/emp_master_delete_emp":{
         "from_other_user":{
             "master":"employee"
             },
@@ -519,8 +519,8 @@
             }
         }
     },
-    "http://192.168.0.178:8080/management/":{
-        "http://192.168.0.178:8080/ppc/api/edit_workorder/":{
+    "https://smartfactory.bevywise.com/management/":{
+        "https://smartfactory.bevywise.com/ppc/api/edit_workorder/":{
             "xss_attack": {
                 "e_wono":"WO-001","e_toolcode":"<script>console.log(\"script workorder\");</script>","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
             },
@@ -543,8 +543,8 @@
             "BA_PO":{}
     }
     },
-    "http://192.168.0.178:8080/store/#Dashboard":{
-        "http://192.168.0.178:8080/store/productionparts/":{
+    "https://smartfactory.bevywise.com/store/#Dashboard":{
+        "https://smartfactory.bevywise.com/store/productionparts/":{
             "xss_attack": {
                 "date": "2024-02-28","material_name": "<script>console.log(\"script inventory\");</script>","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
             },
@@ -567,8 +567,8 @@
             "BA_PO":{}
     }
     },
-    "http://192.168.0.178:8080/mrp/ppc_dashboard/":{
-        "http://192.168.0.178:8080/mrp/create_cust_po/":{
+    "https://smartfactory.bevywise.com/mrp/ppc_dashboard/":{
+        "https://smartfactory.bevywise.com/mrp/create_cust_po/":{
             "xss_attack": {
                 "po_date": "2024-03-11",
                 "make_to_stock": "on",
@@ -619,8 +619,8 @@
             "BA_PO":{}
     }
     },
-    "http://192.168.0.178:8080/department/":{
-        "http://192.168.0.178:8080/store/transaction":{
+    "https://smartfactory.bevywise.com/department/":{
+        "https://smartfactory.bevywise.com/store/transaction":{
             "xss_attack": {
                 "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "<script>console.log(\"script department\")</script>","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
             },
@@ -643,8 +643,8 @@
             "BA_PO":{}
     }
     },
-    "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard":{
-        "http://192.168.0.178:8080/maintenance/main_dashboard":{
+    "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard":{
+        "https://smartfactory.bevywise.com/maintenance/main_dashboard":{
             "xss_attack": {
                 "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "<script>console.log(\"script department\")</script>","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
             },

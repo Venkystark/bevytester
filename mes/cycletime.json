@@ -1,5 +1,5 @@
-"http://192.168.0.178:8080/cycle_page":{
-    "http://192.168.0.178:8080/cycle_times":{
+"https://smartfactory.bevywise.com/cycle_page":{
+    "https://smartfactory.bevywise.com/cycle_times":{
         "xss_attack": {
             "part_number":"part1",
             "process":"process1",
@@ -65,7 +65,7 @@
         "BA_PS":{},
         "BA_PO":{}
 },
-"http://192.168.0.178:8080/master_delete":{
+"https://smartfactory.bevywise.com/master_delete":{
     "from_other_user":{
         "master":"cycle_times"
         },

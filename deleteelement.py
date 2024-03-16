@@ -8,7 +8,7 @@ def generate_uuid():
 session1 = requests.Session()
 
 # Perform login
-login_csrf_response = session1.get("http://192.168.0.178:8080/login")
+login_csrf_response = session1.get("https://smartfactory.bevywise.com/login")
 login_csrf = login_csrf_response.cookies.get('csrftoken')
 login_data = {
     "username": "venkat7venkatesh77@gmail.com",
@@ -16,7 +16,7 @@ login_data = {
     "req_id": generate_uuid(),
     "csrfmiddlewaretoken": login_csrf
 }
-login_response = session1.post("http://192.168.0.178:8080/entry/login_check", data=login_data)
+login_response = session1.post("https://smartfactory.bevywise.com/entry/login_check", data=login_data)
 
 def append_details(payload,csrf,id=None,data=None):
     if(id==None and data==None):
@@ -39,12 +39,12 @@ def delete_elements(session,url,endpoint,payload):
         print("Ids in:",url,"are",id_values)
         print(endpoint)
         for id in id_values:
-            if(endpoint=="http://192.168.0.178:8080/emp_master_delete_emp"):
+            if(endpoint=="https://smartfactory.bevywise.com/emp_master_delete_emp"):
                 payload=append_details(payload,session.cookies.get('csrftoken'),id,data)
             else:
                 payload=append_details(payload,session.cookies.get('csrftoken'),id)
             print(payload)
-            del_res=session.post(endpoint,data=payload,headers={'Referer':'http://192.168.0.178:8080'})
+            del_res=session.post(endpoint,data=payload,headers={'Referer':'https://smartfactory.bevywise.com'})
             if del_res.ok:
                 print("success")
             else:
@@ -55,14 +55,14 @@ if login_response.ok:
     for top_key in json_data:
         sub_json=json_data[top_key]
         for sub_key in sub_json:
-            if(sub_key=="http://192.168.0.178:8080/master_delete" or sub_key=="http://192.168.0.178:8080/emp_master_delete_emp"):
+            if(sub_key=="https://smartfactory.bevywise.com/master_delete" or sub_key=="https://smartfactory.bevywise.com/emp_master_delete_emp"):
                 inner_json=sub_json[sub_key]
                 delete_elements(session1,url,sub_key,inner_json["from_other_user"])
             else:
                 url=sub_key
 
 #     # Make the GET request to retrieve process data
-#     response = session1.get('http://192.168.0.178:8080/process')
+#     response = session1.get('https://smartfactory.bevywise.com/process')
 
 #     # Check if the request was successful (status code 200)
 #     if response.status_code == 200:

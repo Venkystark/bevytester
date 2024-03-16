@@ -5,7 +5,7 @@ def generate_uuid():
     return str(uuid.uuid4())
 def other_user_login():
     session=requests.Session()
-    login_csrf_response=session.get("http://192.168.0.178:8080/login/")
+    login_csrf_response=session.get("https://smartfactory.bevywise.com/login/")
     login_csrf=login_csrf_response.cookies.get('csrftoken')
     login_data={
     "username": "venkateshv2508@gmail.com",
@@ -15,7 +15,7 @@ def other_user_login():
     "req_id": generate_uuid(),
     "csrfmiddlewaretoken": login_csrf
     }
-    login_response=session.post("http://192.168.0.178:8080/entry/login_check",data=login_data)
+    login_response=session.post("https://smartfactory.bevywise.com/entry/login_check",data=login_data)
     if login_response.ok:
         print("loggin success")
         print(login_response.text)

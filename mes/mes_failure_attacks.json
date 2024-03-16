@@ -1,7 +1,7 @@
 [
     {
-        "Page": "http://192.168.0.178:8080/process_page",
-        "Endpoint": "http://192.168.0.178:8080/process",
+        "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
         "Attack": "from_other_user",
         "Payload": {
             "process_name": "other user posted process",
@@ -12,8 +12,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "process",
@@ -24,8 +24,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
-        "Endpoint": "http://192.168.0.178:8080/machine",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
         "Attack": "from_other_user",
         "Payload": {
             "machine_id": "other user posted machine",
@@ -36,8 +36,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "machine",
@@ -48,8 +48,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
-        "Endpoint": "http://192.168.0.178:8080/parts",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
         "Attack": "from_other_user",
         "Payload": {
             "part_no": "other user posted part",
@@ -60,8 +60,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "parts",
@@ -72,8 +72,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
-        "Endpoint": "http://192.168.0.178:8080/tools_page",
+        "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
         "Attack": "from_other_user",
         "Payload": {
             "tools_number": "other user posted part",
@@ -87,8 +87,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "tools",
@@ -99,8 +99,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
-        "Endpoint": "http://192.168.0.178:8080/cycle_times",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
         "Attack": "from_other_user",
         "Payload": {
             "part_number": "part2",
@@ -121,8 +121,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "cycle_times",
@@ -133,8 +133,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
-        "Endpoint": "http://192.168.0.178:8080/bad_quality_reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
         "Attack": "from_other_user",
         "Payload": {
             "department": "vmpprocess",
@@ -145,8 +145,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "quality_reasons",
@@ -157,8 +157,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
-        "Endpoint": "http://192.168.0.178:8080/downtime_reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
         "Attack": "from_other_user",
         "Payload": {
             "department": "vmpprocess",
@@ -171,8 +171,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "downtime_reasons",
@@ -183,8 +183,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
-        "Endpoint": "http://192.168.0.178:8080/target",
+        "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
         "Attack": "from_other_user",
         "Payload": {
             "department": "process1",
@@ -197,8 +197,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "target",
@@ -209,8 +209,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
-        "Endpoint": "http://192.168.0.178:8080/raw_material_page",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
         "Attack": "from_other_user",
         "Payload": {
             "raw_material_number": "otheruser posted",
@@ -225,8 +225,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "raw_material",
@@ -237,8 +237,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
-        "Endpoint": "http://192.168.0.178:8080/rm_vs_parts_page",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
         "Attack": "from_other_user",
         "Payload": {
             "part_name": "other user posted non-exist part",
@@ -250,8 +250,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "rm_vs_parts",
@@ -262,8 +262,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
-        "Endpoint": "http://192.168.0.178:8080/consumable_page",
+        "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
         "Attack": "from_other_user",
         "Payload": {
             "consumable_number": "other user posted consumable",
@@ -273,8 +273,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "consumable",
@@ -285,8 +285,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
-        "Endpoint": "http://192.168.0.178:8080/customer_page",
+        "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
         "Attack": "from_other_user",
         "Payload": {
             "customer_name": "other user posted customer",
@@ -297,8 +297,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "customer",
@@ -309,8 +309,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
-        "Endpoint": "http://192.168.0.178:8080/vendor_page",
+        "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Attack": "from_other_user",
         "Payload": {
             "vendor_name": "other user posted vendor",
@@ -320,8 +320,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
-        "Endpoint": "http://192.168.0.178:8080/master_delete",
+        "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Attack": "from_other_user",
         "Payload": {
             "master": "vendor",
@@ -332,8 +332,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
-        "Endpoint": "http://192.168.0.178:8080/employee",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
         "Attack": "from_other_user",
         "Payload": {
             "department": "store",
@@ -347,8 +347,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
-        "Endpoint": "http://192.168.0.178:8080/emp_master_delete_emp",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/emp_master_delete_emp",
         "Attack": "from_other_user",
         "Payload": {
             "master": "employee",
@@ -360,8 +360,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
-        "Endpoint": "http://192.168.0.178:8080/ppc/api/edit_workorder/",
+        "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
         "Attack": "from_other_user",
         "Payload": {
             "e_wono": "WO-001",
@@ -374,8 +374,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
-        "Endpoint": "http://192.168.0.178:8080/store/productionparts/",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
         "Attack": "from_other_user",
         "Payload": {
             "date": "2024-02-28",
@@ -392,8 +392,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
-        "Endpoint": "http://192.168.0.178:8080/mrp/create_cust_po/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
         "Attack": "from_other_user",
         "Payload": {
             "po_date": "2024-03-11",
@@ -410,8 +410,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
-        "Endpoint": "http://192.168.0.178:8080/store/transaction",
+        "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
         "Attack": "from_other_user",
         "Payload": {
             "req_date": "11-03-2024",
@@ -430,8 +430,8 @@
         "AttackResponse": "{\"detail\":\"CSRF Failed: CSRF token missing or incorrect.\"}"
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
-        "Endpoint": "http://192.168.0.178:8080/maintenance/main_dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/maintenance/main_dashboard",
         "Attack": "from_other_user",
         "Payload": {
             "req_date": "11-03-2024",

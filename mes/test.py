@@ -27,12 +27,12 @@ def delete_elements(session,url,endpoint,payload):
         print("Ids in:",url,"are",id_values)
         print(endpoint)
         for id in id_values:
-            if(endpoint=="http://192.168.0.178:8080/emp_master_delete_emp"):
+            if(endpoint=="https://smartfactory.bevywise.com/emp_master_delete_emp"):
                 payload=append_details(payload,session.cookies.get('csrftoken'),id,data)
             else:
                 payload=append_details(payload,session.cookies.get('csrftoken'),id)
             print(payload)
-            del_res=session.post(endpoint,data=payload,headers={'Referer':'http://192.168.0.178:8080'})
+            del_res=session.post(endpoint,data=payload,headers={'Referer':'https://smartfactory.bevywise.com'})
             if del_res.ok:
                 print("success")
             else:
@@ -41,21 +41,21 @@ def get_element(session,url):
     res=session.get(url)
     if res.ok:
         data=res.json()
-        if(url=="http://192.168.0.178:8080/process"):
+        if(url=="https://smartfactory.bevywise.com/process"):
             id_values=[item['id'] for item in data['data'] if item["process_name"] != "vmpprocess" and item["process_name"]!="process1" and item["process_name"]!="process2"]
-        elif(url=="http://192.168.0.178:8080/machine"):
+        elif(url=="https://smartfactory.bevywise.com/machine"):
             id_values=[item['id'] for item in data['data'] if item["machine_id"] != "vmpmachine"]
-        elif(url=="http://192.168.0.178:8080/parts"):
+        elif(url=="https://smartfactory.bevywise.com/parts"):
             id_values=[item['id'] for item in data['data'] if item["part_no"] != "part1" and item["part_no"]!="part2"]
-        elif(url=="http://192.168.0.178:8080/cycle_times"):
+        elif(url=="https://smartfactory.bevywise.com/cycle_times"):
             id_values=[item['id'] for item in data['data'] if item["process_name"] != "vmpprocess"]
-        elif(url=="http://192.168.0.178:8080/bad_quality_reason"):
+        elif(url=="https://smartfactory.bevywise.com/bad_quality_reason"):
             id_values=[item['id'] for item in data['data'] if item["reason"] != "admin navigation"]
-        elif(url=="http://192.168.0.178:8080/downtime_reason"):
+        elif(url=="https://smartfactory.bevywise.com/downtime_reason"):
             id_values=[item['id'] for item in data['data'] if item["reason"] != "admin navigation"]
-        elif(url=="http://192.168.0.178:8080/target"):
+        elif(url=="https://smartfactory.bevywise.com/target"):
             id_values=[item['id'] for item in data['data'] if item["department"] != "vmpprocess"]
-        elif(url=="http://192.168.0.178:8080/rm_vs_parts_page"):
+        elif(url=="https://smartfactory.bevywise.com/rm_vs_parts_page"):
             id_values=[item['id'] for item in data['data'] if item["raw_material"] != "vmp raw material"]
         else:
             id_values=[item['id']for item in data['data']]
@@ -65,13 +65,13 @@ def get_element(session,url):
 def get_theif_session(cookies):
     session=requests.Session()
     session.cookies.update(cookies)
-    session.get("http://192.168.0.178:8080/login")
+    session.get("https://smartfactory.bevywise.com/login")
     return session
 def generate_uuid():
     return str(uuid.uuid4())
 def mes_test():
     session=requests.Session()
-    login_csrf_response=session.get("http://192.168.0.178:8080/login/")
+    login_csrf_response=session.get("https://smartfactory.bevywise.com/login/")
     login_csrf=login_csrf_response.cookies.get('csrftoken')
     login_data={
         "username": "venkat7venkatesh77@gmail.com",
@@ -79,7 +79,7 @@ def mes_test():
         "req_id": generate_uuid(),
         "csrfmiddlewaretoken": login_csrf
     }
-    login_response=session.post("http://192.168.0.178:8080/entry/login_check",data=login_data)
+    login_response=session.post("https://smartfactory.bevywise.com/entry/login_check",data=login_data)
     if login_response.ok:
         #importing the json file
         print(session)
@@ -90,7 +90,7 @@ def mes_test():
         for top_key in json_data:
             sub_json=json_data[top_key]
             for sub_key in sub_json:
-                if(sub_key=="http://192.168.0.178:8080/master_delete" or sub_key=="http://192.168.0.178:8080/emp_master_delete_emp"):
+                if(sub_key=="https://smartfactory.bevywise.com/master_delete" or sub_key=="https://smartfactory.bevywise.com/emp_master_delete_emp"):
                     inner_json=sub_json[sub_key]
                     delete_elements(session,url,sub_key,inner_json["from_other_user"])
                 else:
@@ -103,26 +103,26 @@ def mes_test():
             for sub_key in sub_json:
                 inner_json=sub_json[sub_key]
                 for inner_key in inner_json:
-                    if(sub_key!="http://192.168.0.178:8080/master_delete"):
+                    if(sub_key!="https://smartfactory.bevywise.com/master_delete"):
                         url=sub_key
                     if(inner_key=="from_other_user"):
                         outsider_session=get_other_user_session()
-                        if(sub_key=="http://192.168.0.178:8080/master_delete"):
+                        if(sub_key=="https://smartfactory.bevywise.com/master_delete"):
                             id=get_element(session,url)
                             print("got id in other_user attack:",id)
                             inner_json[inner_key]=append_details(inner_json[inner_key],theif_session.cookies.get('csrftoken'),id)
                         else:
                             inner_json[inner_key]=append_details(inner_json[inner_key],session.cookies.get('csrftoken'))
-                        attack_res=outsider_session.post(sub_key,data=inner_json[inner_key],headers={'Referer':'http://192.168.0.178:8080'})
+                        attack_res=outsider_session.post(sub_key,data=inner_json[inner_key],headers={'Referer':'https://smartfactory.bevywise.com'})
                     elif(inner_key=="session_cookies_theft"):
                         theif_session=get_theif_session(session.cookies)
-                        if(sub_key=="http://192.168.0.178:8080/master_delete"):
+                        if(sub_key=="https://smartfactory.bevywise.com/master_delete"):
                             id=get_element(theif_session,url)
                             print("got id in theif sesseion attack:",id)
                             inner_json[inner_key]=append_details(inner_json[inner_key],theif_session.cookies.get('csrftoken'),id)
                         else:
                             inner_json[inner_key]=append_details(inner_json[inner_key],theif_session.cookies.get('csrftoken'))
-                        attack_res=theif_session.post(sub_key,data=inner_json[inner_key],headers={'Referer':'http://192.168.0.178:8080'})
+                        attack_res=theif_session.post(sub_key,data=inner_json[inner_key],headers={'Referer':'https://smartfactory.bevywise.com'})
                     elif(inner_key=="BA_SE" or inner_key=="BA_SM" or inner_key=="BA_SV" or inner_key=="BA_ME" or inner_key=="BA_MM" or inner_key=="BA_PH" or inner_key=="BA_PS" or inner_key=="BA_PO"):
                         bac=False
                         broken=get_ba_session(inner_key)
@@ -147,8 +147,8 @@ def mes_test():
                     else:
                         inner_json[inner_key]=append_details(inner_json[inner_key],session.cookies.get('csrftoken'))
                         print("in for loop",inner_json[inner_key])
-                        attack_res=session.post(sub_key,data=inner_json[inner_key],headers={'Referer':'http://192.168.0.178:8080'})
-                    if(sub_key!="http://192.168.0.178:8080/master_delete"):
+                        attack_res=session.post(sub_key,data=inner_json[inner_key],headers={'Referer':'https://smartfactory.bevywise.com'})
+                    if(sub_key!="https://smartfactory.bevywise.com/master_delete"):
                         if(inner_key=="xss_attack" or inner_key=="html_attack"):
                             if attack_res.text.__contains__("failed"):
                                 s_code=250

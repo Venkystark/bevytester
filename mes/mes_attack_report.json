@@ -1,1151 +1,1151 @@
 [
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "xss_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "html_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/process_page",
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "xss_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "html_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/machine_page",
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "xss_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "html_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/parts_page",
+        "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "xss_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "html_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/tools",
+        "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/cycle_page",
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "xss_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "html_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/error-reason",
+        "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "xss_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "html_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/downtime-reason",
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "xss_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "html_attack",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/targets",
+        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rawmaterial",
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/rm_vs_parts",
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/consumable",
+        "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/customer",
+        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/vendor",
+        "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/employee_page",
+        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/management/",
+        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/store/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/mrp/ppc_dashboard/",
+        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/department/",
+        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_PO",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "xss_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "html_attack",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SE",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SV",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_ME",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_MM",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PH",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PS",
         "Statuscode": 250
     },
     {
-        "Page": "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard",
+        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PO",
         "Statuscode": 250
     }

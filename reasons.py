@@ -4,7 +4,7 @@ from mes.otheruser import *
 import json
 from bs4 import BeautifulSoup
 sessionuser=requests.Session()
-login_csrf_response=sessionuser.get("http://192.168.0.178:8080/login")
+login_csrf_response=sessionuser.get("https://smartfactory.bevywise.com/login")
 login_csrf=login_csrf_response.cookies.get('csrftoken')
 login_data={
 "username": "venkat7venkatesh77@gmail.com",
@@ -15,12 +15,12 @@ login_data={
 "csrfmiddlewaretoken": login_csrf
 }
 print("before login:",sessionuser.cookies)
-login_response=sessionuser.post("http://192.168.0.178:8080/entry/login_check",data=login_data)
+login_response=sessionuser.post("https://smartfactory.bevywise.com/entry/login_check",data=login_data)
 print("After login:",sessionuser.cookies)
 if login_response.ok:
     print("loggin success")
     print(login_response.text)
-    post_res=sessionuser.post("http://192.168.0.178:8080/consumable_page",data={"csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken'),"consumable_number":"print(10+20)"},headers={'Referer':'http://192.168.0.178:8080/'})
+    post_res=sessionuser.post("https://smartfactory.bevywise.com/consumable_page",data={"csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken'),"consumable_number":"print(10+20)"},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if post_res.ok:
         print(post_res.status_code)
         print(post_res.text)

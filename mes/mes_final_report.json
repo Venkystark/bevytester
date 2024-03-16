@@ -1,5 +1,5 @@
 {
-  "http://192.168.0.178:8080/process_page": {
+  "https://smartfactory.bevywise.com/process_page": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -13,7 +13,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/machine_page": {
+  "https://smartfactory.bevywise.com/machine_page": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -27,7 +27,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/parts_page": {
+  "https://smartfactory.bevywise.com/parts_page": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -41,7 +41,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/tools": {
+  "https://smartfactory.bevywise.com/tools": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -55,7 +55,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/cycle_page": {
+  "https://smartfactory.bevywise.com/cycle_page": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -69,7 +69,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/error-reason": {
+  "https://smartfactory.bevywise.com/error-reason": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -83,7 +83,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/downtime-reason": {
+  "https://smartfactory.bevywise.com/downtime-reason": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -97,7 +97,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/targets": {
+  "https://smartfactory.bevywise.com/targets": {
     "xss_attack": "failure",
     "html_attack": "failure",
     "from_other_user": "failure",
@@ -111,7 +111,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/rawmaterial": {
+  "https://smartfactory.bevywise.com/rawmaterial": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -125,7 +125,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/rm_vs_parts": {
+  "https://smartfactory.bevywise.com/rm_vs_parts": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -139,7 +139,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/consumable": {
+  "https://smartfactory.bevywise.com/consumable": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -153,7 +153,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/customer": {
+  "https://smartfactory.bevywise.com/customer": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -167,7 +167,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/vendor": {
+  "https://smartfactory.bevywise.com/vendor": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -181,7 +181,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/employee_page": {
+  "https://smartfactory.bevywise.com/employee_page": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -195,7 +195,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/management/": {
+  "https://smartfactory.bevywise.com/management/": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -209,7 +209,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/store/#Dashboard": {
+  "https://smartfactory.bevywise.com/store/#Dashboard": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -223,7 +223,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/mrp/ppc_dashboard/": {
+  "https://smartfactory.bevywise.com/mrp/ppc_dashboard/": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -237,7 +237,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/department/": {
+  "https://smartfactory.bevywise.com/department/": {
     "xss_attack": "success",
     "html_attack": "success",
     "from_other_user": "failure",
@@ -251,7 +251,7 @@
     "BA_PS": "failure",
     "BA_PO": "failure"
   },
-  "http://192.168.0.178:8080/maintenance/main_dashboard/#Dashboard": {
+  "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard": {
     "xss_attack": "-",
     "html_attack": "-",
     "from_other_user": "-",

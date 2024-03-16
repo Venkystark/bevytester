@@ -3,7 +3,7 @@ from mes.otheruser import get_other_user_session
 import json
 
 session=get_other_user_session()
-res=session.get("http://192.168.0.178:8080/process")
+res=session.get("https://smartfactory.bevywise.com/process")
 if res.ok:
     data=res.json()
     #id_values=[item['id']for item in data['data']]
