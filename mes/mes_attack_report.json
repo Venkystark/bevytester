@@ -11,6 +11,11 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Attack": "fileupload",
+        "Statuscode": 500
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
@@ -71,6 +76,11 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Attack": "fileupload",
+        "Statuscode": 500
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "from_other_user",
         "Statuscode": 403
     },
@@ -128,6 +138,11 @@
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "html_attack",
         "Statuscode": 250
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Attack": "fileupload",
+        "Statuscode": 500
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
@@ -188,6 +203,11 @@
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "html_attack",
         "Statuscode": 250
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/tools",
+        "Attack": "fileupload",
+        "Statuscode": 500
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
@@ -308,6 +328,11 @@
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "html_attack",
         "Statuscode": 250
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Attack": "fileupload",
+        "Statuscode": 500
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
@@ -368,6 +393,11 @@
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "html_attack",
         "Statuscode": 250
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Attack": "fileupload",
+        "Statuscode": 500
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
@@ -488,6 +518,11 @@
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "html_attack",
         "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Attack": "fileupload",
+        "Statuscode": 500
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
@@ -608,6 +643,11 @@
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "html_attack",
         "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/consumable",
+        "Attack": "fileupload",
+        "Statuscode": 500
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
@@ -728,6 +768,11 @@
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "html_attack",
         "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/vendor",
+        "Attack": "fileupload",
+        "Statuscode": 500
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",

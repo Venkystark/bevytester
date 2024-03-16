@@ -58,6 +58,9 @@ def update():
                 result_dict[page] = {}
 
             result_dict[page][attack] = success
+        pages=["https://smartfactory.bevywise.com/cycle_page","https://smartfactory.bevywise.com/targets","https://smartfactory.bevywise.com/rm_vs_parts","https://smartfactory.bevywise.com/customer","https://smartfactory.bevywise.com/employee_page","https://smartfactory.bevywise.com/management/","https://smartfactory.bevywise.com/store/#Dashboard","https://smartfactory.bevywise.com/mrp/ppc_dashboard/","https://smartfactory.bevywise.com/department/","https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard"]
+        for page in pages:
+            result_dict[page]["fileupload"]="-"
         attacks=["xss_attack","html_attack","from_other_user","session_cookies_theft"]
         for attack in attacks:
             result_dict["https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard"][attack]="-"

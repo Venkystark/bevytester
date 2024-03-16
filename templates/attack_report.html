@@ -219,7 +219,7 @@
         <thead>
             <tr>
                 <th class="title-header" rowspan="2">Page</th>
-                <th colspan="12">
+                <th colspan="13">
                     <div class="icon-container">
                         <div class="icon" style="background-color:white;"></div>
                         <span id="lowrisk">-Low Risk</span>
@@ -241,6 +241,7 @@
             <tr>
                 <th style="background-color: yellow" class="yellow">XSS Attack</th>
                 <th style="background-color: yellow" class="yellow">HTML Attack</th>
+                <th style="background-color:red" class="red">File Upload Attack</th>
                 <th style="background-color: red" class="red">Other User Attack</th>
                 <th style="background-color: white" class="white">Session Theft Attack</th>
                 <th style="background-color: orange" class="orange">BAC-Store-Executive</th>
@@ -275,6 +276,15 @@
                     <i class="fa fa-check"></i>
                 {% endif %}
                 </td>
+                <td class="{% if attacks.get('fileupload', '') == 'success' %}success{% else %}failure{% endif %}">
+                    {% if attacks.get('fileupload', '') == 'success' %}
+                        <i class="fa fa-times"></i>
+                    {% elif attacks.get('fileupload','')=='-' %}
+                        {{attacks.get('fileupload','')}}
+                    {% else %}
+                        <i class="fa fa-check"></i>
+                    {% endif %}
+                    </td>
                 <td class="{% if attacks.get('from_other_user', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('from_other_user', '') == 'success' %}
                     <i class="fa fa-times"></i>
@@ -370,7 +380,7 @@
             if(data[page]["session_cookies_theft"]=="success") {
                 haslow=true;
             }
-            if(data[page]["from_other_user"]=="success"){
+            if(data[page]["from_other_user"]=="success" || data[page]["fileupload"]=="success"){
                 hascritical=true;
             }
             if(data[page]["BA_SE"]=="success" || 

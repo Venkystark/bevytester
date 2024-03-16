@@ -7,6 +7,7 @@
             "html_attack": {
                 "process_name":"<button>hello process</button>","quality_check":"Yes"
             },
+            "fileupload":{},
             "from_other_user":{
                 "process_name":"other user posted process","quality_check":"Yes"
             },
@@ -39,6 +40,7 @@
             "html_attack": {
                 "machine_id":"<button>hello machine</button>","process":"vmpprocess"
             },
+            "fileupload":{},
             "from_other_user":{
                 "machine_id":"other user posted machine","process":"vmpprocess"
             },
@@ -71,6 +73,7 @@
             "html_attack": {
                 "part_no":"<button>hello parts</button>","part_cost":5
             },
+            "fileupload":{},
             "from_other_user":{
                 "part_no":"other user posted part","part_cost":5
             },
@@ -107,6 +110,7 @@
                 "tool_sides": "5",
                 "tool_contact_time": "Parts"
             },
+            "fileupload":{},
             "from_other_user":{
                 "tools_number":"other user posted part","process":"vmpprocess","tool_cost": "5",
                 "tool_sides": "5",
@@ -219,6 +223,7 @@
             "html_attack": {
                 "department":"vmpprocess","reason":"<button>hello r-reason"
             },
+            "fileupload":{},
             "from_other_user":{
                 "department":"vmpprocess","reason":"other user posted r-reason"
             },
@@ -251,6 +256,7 @@
             "html_attack": {
                 "department": "vmpprocess","reason":"<button>hello d-rejection</button>","type":"availability","color":"#ffffff"
             },
+            "fileupload":{},
             "from_other_user":{
                 "department": "vmpprocess","reason":"other user posted d-reason","type":"availability","color":"#ffffff"
             },
@@ -325,6 +331,7 @@
                 "measurement_type": "<button>hello raw</button>",
                 "rm_measurement_unit": "<button>hello raw</button>"
             },
+            "fileupload":{},
             "from_other_user":{
                 "raw_material_number": "otheruser posted",
                 "raw_material_name": "otheruser posted",
@@ -399,6 +406,7 @@
             "html_attack": {
                 "consumable_number":"<button>hello consumable</button>"
             },
+            "fileupload":{},
             "from_other_user":{
                 "consumable_number":"other user posted consumable"
             },
@@ -463,6 +471,7 @@
             "html_attack": {
                 "vendor_name":"<button>hello vendor</button>"
             },
+            "fileupload":{},
             "from_other_user":{
                 "vendor_name":"other user posted vendor"
             },

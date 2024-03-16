@@ -4,7 +4,15 @@ import json
 from mes.otheruser import *
 from mes.brokenacess import *
 from bs4 import BeautifulSoup
-#comit check
+#138
+#checking file upload vulnerability
+def check_file_uplaod(endpoint,session):
+    with open("mes\injectionfile.py",'rb') as injection:
+        binary=injection.read()
+    post_res=session.post(endpoint,files={"process":("injection.py",binary,'application/x-python'),
+            "csrfmiddlewaretoken":session.cookies.get('csrftoken')},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    return post_res
+#appending details for deletion
 def append_details(payload,csrf,id=None,data=None):
     if(id==None and data==None):
         payload["csrfmiddlewaretoken"]=csrf
@@ -19,6 +27,7 @@ def append_details(payload,csrf,id=None,data=None):
                 payload['email_id']=item['employee_no']
                 print(payload)
     return payload
+#deleting elements before automation
 def delete_elements(session,url,endpoint,payload):
     res=session.get(url)
     if res.ok:
@@ -37,6 +46,7 @@ def delete_elements(session,url,endpoint,payload):
                 print("success")
             else:
                 print(del_res.text)
+#for delete attack check
 def get_element(session,url):
     res=session.get(url)
     if res.ok:
@@ -68,13 +78,16 @@ def get_element(session,url):
         return id_values[0]
     else:
         print("error getting endpoint")
+#creating a theif session using sessionid
 def get_theif_session(cookies):
     session=requests.Session()
     session.cookies.update(cookies)
     session.get("https://smartfactory.bevywise.com/login")
     return session
+#generating uuid for login
 def generate_uuid():
     return str(uuid.uuid4())
+#automation start here
 def mes_test():
     session=requests.Session()
     login_csrf_response=session.get("https://smartfactory.bevywise.com/login/")
@@ -111,7 +124,26 @@ def mes_test():
                 for inner_key in inner_json:
                     if(sub_key!="https://smartfactory.bevywise.com/master_delete"):
                         url=sub_key
-                    if(inner_key=="from_other_user"):
+                    if(inner_key=="fileupload"):
+                        if(top_key=="https://smartfactory.bevywise.com/process_page"):
+                            attack_res=check_file_uplaod("https://smartfactory.bevywise.com/import_process/",session)
+                        elif(top_key=="https://smartfactory.bevywise.com/machine_page",session):
+                            attack_res=check_file_uplaod("https://smartfactory.bevywise.com/import_machine/",session)
+                        elif(top_key=="https://smartfactory.bevywise.com/parts_page"):
+                            attack_res=check_file_uplaod("https://smartfactory.bevywise.com/import_parts/",session)
+                        elif(top_key=="https://smartfactory.bevywise.com/tools"):
+                            attack_res=check_file_uplaod("https://smartfactory.bevywise.com/import_tools/",session)
+                        elif(top_key=="https://smartfactory.bevywise.com/error-reason"):
+                            attack_res=check_file_uplaod("https://smartfactory.bevywise.com/Importrejectionreasons/",session)
+                        elif(top_key=="https://smartfactory.bevywise.com/downtime-reason"):
+                            attack_res=check_file_uplaod("https://smartfactory.bevywise.com/Importdowntimereasons/",session)
+                        elif(top_key=="https://smartfactory.bevywise.com/rawmaterial"):
+                            attack_res=check_file_uplaod("https://smartfactory.bevywise.com/import_rawmaterial/",session)
+                        elif(top_key=="https://smartfactory.bevywise.com/consumable"):
+                            attack_res=check_file_uplaod("https://smartfactory.bevywise.com/import_consumable/",session)
+                        elif(top_key=="https://smartfactory.bevywise.com/vendor"):
+                                attack_res=check_file_uplaod("https://smartfactory.bevywise.com/import_vendor/",session)
+                    elif(inner_key=="from_other_user"):
                         outsider_session=get_other_user_session()
                         if(sub_key=="https://smartfactory.bevywise.com/master_delete"):
                             id=get_element(session,url)

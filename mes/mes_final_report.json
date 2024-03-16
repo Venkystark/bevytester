@@ -2,6 +2,7 @@
   "https://smartfactory.bevywise.com/process_page": {
     "xss_attack": "failure",
     "html_attack": "failure",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -16,6 +17,7 @@
   "https://smartfactory.bevywise.com/machine_page": {
     "xss_attack": "failure",
     "html_attack": "failure",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -30,6 +32,7 @@
   "https://smartfactory.bevywise.com/parts_page": {
     "xss_attack": "failure",
     "html_attack": "failure",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -44,6 +47,7 @@
   "https://smartfactory.bevywise.com/tools": {
     "xss_attack": "failure",
     "html_attack": "failure",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -67,11 +71,13 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/error-reason": {
     "xss_attack": "failure",
     "html_attack": "failure",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -86,6 +92,7 @@
   "https://smartfactory.bevywise.com/downtime-reason": {
     "xss_attack": "failure",
     "html_attack": "failure",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -109,11 +116,13 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/rawmaterial": {
     "xss_attack": "success",
     "html_attack": "success",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -137,11 +146,13 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/consumable": {
     "xss_attack": "success",
     "html_attack": "success",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -165,11 +176,13 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/vendor": {
     "xss_attack": "success",
     "html_attack": "success",
+    "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -193,7 +206,8 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/management/": {
     "xss_attack": "success",
@@ -207,7 +221,8 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/store/#Dashboard": {
     "xss_attack": "success",
@@ -221,7 +236,8 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/mrp/ppc_dashboard/": {
     "xss_attack": "success",
@@ -235,7 +251,8 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/department/": {
     "xss_attack": "success",
@@ -249,7 +266,8 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard": {
     "xss_attack": "-",
@@ -263,6 +281,7 @@
     "BA_MM": "failure",
     "BA_PH": "failure",
     "BA_PS": "failure",
-    "BA_PO": "failure"
+    "BA_PO": "failure",
+    "fileupload": "-"
   }
 }

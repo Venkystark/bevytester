@@ -3,6 +3,7 @@ from mes.otheruser import *
 #from mqtt.test import get_session
 import json
 from bs4 import BeautifulSoup
+from io import BytesIO
 sessionuser=requests.Session()
 login_csrf_response=sessionuser.get("https://smartfactory.bevywise.com/login")
 login_csrf=login_csrf_response.cookies.get('csrftoken')
@@ -20,10 +21,17 @@ print("After login:",sessionuser.cookies)
 if login_response.ok:
     print("loggin success")
     print(login_response.text)
-    post_res=sessionuser.post("https://smartfactory.bevywise.com/consumable_page",data={"csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken'),"consumable_number":"print(10+20)"},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    inject_file=BytesIO()
+    with open("C:/Users/venka/OneDrive/Desktop/fileimport.py",'rb') as python:
+        binary=python.read()
+    print(binary)
+    post_res=sessionuser.post("https://smartfactory.bevywise.com/import_process/",files={"process":("injection.py",binary,'application/x-python'),
+            "csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken')},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if post_res.ok:
-        print(post_res.status_code)
-        print(post_res.text)
+        if(post_res.text.__contains__("Process imported successfully")):
+            print("ok")
+        else:
+            print("nope")
     else:
         print(post_res.status_code)
         print(post_res.text)
