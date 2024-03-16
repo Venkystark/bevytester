@@ -1,25 +1,29 @@
 import requests
-from mes.otheruser import get_other_user_session
+from mes.otheruser import *
 #from mqtt.test import get_session
 import json
-#main
-session=get_other_user_session()
-# post_res=session.post("https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createUser",data={"display_name":"from other user","username":"other_user@gmail.com",
-# "mobile_no": 44444444444,
-# "permission": 1,
-# "csrfmiddlewaretoken":session.cookies.get('csrftoken')},headers={'Referer':'https://publicmqtt.bevywise.com/'})
-#post_res=session.post("https://mes.bevywise.com/target",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"<button>hello target</button>","availability": 5,"performance": 5,"quality":5},headers={'Referer':'https://mes.bevywise.com/'})
-post_res=session.post("https://mes.bevywise.com/process",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"process_name":"broken","quality_check":"Yes"},headers={'Referer':'https://mes.bevywise.com/'})
-if post_res.ok:
-    print("posted successfully")
-    #print(post_res)
-    print(post_res.status_code)
-    print(post_res.is_redirect)
-    print(post_res.content)
-    #print(post_res.text)
-    if(post_res.text.__contains__("failed")):
-        print("failed")
-else:
-    print(post_res.status_code)
-    print(post_res.text)
-    #print(post_res.text)
+from bs4 import BeautifulSoup
+sessionuser=requests.Session()
+login_csrf_response=sessionuser.get("http://192.168.0.178:8080/login")
+login_csrf=login_csrf_response.cookies.get('csrftoken')
+login_data={
+"username": "venkat7venkatesh77@gmail.com",
+"password": "@Venkystark77",
+# "username": "vstore-viewer@gmail.com",
+# "password": "123",
+"req_id": generate_uuid(),
+"csrfmiddlewaretoken": login_csrf
+}
+print("before login:",sessionuser.cookies)
+login_response=sessionuser.post("http://192.168.0.178:8080/entry/login_check",data=login_data)
+print("After login:",sessionuser.cookies)
+if login_response.ok:
+    print("loggin success")
+    print(login_response.text)
+    post_res=sessionuser.post("http://192.168.0.178:8080/consumable_page",data={"csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken'),"consumable_number":"print(10+20)"},headers={'Referer':'http://192.168.0.178:8080/'})
+    if post_res.ok:
+        print(post_res.status_code)
+        print(post_res.text)
+    else:
+        print(post_res.status_code)
+        print(post_res.text)
