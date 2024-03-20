@@ -15,7 +15,11 @@ def index():
     return render_template('index.html', selected_option=selected_option)
 @app.route('/attack_results')
 def attack_results():
-    return render_template('attack_results.html')
+    with open('mes\\mes_success_attacks.json') as json_file:
+            success_data = json.load(json_file)
+    with open('mes\\mes_failure_attacks.json') as json_file:
+            failure_data = json.load(json_file)
+    return render_template('attack_results.html',success_data=success_data,failure_data=failure_data)
 @app.route('/attack_report')
 def attack_report():
     with open('mes\\mes_final_report.json', 'r') as file:
@@ -67,10 +71,6 @@ def update():
         # Write the result_dict to a new JSON file
         with open('mes\\mes_final_report.json', 'w') as output_file:
             json.dump(result_dict, output_file, indent=2)
-        with open('mes\\mes_success_attacks.json') as json_file:
-            success_data = json.load(json_file)
-        with open('mes\\mes_failure_attacks.json') as json_file:
-            failure_data = json.load(json_file)
     #return render_template('attack_results.html',success_data=success_data,failure_data=failure_data)
         with open('mes\\mes_final_report.json', 'r') as file:
             report_data = json.load(file)

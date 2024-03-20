@@ -189,13 +189,14 @@ def mes_test():
                     if(sub_key!="https://smartfactory.bevywise.com/master_delete"):
                         if(inner_key=="xss_attack" or inner_key=="html_attack"):
                             if attack_res.text.__contains__("failed"):
-                                s_code=250
-                            else:
-                                s_code=attack_res.status_code
+                                #s_code=250
+                                attack_res.status_code=250
+                            # else:
+                            #     #s_code=attack_res.status_code
                             report_res={
                             "Page":top_key,
                             "Attack":inner_key,
-                            "Statuscode":s_code                      
+                            "Statuscode":attack_res.status_code                      
                             }
                         else:
                             report_res={
@@ -211,15 +212,21 @@ def mes_test():
                         data.append(report_res)
                         with open('mes\\mes_attack_report.json','w') as file:
                             json.dump(data,file,indent=4)
-                    if attack_res.ok:
+                    if attack_res.status_code==200:
                         print('success')
+                        if(top_key=="https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard"):
+                            response_text="web content"
+                        elif(inner_key=="BA_SE" or inner_key=="BA_SM" or inner_key=="BA_SV" or inner_key=="BA_MM" or inner_key=="BA_ME" or inner_key=="BA_PH" or inner_key=="BA_PS" or inner_key=="BA_PO" or inner_key=="fileupload"):
+                            response_text="web content"
+                        else:
+                            response_text=attack_res.text
                         attack_result = {
                             "Page":top_key,
                             "Endpoint":sub_key,
                             "Attack":inner_key,
                             "Payload":inner_json[inner_key],
                             "Statuscode":attack_res.status_code,
-                            "AttackResponse":attack_res.text
+                            "AttackResponse":response_text
                         }
                         # Write the attack result to a JSON file
                         try:
@@ -231,13 +238,19 @@ def mes_test():
                         with open('mes\\mes_success_attacks.json', 'w') as file:
                             json.dump(data, file, indent=4)
                     else:
+                        if(inner_key=="BA_SE" or inner_key=="BA_SM" or inner_key=="BA_SV" or inner_key=="BA_MM" or inner_key=="BA_ME" or inner_key=="BA_PH" or inner_key=="BA_PS" or inner_key=="BA_PO" or inner_key=="fileupload"):
+                            response_text="web content"
+                        elif(top_key=="https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard"):
+                            response_text="web content"
+                        else:
+                            response_text=attack_res.text
                         attack_result = {
                             "Page":top_key,
                             "Endpoint":sub_key,
                             "Attack":inner_key,
                             "Payload":inner_json[inner_key],
                             "Statuscode":attack_res.status_code,
-                            "AttackResponse":attack_res.text
+                            "AttackResponse":response_text
                         }
                         # Write the attack result to a JSON file
                         try:
