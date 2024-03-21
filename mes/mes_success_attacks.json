@@ -6,7 +6,7 @@
         "Payload": {
             "process_name": "posted through cookies theft",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
@@ -17,8 +17,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "process",
-            "id": "qx-YWo4BSVP9CENyURUK",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "qTF2X44BSVP9CENyJekl",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -30,7 +30,7 @@
         "Payload": {
             "machine_id": "posted through cookies theft",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
@@ -41,8 +41,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "machine",
-            "id": "zx-YWo4BSVP9CENynxXK",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "TTF2X44BSVP9CENyeO2u",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -54,7 +54,7 @@
         "Payload": {
             "part_no": "posted through cookies theft",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
@@ -65,8 +65,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "parts",
-            "id": "0R-YWo4BSVP9CENyzhVu",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "YjF2X44BSVP9CENyre8N",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -81,7 +81,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
@@ -92,8 +92,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "tools",
-            "id": "0x-YWo4BSVP9CENy_RWu",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "-TF2X44BSVP9CENy4fEA",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -115,7 +115,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
@@ -137,7 +137,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
@@ -159,7 +159,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
@@ -170,8 +170,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "cycle_times",
-            "id": "1R-ZWo4BSVP9CENyJxXQ",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "0jF3X44BSVP9CENyE_ON",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -183,7 +183,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "posted through session thief",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
@@ -194,8 +194,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "quality_reasons",
-            "id": "2x-ZWo4BSVP9CENyYxXO",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "IDF3X44BSVP9CENySvaX",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -209,7 +209,7 @@
             "reason": "posted through session thief",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
@@ -220,8 +220,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "downtime_reasons",
-            "id": "4R-ZWo4BSVP9CENynhUa",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "XTF3X44BSVP9CENyg_hf",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -235,7 +235,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
@@ -246,8 +246,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "target",
-            "id": "4x-ZWo4BSVP9CENy0RVq",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "oDF3X44BSVP9CENyuPqU",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -263,7 +263,7 @@
             "raw_material_cost": 5,
             "measurement_type": "<script>console.log(\"hello raw\");</script>",
             "rm_measurement_unit": "<script>console.log(\"hello raw\");</script>",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
@@ -279,7 +279,7 @@
             "raw_material_cost": 5,
             "measurement_type": "<button>hello raw</button>",
             "rm_measurement_unit": "<button>hello raw</button>",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
@@ -295,7 +295,7 @@
             "raw_material_cost": 5,
             "measurement_type": "cookie theif",
             "rm_measurement_unit": "cookie theif",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
@@ -306,8 +306,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "raw_material",
-            "id": "5h-ZWo4BSVP9CENy_BXX",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "QjF3X44BSVP9CENy5fzM",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -320,7 +320,7 @@
             "part_name": "<script>console.log(\"script non-existant part\");</script>",
             "raw_material": "<script>console.log(\"script non-existant raw material\");</script>",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
@@ -333,7 +333,7 @@
             "part_name": "<button>non-exist part</button>",
             "raw_material": "<button>non-exist raw material</button>",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
@@ -346,7 +346,7 @@
             "part_name": "posted through cookies theft",
             "raw_material": "posted through cookies theft",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
@@ -357,8 +357,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "rm_vs_parts",
-            "id": "7R-aWo4BSVP9CENyNhX6",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "1TF4X44BSVP9CENyIf7S",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -369,7 +369,7 @@
         "Attack": "xss_attack",
         "Payload": {
             "consumable_number": "<script>console.log(\"script consumable\");</script>",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
@@ -380,7 +380,7 @@
         "Attack": "html_attack",
         "Payload": {
             "consumable_number": "<button>hello consumable</button>",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
@@ -391,7 +391,7 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "consumable_number": "posted through cookies theft",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
@@ -402,8 +402,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "consumable",
-            "id": "8B-aWo4BSVP9CENyYxWX",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "GjJ4X44BSVP9CENyVAER",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -415,7 +415,7 @@
         "Payload": {
             "customer_name": "<script>console.log(\"script customer\");</script>",
             "country": "<script>console.log(\"script customercountry\");</script>",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
@@ -427,7 +427,7 @@
         "Payload": {
             "customer_name": "<button>hello customer</button>",
             "country": "<button>customer country</button>",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
@@ -439,7 +439,7 @@
         "Payload": {
             "customer_name": "posted through cookies theft",
             "country": "session theif country",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
@@ -450,8 +450,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "customer",
-            "id": "9x-aWo4BSVP9CENylhV2",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "3zJ4X44BSVP9CENyjwMP",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -462,7 +462,7 @@
         "Attack": "xss_attack",
         "Payload": {
             "vendor_name": "<script>console.log(\"script vendor\");</script>",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
@@ -473,7 +473,7 @@
         "Attack": "html_attack",
         "Payload": {
             "vendor_name": "<button>hello vendor</button>",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
@@ -484,7 +484,7 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "vendor_name": "posted through cookies theft",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
@@ -495,8 +495,8 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "vendor",
-            "id": "-x-aWo4BSVP9CENyxhXj",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "id": "KDJ4X44BSVP9CENyvwZm",
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -511,7 +511,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -526,7 +526,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -541,7 +541,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\"}"
@@ -552,7 +552,7 @@
         "Attack": "session_cookies_theft",
         "Payload": {
             "master": "employee",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Failed\",\"reason\":\"Parameter missing\"}"
@@ -566,7 +566,7 @@
             "e_toolcode": "<script>console.log(\"script workorder\");</script>",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
@@ -580,7 +580,7 @@
             "e_toolcode": "<button>hello workorder</button>",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
@@ -594,7 +594,7 @@
             "e_toolcode": "edited by session cookie theft",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
@@ -612,7 +612,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
@@ -630,7 +630,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
@@ -648,7 +648,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
@@ -666,7 +666,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
@@ -684,7 +684,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
@@ -702,7 +702,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
@@ -722,7 +722,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
@@ -742,7 +742,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
@@ -762,7 +762,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
@@ -782,7 +782,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "web content"
@@ -802,7 +802,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "web content"
@@ -822,7 +822,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "s6mTnxWN1oiuPJQnv3k2apL9s3oOp5po04SxXUNXJUdFCfhQL3KqJXtxSO3uzWAt"
+            "csrfmiddlewaretoken": "aXZqAusTvs8E5SO98PhtUblET8WD6DCdS9kD5FbIEauDoYBuFv21qZT1sWlMPe7y"
         },
         "Statuscode": 200,
         "AttackResponse": "web content"
