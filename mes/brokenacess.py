@@ -90,10 +90,12 @@ def create_elements(session):
     else:
         print("target for admin navigation")
     #consumables
-    res=session.post("https://smartfactory.bevywise.com/consumable_page",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"consumable_number":"adminnavconsumable"},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/consumable_page",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"consumable_number":"adminnavconsumable","consumable_cost":8},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
+        print(res.text)
         print("consumable created for admin navigation")
     else:
+        print(res.text)
         print("error in creating consumable for admin navigation")
     #customer
     res=session.post("https://smartfactory.bevywise.com/customer_page",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"customer_name":"adminnavcust","country":"adminnavcust"},headers={'Referer':'https://smartfactory.bevywise.com/'})
@@ -127,10 +129,12 @@ def create_users(session):
         print(res.status_code)
         print(res.text)
         supsess=get_ba_session("BA_PS")
-        op_res=supsess.post("https://smartfactory.bevywise.com/ppc/machine_list_op/",data={"csrfmiddlewaretoken":supsess.cookies.get('csrftoken'),"assign_operator":"process operator","assign_machine":"vmpmachine"},headers={'Referer':'https://smartfactory.bevywise.com/'})
+        op_res=supsess.post("https://smartfactory.bevywise.com/ppc/machine_list_op/",data={"csrfmiddlewaretoken":supsess.cookies.get('csrftoken'),"assign_operator":"process operator","assign_machine":"vmpmachine","line_no":"vmpprocess","op_list":'["process_operator"]'},headers={'Referer':'https://smartfactory.bevywise.com/'})
         if op_res.ok:
             print("process-operator is assigned")
         else:
+            print(op_res.status_code)
+            print(op_res.text)
             print("trouble in assigning process-operator")
     else:
         print("error in creating process-supervisor")

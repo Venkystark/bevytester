@@ -122,7 +122,7 @@
     </style>
     <style media="print">
         body {
-            background-color: linear-gradient(-45deg, #FFFFFF 0%, #ECF2FB 40.97%, #ECF2FB 59.04%, #FFFFFF 100%);
+            background-color: #FFFFFF; /* Change background color for print */
             color: #000;
             text-align: center;
         }
@@ -179,37 +179,43 @@
             vertical-align: middle; /* Align text vertically with the icon */
         }
         .yellow {
-            background-color:"yellow";
+            background-color: yellow; /* Fix background color value */
         }
         .red {
-            background-color:"red";
+            background-color: red; /* Fix background color value */
         }
         .white {
-            background-color:"white";
+            background-color: white; /* Fix background color value */
         }
         .orange {
-            background-color:"orange";
+            background-color: orange; /* Fix background color value */
         }
         #desc_container {
-            position: absolute;
-            top:-15px;
-            right: 350px;
+            position:absolute;
+            right:10px;
             display: flex;
             align-items: center;
-            width:400px;
-            height:fit-content;
-            width:fit-content;
+            justify-content: flex-end; /* Align to the right */
+            margin-bottom: 20px; /* Adjust margin for spacing */
         }
+    
+        .icon {
+            font-size: 20px; /* Adjust icon size for print */
+            margin-right: 5px; /* Adjust spacing between icon and text */
+        }
+    
         #desc_container h4 {
             margin-left: 10px; /* Adjust spacing between icon and text */
         }
-        #saveButton{
-            display:none;
+    
+        #saveButton {
+            display: none; /* Hide the download button in print */
         }
     </style>
+    
 </head>
 <body id="body">
-    <h2>MES Final Report</h2>
+    <h2>MQTT Final Report</h2>
     <div id="desc_container">
         <i class="fa fa-check" style="color:green;" ></i><h4>-Secure</h4>
         <i class="fa fa-times" style="color:red; margin-left:30px;"></i><h4>-InSecure</h4>
@@ -219,7 +225,7 @@
         <thead>
             <tr>
                 <th class="title-header" rowspan="2">Page</th>
-                <th colspan="13">
+                <th colspan="6">
                     <div class="icon-container">
                         <div class="icon" style="background-color:white;"></div>
                         <span id="lowrisk">-Low Risk</span>
@@ -241,17 +247,10 @@
             <tr>
                 <th style="background-color: yellow" class="yellow">XSS Attack</th>
                 <th style="background-color: yellow" class="yellow">HTML Attack</th>
-                <th style="background-color:red" class="red">File Upload Attack</th>
                 <th style="background-color: red" class="red">Other User Attack</th>
                 <th style="background-color: white" class="white">Session Theft Attack</th>
-                <th style="background-color: orange" class="orange">BAC-Store-Executive</th>
-                <th style="background-color: orange" class="orange">BAC-Store-Manager</th>
-                <th style="background-color: orange" class="orange">BAC-Store-Viewer</th>
-                <th style="background-color: orange" class="orange">BAC-Main-Executive</th>
-                <th style="background-color: orange" class="orange">BAC-Main-Manager</th>
-                <th style="background-color: orange" class="orange">BAC-Process-Head</th>
-                <th style="background-color: orange" class="orange">BAC-Process-Supervisor</th>
-                <th style="background-color: orange" class="orange">BAC-Process-Operator</th>
+                <th style="background-color: orange" class="orange">BAC-Standard-User</th>
+                <th style="background-color: orange" class="orange">BAC-Administrative-User</th>
             </tr>
         </thead>    
         {% for page, attacks in data.items() %}
@@ -276,15 +275,6 @@
                     <i class="fa fa-check"></i>
                 {% endif %}
                 </td>
-                <td class="{% if attacks.get('fileupload', '') == 'success' %}success{% else %}failure{% endif %}">
-                    {% if attacks.get('fileupload', '') == 'success' %}
-                        <i class="fa fa-times"></i>
-                    {% elif attacks.get('fileupload','')=='-' %}
-                        {{attacks.get('fileupload','')}}
-                    {% else %}
-                        <i class="fa fa-check"></i>
-                    {% endif %}
-                    </td>
                 <td class="{% if attacks.get('from_other_user', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('from_other_user', '') == 'success' %}
                     <i class="fa fa-times"></i>
@@ -303,58 +293,20 @@
                     <i class="fa fa-check"></i>
                 {% endif %}
                 </td>
-                <td class="{% if attacks.get('BA_SE', '') == 'success' %}success{% else %}failure{% endif %}">
-                {% if attacks.get('BA_SE', '') == 'success' %}
+                <td class="{% if attacks.get('BA_STANDARD', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_STANDARD', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_STANDARD','')=='-' %}
+                    {{attacks.get('BA_STANDARD','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
                 </td>
-                <td class="{% if attacks.get('BA_SM', '') == 'success' %}success{% else %}failure{% endif %}">
-                {% if attacks.get('BA_SM', '') == 'success' %}
+                <td class="{% if attacks.get('BA_ADMIN', '') == 'success' %}success{% else %}failure{% endif %}">
+                {% if attacks.get('BA_ADMIN', '') == 'success' %}
                     <i class="fa fa-times"></i>
-                {% else %}
-                    <i class="fa fa-check"></i>
-                {% endif %}
-                </td>
-                <td class="{% if attacks.get('BA_SV', '') == 'success' %}success{% else %}failure{% endif %}">
-                {% if attacks.get('BA_SV', '') == 'success' %}
-                    <i class="fa fa-times"></i>
-                {% else %}
-                    <i class="fa fa-check"></i>
-                {% endif %}
-                </td>
-                <td class="{% if attacks.get('BA_ME', '') == 'success' %}success{% else %}failure{% endif %}">
-                {% if attacks.get('BA_ME', '') == 'success' %}
-                    <i class="fa fa-times"></i>
-                {% else %}
-                    <i class="fa fa-check"></i>
-                {% endif %}
-                </td>
-                <td class="{% if attacks.get('BA_MM', '') == 'success' %}success{% else %}failure{% endif %}">
-                {% if attacks.get('BA_MM', '') == 'success' %}
-                    <i class="fa fa-times"></i>
-                {% else %}
-                    <i class="fa fa-check"></i>
-                {% endif %}
-                </td>
-                <td class="{% if attacks.get('BA_PH', '') == 'success' %}success{% else %}failure{% endif %}">
-                {% if attacks.get('BA_PH', '') == 'success' %}
-                    <i class="fa fa-times"></i>
-                {% else %}
-                    <i class="fa fa-check"></i>
-                {% endif %}
-                </td>
-                <td class="{% if attacks.get('BA_PS', '') == 'success' %}success{% else %}failure{% endif %}">
-                {% if attacks.get('BA_PS', '') == 'success' %}
-                    <i class="fa fa-times"></i>
-                {% else %}
-                    <i class="fa fa-check"></i>
-                {% endif %}
-                </td>
-                <td class="{% if attacks.get('BA_PO', '') == 'success' %}success{% else %}failure{% endif %}">
-                {% if attacks.get('BA_PO', '') == 'success' %}
-                    <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_ADMIN','')=='-' %}
+                    {{attacks.get('BA_ADMIN','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
@@ -380,17 +332,11 @@
             if(data[page]["session_cookies_theft"]=="success") {
                 haslow=true;
             }
-            if(data[page]["from_other_user"]=="success" || data[page]["fileupload"]=="success"){
+            if(data[page]["from_other_user"]=="success"){
                 hascritical=true;
             }
-            if(data[page]["BA_SE"]=="success" || 
-               data[page]["BA_SM"]=="success" || 
-               data[page]["BA_SV"]=="success" || 
-               data[page]["BA_PO"]=="success" || 
-               data[page]["BA_ME"]=="success" || 
-               data[page]["BA_MM"]=="success" || 
-               data[page]["BA_PH"]=="success" || 
-               data[page]["BA_PS"]=="success") {
+            if(data[page]["BA_STANDARD"]=="success" || 
+               data[page]["BA_ADMIN"]=="success") {
                 hashigh=true;
             }
             if(haslow) low_risk_pages++;
@@ -406,34 +352,12 @@
         document.getElementById("mediumrisk").textContent=document.getElementById("mediumrisk").textContent+"("+medium_risk_pages+" pages)";
         document.getElementById("highrisk").textContent=document.getElementById("highrisk").textContent+"("+high_risk_pages+" pages)";
         document.getElementById("criticalrisk").textContent=document.getElementById("criticalrisk").textContent+"("+Critical_risk_pages+" pages)";
-        /*document.getElementById('excelButton').addEventListener('click', function() {
-            var tableElement = document.getElementsByTagName('table')[0];
-            if (tableElement) {
-                var wb = XLSX.utils.table_to_book(tableElement, {sheet:"Sheet1"});
-                XLSX.writeFile(wb, 'MES_Final_Report.xlsx');
-            } else {
-                console.error('Table element not found.');
-            }
-        });*/
         //using native browser
         document.getElementById('saveButton').addEventListener('click', function() {
             // Print the header and table
             window.print();
         });
-       /* window.jsPDF = window.jspdf.jsPDF;
-        var doc = new jsPDF({orientation:'landscape',paper:'A4'}); 
-        var elementHTML = document.querySelector("#body");
-
-        doc.html(elementHTML, {
-        callback: function(doc) {
-            // Save the PDF
-            doc.save('sample-document.pdf');
-        },
-        x: 10,
-        y: 15,
-        width:397,
-        windowWidth://window width in CSS pixels
-    });*/
+       
     </script>
 </body>
 </html>

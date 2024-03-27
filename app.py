@@ -5,6 +5,7 @@ app = Flask(__name__)
 from mes.test import *
 from mes.otheruser import *
 from mes.brokenacess import *
+from mqtt.mqtttest import *
 
 # Define a global variable
 selected_option = None
@@ -25,6 +26,13 @@ def attack_report():
     with open('mes\\mes_final_report.json', 'r') as file:
             report_data = json.load(file)
     return render_template('attack_report.html',data=report_data)
+
+#MQTT URLS
+@app.route('/mqtt_attack_report')
+def mqtt_attack_report():
+    with open('mqtt\\mqtt_final_report.json', 'r') as file:
+            report_data = json.load(file)
+    return render_template('mqtt_attack_report.html',data=report_data)
 
 @app.route('/update', methods=['POST'])
 def update():
@@ -77,8 +85,39 @@ def update():
         #return render_template('attack_report.html',data=report_data)
         return redirect(url_for('attack_report'))
     if(selected_option=="mqtt"):
-        return render_template('index.html')
-    
+        if os.path.exists("mqtt\\mqtt_attack_report.json"):
+            os.remove("mqtt\\mqtt_attack_report.json")
+        if os.path.exists("mqtt\\mqtt_final_report.json"):
+            os.remove("mqtt\\mqtt_final_report.json")
+        mqtt_test()
+        with open('mqtt\\mqtt_attack_report.json', 'r') as file:
+            data = json.load(file)
 
+        # Create a dictionary to store the results
+        result_dict = {}
+        # Iterate through each entry in the original JSON data
+        for entry in data:
+            page = entry['Page']
+            attack = entry['Attack']
+            status_code = entry['Statuscode']
+
+            # Determine the success value based on the status code
+            
+            success = "success" if status_code == 200 else "failure"
+
+            # Update the result_dict with the corresponding values
+            if page not in result_dict:
+                result_dict[page] = {}
+
+            result_dict[page][attack] = success
+        result_dict["https://publicmqtt.bevywise.com/#dashboard"]["BA_ADMIN"]="-"
+        pages=["https://publicmqtt.bevywise.com/#settings-user/Administrative_User","https://publicmqtt.bevywise.com/#settings-user/Standard_User"]
+        attacks=["xss_attack","html_attack","session_cookies_theft"]
+        for page in pages:
+            for attack in attacks:
+                result_dict[page][attack]="-"
+        with open('mqtt\\mqtt_final_report.json', 'w') as output_file:
+            json.dump(result_dict, output_file, indent=2)
+        return redirect(url_for('mqtt_attack_report'))
 if __name__ == '__main__':
     app.run(debug=True)

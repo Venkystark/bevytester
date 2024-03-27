@@ -2,12 +2,12 @@
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "xss_attack",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "html_attack",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
@@ -262,12 +262,12 @@
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "xss_attack",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "html_attack",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
@@ -577,12 +577,12 @@
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "xss_attack",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "html_attack",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
@@ -637,12 +637,12 @@
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "xss_attack",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "html_attack",
-        "Statuscode": 200
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",

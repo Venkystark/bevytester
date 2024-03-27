@@ -1,0 +1,147 @@
+[
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Attack": "xss_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Attack": "html_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Attack": "session_cookies_theft",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Attack": "from_other_user",
+        "Statuscode": 250
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Attack": "BA_ADMIN",
+        "Statuscode": 250
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Attack": "BA_STANDARD",
+        "Statuscode": 250
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Attack": "xss_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Attack": "html_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Attack": "session_cookies_theft",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Attack": "from_other_user",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Attack": "BA_ADMIN",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Attack": "BA_STANDARD",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Attack": "xss_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Attack": "html_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Attack": "session_cookies_theft",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Attack": "from_other_user",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Attack": "BA_STANDARD",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Attack": "xss_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Attack": "html_attack",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Attack": "session_cookies_theft",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Attack": "from_other_user",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Attack": "BA_ADMIN",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Attack": "BA_STANDARD",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
+        "Attack": "from_other_user",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
+        "Attack": "BA_ADMIN",
+        "Statuscode": 250
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
+        "Attack": "BA_STANDARD",
+        "Statuscode": 250
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
+        "Attack": "from_other_user",
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
+        "Attack": "BA_ADMIN",
+        "Statuscode": 250
+    },
+    {
+        "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
+        "Attack": "BA_STANDARD",
+        "Statuscode": 250
+    }
+]

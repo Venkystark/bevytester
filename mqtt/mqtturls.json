@@ -2,19 +2,20 @@
     "https://publicmqtt.bevywise.com/#settings-user":{
         "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createUser":{
             "xss_attack":{
-                "display_name":"<script>console.log(\"script user\");</script>","username":"other_user@gmail.com","mobile_no": 44444444444,"permission": 1
+                "display_name":"<script>console.log(\"script user\");</script>","username":"xss@gmail.com","mobile_no": 44444444444,"permission": 2
             },
             "html_attack":{
-                "display_name":"<button>hello user</button>","username":"other_user@gmail.com","mobile_no": 44444444444,"permission": 1
-            },
-            "from_other_user":{
-                "display_name":"from other user","username":"other_user@gmail.com","mobile_no": 44444444444,"permission": 1
+                "display_name":"<button>hello user</button>","username":"html@gmail.com","mobile_no": 44444444444,"permission": 2
             },
             "session_cookies_theft":{
-                "display_name":"from cookie theif","username":"cookie_theif@gmail.com","mobile_no": 44444444444,"permission": 1
+                "display_name":"from cookie theif","username":"cookie_theif@gmail.com","mobile_no": 44444444444,"permission": 2
             }
         },
-        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeUser":{}
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeUser":{
+            "from_other_user":{},
+            "BA_ADMIN":{},
+            "BA_STANDARD":{}
+        }
     },
     "https://publicmqtt.bevywise.com/#settings-deviceGroup":{
         "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDeviceGroup":{
@@ -24,13 +25,63 @@
             "html_attack":{
                 "group_name":"<button>hello group</button>","description": "html group"
             },
-            "from_other_user":{
-                "group_name":"from other user","description": "other user group"
-            },
             "session_cookies_theft":{
                 "group_name":"from cookie theif","description": "cookie theif group"
             }
         },
-        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeDeviceGroup":{}
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeDeviceGroup":{
+            "from_other_user":{},
+            "BA_ADMIN":{},
+            "BA_STANDARD":{}
+        }
+    },
+    "https://publicmqtt.bevywise.com/#dashboard":{
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDashboard":{
+            "xss_attack":{
+                "group_name":"maingroup","dashboard_name":"<script>console.log(\"script dashboard\");</script>","description": "script dashboard"
+            },
+            "html_attack":{
+                "group_name":"maingroup","dashboard_name":"<button>hello dash</button>","description": "html dashboard"
+            },
+            "session_cookies_theft":{
+                "group_name":"maingroup","dashboard_name":"from cookie theif","description": "cookie theif dashboard"
+            }
+        },
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/deleteDashboard":{
+            "from_other_user":{},
+            "BA_STANDARD":{}
+        }
+    },
+    "https://publicmqtt.bevywise.com/#Report":{
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/graph/createReport/":{
+            "xss_attack":{
+                "group":"maingroup","name":"<script>console.log(\"script Report\");</script>","description": "script Report"
+            },
+            "html_attack":{
+                "group":"maingroup","name":"<button>hello Report</button>","description": "html Report"
+            },
+            "session_cookies_theft":{
+                "group":"maingroup","name":"from cookie theif","description": "cookie theif Report"
+            }
+        },
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/graph/deleteMainGraph/":{
+            "from_other_user":{},
+            "BA_ADMIN":{},
+            "BA_STANDARD":{}
+        }
+    },
+    "https://publicmqtt.bevywise.com/#settings-user/Administrative_User":{
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/userRoleChange":{
+            "from_other_user":{"role":"administrative","userId":193},
+            "BA_ADMIN":{"role":"administrative","userId":193},
+            "BA_STANDARD":{"role":"administrative","userId":193}
+        }
+    },
+    "https://publicmqtt.bevywise.com/#settings-user/Standard_User":{
+        "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/userRoleChange":{
+            "from_other_user":{"role":"standard","userId":194},
+            "BA_ADMIN":{"role":"standard","userId":194},
+            "BA_STANDARD":{"role":"standard","userId":194}
+        }
     }
 }

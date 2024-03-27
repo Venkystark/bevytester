@@ -1,0 +1,50 @@
+{
+  "https://publicmqtt.bevywise.com/#settings-user": {
+    "xss_attack": "success",
+    "html_attack": "success",
+    "session_cookies_theft": "success",
+    "from_other_user": "failure",
+    "BA_ADMIN": "failure",
+    "BA_STANDARD": "failure"
+  },
+  "https://publicmqtt.bevywise.com/#settings-deviceGroup": {
+    "xss_attack": "success",
+    "html_attack": "success",
+    "session_cookies_theft": "success",
+    "from_other_user": "success",
+    "BA_ADMIN": "success",
+    "BA_STANDARD": "success"
+  },
+  "https://publicmqtt.bevywise.com/#dashboard": {
+    "xss_attack": "success",
+    "html_attack": "success",
+    "session_cookies_theft": "success",
+    "from_other_user": "success",
+    "BA_STANDARD": "success",
+    "BA_ADMIN": "-"
+  },
+  "https://publicmqtt.bevywise.com/#Report": {
+    "xss_attack": "success",
+    "html_attack": "success",
+    "session_cookies_theft": "success",
+    "from_other_user": "success",
+    "BA_ADMIN": "success",
+    "BA_STANDARD": "success"
+  },
+  "https://publicmqtt.bevywise.com/#settings-user/Administrative_User": {
+    "from_other_user": "success",
+    "BA_ADMIN": "failure",
+    "BA_STANDARD": "failure",
+    "xss_attack": "-",
+    "html_attack": "-",
+    "session_cookies_theft": "-"
+  },
+  "https://publicmqtt.bevywise.com/#settings-user/Standard_User": {
+    "from_other_user": "success",
+    "BA_ADMIN": "failure",
+    "BA_STANDARD": "failure",
+    "xss_attack": "-",
+    "html_attack": "-",
+    "session_cookies_theft": "-"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "https://smartfactory.bevywise.com/process_page": {
-    "xss_attack": "failure",
-    "html_attack": "failure",
+    "xss_attack": "success",
+    "html_attack": "success",
     "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
@@ -60,8 +60,8 @@
     "BA_PO": "failure"
   },
   "https://smartfactory.bevywise.com/cycle_page": {
-    "xss_attack": "success",
-    "html_attack": "success",
+    "xss_attack": "failure",
+    "html_attack": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -135,8 +135,8 @@
     "BA_PO": "failure"
   },
   "https://smartfactory.bevywise.com/rm_vs_parts": {
-    "xss_attack": "success",
-    "html_attack": "success",
+    "xss_attack": "failure",
+    "html_attack": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",
     "BA_SE": "failure",
@@ -150,8 +150,8 @@
     "fileupload": "-"
   },
   "https://smartfactory.bevywise.com/consumable": {
-    "xss_attack": "success",
-    "html_attack": "success",
+    "xss_attack": "failure",
+    "html_attack": "failure",
     "fileupload": "failure",
     "from_other_user": "failure",
     "session_cookies_theft": "success",

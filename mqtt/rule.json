@@ -1,0 +1,63 @@
+{
+"https://publicmqtt.bevywise.com/#rules":{
+    "https://publicmqtt.bevywise.com/bwiot/api/v1/rule_engine/create_event_rule/device_alert":{
+        "xss_attack":{
+            "mq_client": 25,
+            "mq_topic": 0,
+            "msg_chk_type": "with_out_key",
+            "whole_set_condition": "match_all",
+            "check_set":"[]",
+            "check_days":"[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]",
+            "response_message_type": "send_defined",
+            "forward_mq_client": "<script>console.log(\"hello rule engine\");</script>",
+            "forward_mq_topic": "jdf",
+            "forward_mq_message": "jd",
+            "queryType": "insert",
+            "ruleId": 0,
+            "send_every_event": 1,
+            "send_once": 0,
+            "snooze_for": 0,
+            "clear_alarm": 0,
+            "clear_alarm_message":""
+        },
+        "html_attack":{
+            "mq_client": 123,
+            "mq_topic": 0,
+            "msg_chk_type": "with_out_key",
+            "whole_set_condition": "match_all",
+            "check_set":[],
+            "check_days":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "response_message_type": "send_defined",
+            "forward_mq_client": "<button>hello rule engine</button>",
+            "forward_mq_topic": "jdf",
+            "forward_mq_message": "jd",
+            "queryType": "insert",
+            "ruleId": 0,
+            "send_every_event": 1,
+            "send_once": 0,
+            "snooze_for": 0,
+            "clear_alarm": 0,
+            "clear_alarm_message":""
+        },
+        "session_cookies_theft":{
+            "mq_client": 123,
+            "mq_topic": 0,
+            "msg_chk_type": "with_out_key",
+            "whole_set_condition": "match_all",
+            "check_set":[],
+            "check_days":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "response_message_type": "send_defined",
+            "forward_mq_client": "session cookie theif",
+            "forward_mq_topic": "jdf",
+            "forward_mq_message": "jd",
+            "queryType": "insert",
+            "ruleId": 0,
+            "send_every_event": 1,
+            "send_once": 0,
+            "snooze_for": 0,
+            "clear_alarm": 0,
+            "clear_alarm_message":""
+        }
+    }
+}
+}

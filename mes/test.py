@@ -185,6 +185,7 @@ def mes_test():
                     else:
                         inner_json[inner_key]=append_details(inner_json[inner_key],session.cookies.get('csrftoken'))
                         print("in for loop",inner_json[inner_key])
+                        print(sub_key)
                         attack_res=session.post(sub_key,data=inner_json[inner_key],headers={'Referer':'https://smartfactory.bevywise.com'})
                     if(sub_key!="https://smartfactory.bevywise.com/master_delete"):
                         if(inner_key=="xss_attack" or inner_key=="html_attack"):
@@ -212,6 +213,8 @@ def mes_test():
                         data.append(report_res)
                         with open('mes\\mes_attack_report.json','w') as file:
                             json.dump(data,file,indent=4)
+                    if(inner_key!="fileupload" and inner_key!="BA_SE" and inner_key!="BA_SM" and inner_key!="BA_SV" and inner_key!="BA_ME" and inner_key!="BA_MM" and inner_key!="BA_PH" and inner_key!="BA_PS" and inner_key!="BA_PO"):
+                        print("Page:",top_key,"Endpoint:",sub_key,"Attack_name:",inner_key,"Status:",attack_res.status_code,"responses_text:",attack_res.text)
                     if attack_res.status_code==200:
                         print('success')
                         if(top_key=="https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard"):

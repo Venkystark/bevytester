@@ -401,17 +401,17 @@
     "https://smartfactory.bevywise.com/consumable":{
         "https://smartfactory.bevywise.com/consumable_page":{
             "xss_attack": {
-                "consumable_number": "<script>console.log(\"script consumable\");</script>"
+                "consumable_number": "<script>console.log(\"script consumable\");</script>","consumable_cost":8
             },
             "html_attack": {
-                "consumable_number":"<button>hello consumable</button>"
+                "consumable_number":"<button>hello consumable</button>","consumable_cost":8
             },
             "fileupload":{},
             "from_other_user":{
-                "consumable_number":"other user posted consumable"
+                "consumable_number":"other user posted consumable","consumable_cost":8
             },
             "session_cookies_theft":{
-                "consumable_number":"posted through cookies theft"
+                "consumable_number":"posted through cookies theft","consumable_cost":8
             },
             "BA_SE":{},
             "BA_SM":{},
