@@ -2,7 +2,8 @@ import json
 import os
 from flask import Flask,render_template, request,jsonify,redirect, url_for
 app = Flask(__name__)
-from mes.test import *
+# from mes.test import *
+from mes.test2 import *
 from mes.otheruser import *
 from mes.brokenacess import *
 from mqtt.mqtttest import *
@@ -49,7 +50,8 @@ def update():
             os.remove("mes\\mes_attack_report.json")
         if os.path.exists("mes\\mes_final_report.json"):
             os.remove("mes\\mes_final_report.json")
-        mes_test()
+        #mes_test()
+        mes_testv2()
         with open('mes\\mes_attack_report.json', 'r') as file:
             data = json.load(file)
 
@@ -73,9 +75,16 @@ def update():
         pages=["https://smartfactory.bevywise.com/cycle_page","https://smartfactory.bevywise.com/targets","https://smartfactory.bevywise.com/rm_vs_parts","https://smartfactory.bevywise.com/customer","https://smartfactory.bevywise.com/employee_page","https://smartfactory.bevywise.com/management/","https://smartfactory.bevywise.com/store/#Dashboard","https://smartfactory.bevywise.com/mrp/ppc_dashboard/","https://smartfactory.bevywise.com/department/","https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard"]
         for page in pages:
             result_dict[page]["fileupload"]="-"
-        attacks=["xss_attack","html_attack","from_other_user","session_cookies_theft"]
+        attacks=["xss_attack","html_attack","from_other_user","session_cookies_theft","BA_MM"]
         for attack in attacks:
             result_dict["https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard"][attack]="-"
+        pages=["https://smartfactory.bevywise.com/management/","https://smartfactory.bevywise.com/mrp/ppc_dashboard/","https://smartfactory.bevywise.com/department/"]
+        for page in pages:
+            result_dict[page]["from_other_user"]="-"
+        attacks=["from_other_user","BA_SE","BA_SM"]
+        for attack in attacks:
+            result_dict["https://smartfactory.bevywise.com/store/#Dashboard"][attack]="-"
+        result_dict["https://smartfactory.bevywise.com/department/"]["BA_PH"]="-"
         # Write the result_dict to a new JSON file
         with open('mes\\mes_final_report.json', 'w') as output_file:
             json.dump(result_dict, output_file, indent=2)

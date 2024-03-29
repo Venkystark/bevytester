@@ -170,8 +170,6 @@ def mqtt_test():
                             else:
                                 inner_json[inner_key]=append_details(inner_json[inner_key],broken.cookies.get('csrftoken'),id)
                         attack_res=broken.post(sub_key,inner_json[inner_key],headers={'Referer':'https://publicmqtt.bevywise.com/'})
-                    # else:
-                    #     continue
                     print(attack_res.status_code)
                     print(attack_res.text)
                     if(attack_res.text.__contains__("Failed")):

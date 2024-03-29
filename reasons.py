@@ -8,8 +8,8 @@ sessionuser=requests.Session()
 login_csrf_response=sessionuser.get("https://smartfactory.bevywise.com/login")
 login_csrf=login_csrf_response.cookies.get('csrftoken')
 login_data={
-"username": "venkat7venkatesh77@gmail.com",
-"password": "@Venkystark77",
+"username": "vprocess-operator@gmail.com",
+"password": "123",
 # "username": "vstore-viewer@gmail.com",
 # "password": "123",
 "req_id": generate_uuid(),
@@ -21,17 +21,19 @@ print("After login:",sessionuser.cookies)
 if login_response.ok:
     print("loggin success")
     print(login_response.text)
-    inject_file=BytesIO()
-    with open("C:/Users/venka/OneDrive/Desktop/fileimport.py",'rb') as python:
-        binary=python.read()
-    print(binary)
-    post_res=sessionuser.post("https://smartfactory.bevywise.com/import_process/",files={"process":("injection.py",binary,'application/x-python'),
-            "csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken')},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    # inject_file=BytesIO()
+    # with open("C:/Users/venka/OneDrive/Desktop/fileimport.py",'rb') as python:
+    #     binary=python.read()
+    # print(binary)
+    # post_res=sessionuser.post("https://smartfactory.bevywise.com/import_process/",files={"process":("injection.py",binary,'application/x-python'),
+    #         "csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken')},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    #post_res=sessionuser.post("https://smartfactory.bevywise.com/master_delete",data={"csrfmiddlewaretoken":sessionuser.cookies.get('csrftoken'),"master":"process","id":"F2udfo4BSVP9CENyw408"},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    post_res=sessionuser.get("https://smartfactory.bevywise.com/process")
     if post_res.ok:
-        if(post_res.text.__contains__("Process imported successfully")):
-            print("ok")
-        else:
-            print("nope")
+        print("success")
+        print(post_res.status_code)
+        print(post_res.text)
     else:
+        print("failed")
         print(post_res.status_code)
         print(post_res.text)

@@ -12,12 +12,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/process_page",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
@@ -27,42 +22,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/process_page",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
@@ -77,12 +77,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/machine_page",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
@@ -92,42 +87,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
@@ -142,12 +142,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/parts_page",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
@@ -157,42 +152,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
@@ -207,12 +207,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/tools",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
@@ -222,42 +217,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/tools",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
@@ -271,53 +271,53 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
@@ -332,12 +332,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/error-reason",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
@@ -347,42 +342,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
@@ -397,12 +397,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/downtime-reason",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
@@ -412,42 +407,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
@@ -461,53 +461,53 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/targets",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
@@ -522,12 +522,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/rawmaterial",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
@@ -537,42 +532,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
@@ -586,53 +586,53 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
@@ -647,12 +647,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/consumable",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
@@ -662,42 +657,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/consumable",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
@@ -711,53 +711,53 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/customer",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
@@ -772,12 +772,7 @@
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "fileupload",
-        "Statuscode": 500
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/vendor",
-        "Attack": "from_other_user",
-        "Statuscode": 403
+        "Statuscode": 250
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
@@ -787,42 +782,47 @@
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
+    },
+    {
+        "Page": "https://smartfactory.bevywise.com/vendor",
+        "Attack": "from_other_user",
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
@@ -836,62 +836,52 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
         "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/employee_page",
-        "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
@@ -906,53 +896,48 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
@@ -966,53 +951,38 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
-        "Attack": "BA_SE",
-        "Statuscode": 250
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
-        "Attack": "BA_SM",
-        "Statuscode": 250
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
@@ -1026,53 +996,48 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
@@ -1086,112 +1051,77 @@
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_ME",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_MM",
-        "Statuscode": 250
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/department/",
-        "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
         "Attack": "BA_PO",
-        "Statuscode": 250
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
-        "Attack": "xss_attack",
-        "Statuscode": 200
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
-        "Attack": "html_attack",
-        "Statuscode": 200
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
-        "Attack": "from_other_user",
-        "Statuscode": 403
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
-        "Attack": "session_cookies_theft",
         "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SE",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_SV",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_ME",
-        "Statuscode": 250
-    },
-    {
-        "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
-        "Attack": "BA_MM",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PH",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PS",
-        "Statuscode": 250
+        "Statuscode": 200
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
         "Attack": "BA_PO",
-        "Statuscode": 250
+        "Statuscode": 200
     }
 ]

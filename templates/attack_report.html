@@ -306,6 +306,8 @@
                 <td class="{% if attacks.get('BA_SE', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('BA_SE', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_SE','')=='-' %}
+                    {{attacks.get('BA_SE','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
@@ -313,6 +315,8 @@
                 <td class="{% if attacks.get('BA_SM', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('BA_SM', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_SM','')=='-' %}
+                    {{attacks.get('BA_SM','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
@@ -320,6 +324,8 @@
                 <td class="{% if attacks.get('BA_SV', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('BA_SV', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_SV','')=='-' %}
+                    {{attacks.get('BA_SV','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
@@ -327,6 +333,8 @@
                 <td class="{% if attacks.get('BA_ME', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('BA_ME', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_ME','')=='-' %}
+                    {{attacks.get('BA_ME','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
@@ -334,6 +342,8 @@
                 <td class="{% if attacks.get('BA_MM', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('BA_MM', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_MM','')=='-' %}
+                    {{attacks.get('BA_MM','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
@@ -341,6 +351,8 @@
                 <td class="{% if attacks.get('BA_PH', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('BA_PH', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_PH','')=='-' %}
+                    {{attacks.get('BA_PH','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
@@ -348,6 +360,8 @@
                 <td class="{% if attacks.get('BA_PS', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('BA_PS', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_PS','')=='-' %}
+                    {{attacks.get('BA_PS','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}
@@ -355,6 +369,8 @@
                 <td class="{% if attacks.get('BA_PO', '') == 'success' %}success{% else %}failure{% endif %}">
                 {% if attacks.get('BA_PO', '') == 'success' %}
                     <i class="fa fa-times"></i>
+                {% elif attacks.get('BA_PO','')=='-' %}
+                    {{attacks.get('BA_PO','')}}
                 {% else %}
                     <i class="fa fa-check"></i>
                 {% endif %}

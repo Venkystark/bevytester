@@ -1,0 +1,833 @@
+{
+    "https://smartfactory.bevywise.com/process_page": {
+        "https://smartfactory.bevywise.com/process": {
+            "xss_attack": {
+                "process_name": "<script>console.log(\"script process\");</script>","quality_check":"Yes"
+            },
+            "html_attack": {
+                "process_name":"<button>hello process</button>","quality_check":"Yes"
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "process_name":"posted through cookies theft","quality_check":"Yes"
+            },
+            "BA_SE":{"process_name":"storeexecutiveposted","quality_check":"Yes"},
+            "BA_SM":{"process_name":"storemanagerposted","quality_check":"Yes"},
+            "BA_SV":{"process_name":"storeviewerposted","quality_check":"Yes"},
+            "BA_ME":{"process_name":"maintanenceexecutiveposted","quality_check":"Yes"},
+            "BA_MM":{"process_name":"maintanencemanagerposted","quality_check":"Yes"},
+            "BA_PH":{"process_name":"processheadposted","quality_check":"Yes"},
+            "BA_PS":{"process_name":"processsupervisorposted","quality_check":"Yes"},
+            "BA_PO":{"process_name":"processoperatorposted","quality_check":"Yes"}
+        },
+        "https://smartfactory.bevywise.com/master_delete":{
+            "from_other_user":{
+                "master":"process"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/machine_page":{
+        "https://smartfactory.bevywise.com/machine":{
+            "xss_attack": {
+                "machine_id": "<script>console.log(\"script machine\");</script>","process":"vmpprocess"
+            },
+            "html_attack": {
+                "machine_id":"<button>hello machine</button>","process":"vmpprocess"
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "machine_id":"posted through cookies theft","process":"vmpprocess"
+            },
+            "BA_SE":{"machine_id":"store executive posted","process":"vmpprocess"},
+            "BA_SM":{"machine_id":"store manager posted","process":"vmpprocess"},
+            "BA_SV":{"machine_id":"store viewer posted","process":"vmpprocess"},
+            "BA_ME":{"machine_id":"maintanence executive posted","process":"vmpprocess"},
+            "BA_MM":{"machine_id":"maintanence manager posted","process":"vmpprocess"},
+            "BA_PH":{"machine_id":"process head posted","process":"vmpprocess"},
+            "BA_PS":{"machine_id":"process supervisor posted","process":"vmpprocess"},
+            "BA_PO":{"machine_id":"process operator posted","process":"vmpprocess"}
+        },
+        "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"machine"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/parts_page":{
+        "https://smartfactory.bevywise.com/parts":{
+            "xss_attack": {
+                "part_no": "<script>console.log(\"script parts\");</script>","part_cost":5
+            },
+            "html_attack": {
+                "part_no":"<button>hello parts</button>","part_cost":5
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "part_no":"posted through cookies theft","part_cost":5
+            },
+            "BA_SE":{"part_no":"store executive posted","part_cost":5},
+            "BA_SM":{"part_no":"store manager posted","part_cost":5},
+            "BA_SV":{"part_no":"store viewer posted","part_cost":5},
+            "BA_ME":{"part_no":"maintanence executive posted","part_cost":5},
+            "BA_MM":{"part_no":"maintanence manager posted","part_cost":5},
+            "BA_PH":{"part_no":"process head posted","part_cost":5},
+            "BA_PS":{"part_no":"process supervisor posted","part_cost":5},
+            "BA_PO":{"part_no":"process operator posted","part_cost":5}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"parts"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/tools":{
+        "https://smartfactory.bevywise.com/tools_page":{
+            "xss_attack": {
+                "tools_number": "<script>console.log(\"script tools\");</script>","process":"vmpprocess","tool_cost": "5",
+                "tool_sides": "5",
+                "tool_contact_time": "Parts"
+            },
+            "html_attack": {
+                "tools_number":"<button>hello tools</button>","process":"vmpprocess","tool_cost": "5",
+                "tool_sides": "5",
+                "tool_contact_time": "Parts"
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "tools_number":"posted through cookies theft","process":"vmpprocess","tool_cost": "5",
+                "tool_sides": "5",
+                "tool_contact_time": "Parts"
+            },
+            "BA_SE":{"tools_number":"store executive posted","process":"vmpprocess","tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts"},
+            "BA_SM":{"tools_number":"store manager posted","process":"vmpprocess","tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts"},
+            "BA_SV":{"tools_number":"store viewer posted","process":"vmpprocess","tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts"},
+            "BA_ME":{"tools_number":"maintanence executive posted","process":"vmpprocess","tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts"},
+            "BA_MM":{"tools_number":"maintanence manager posted","process":"vmpprocess","tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts"},
+            "BA_PH":{"tools_number":"process head posted","process":"vmpprocess","tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts"},
+            "BA_PS":{"tools_number":"process supervisor posted","process":"vmpprocess","tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts"},
+            "BA_PO":{"tools_number":"process operator posted","process":"vmpprocess","tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts"}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"tools"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/cycle_page":{
+        "https://smartfactory.bevywise.com/cycle_times":{
+            "xss_attack": {
+                "part_number":"part1",
+                "process":"process1",
+                "oporder":1,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"<script>console.log('hello cycle times')</script>",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "html_attack": {
+                "part_number":"part1",
+                "process":"process2",
+                "oporder":2,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"<button>hello cycle</button>",
+                "quality_check":"sample",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "session_cookies_theft":{
+                "part_number":"part2",
+                "process":"process2",
+                "oporder":3,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"posted through cookies theft",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_SE":{
+                "part_number":"part2",
+                "process":"storeexecutiveposted",
+                "oporder":4,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"storeexecutiveposted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_SM":{
+                "part_number":"part2",
+                "process":"storemanagerposted",
+                "oporder":5,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"storemanagerposted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_SV":{
+                "part_number":"part2",
+                "process":"storeviewerposted",
+                "oporder":6,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"storeviewerposted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_ME":{
+                "part_number":"part2",
+                "process":"maintanenceexecutiveposted",
+                "oporder":7,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"maintanenceexecutiveposted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_MM":{
+                "part_number":"part2",
+                "process":"maintanencemanagerposted",
+                "oporder":8,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"maintanencemanagerposted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_PH":{
+                "part_number":"part2",
+                "process":"processheadposted",
+                "oporder":9,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"processheadposted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_PS":{
+                "part_number":"part2",
+                "process":"processsupervisorposted",
+                "oporder":10,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"processsupervisorposted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            },
+            "BA_PO":{
+                "part_number":"part2",
+                "process":"processoperatorposted",
+                "oporder":11,
+                "part_ideal_cycle_time":5,
+                "allowence":5,
+                "part_per_cycle":5,
+                "target_per_shift":"240",
+                "quality_check":"processoperatorposted",
+                "parts_to_inspect":"",
+                "inspect_interval":"1hr",
+                "quality_parameter":"{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+                "toolinfo_parameter":"{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}"
+            }
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"cycle_times"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/error-reason":{
+        "https://smartfactory.bevywise.com/bad_quality_reason":{
+            "xss_attack": {
+                "department": "vmpprocess","reason":"<script>console.log(\"script r-rejection\");"
+            },
+            "html_attack": {
+                "department":"vmpprocess","reason":"<button>hello r-reason"
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "department":"vmpprocess","reason":"posted through session thief"
+            },
+            "BA_SE":{"department":"vmpprocess","reason":"store executive posted"},
+            "BA_SM":{"department":"vmpprocess","reason":"store manager posted"},
+            "BA_SV":{"department":"vmpprocess","reason":"store viewer posted"},
+            "BA_ME":{"department":"vmpprocess","reason":"maintanence executive posted"},
+            "BA_MM":{"department":"vmpprocess","reason":"maintanence manager posted"},
+            "BA_PH":{"department":"vmpprocess","reason":"process head posted"},
+            "BA_PS":{"department":"vmpprocess","reason":"process supervisor posted"},
+            "BA_PO":{"department":"vmpprocess","reason":"process operator posted"}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"quality_reasons"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/downtime-reason":{
+        "https://smartfactory.bevywise.com/downtime_reason":{
+            "xss_attack": {
+                "department": "vmpprocess","reason":"<script>console.log(\"script d-rejection\");","type":"availability","color":"#ffffff"
+            },
+            "html_attack": {
+                "department": "vmpprocess","reason":"<button>hello d-rejection</button>","type":"availability","color":"#ffffff"
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "department": "vmpprocess","reason":"posted through session thief","type":"availability","color":"#ffffff"
+            },
+            "BA_SE":{"department":"vmpprocess","reason":"store executive posted","type":"availability","color":"#ffffff"},
+            "BA_SM":{"department":"vmpprocess","reason":"store manager posted","type":"availability","color":"#ffffff"},
+            "BA_SV":{"department":"vmpprocess","reason":"store viewer posted","type":"availability","color":"#ffffff"},
+            "BA_ME":{"department":"vmpprocess","reason":"maintanence executive posted","type":"availability","color":"#ffffff"},
+            "BA_MM":{"department":"vmpprocess","reason":"maintanence manager posted","type":"availability","color":"#ffffff"},
+            "BA_PH":{"department":"vmpprocess","reason":"process head posted","type":"availability","color":"#ffffff"},
+            "BA_PS":{"department":"vmpprocess","reason":"process supervisor posted","type":"availability","color":"#ffffff"},
+            "BA_PO":{"department":"vmpprocess","reason":"process operator posted","type":"availability","color":"#ffffff"}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"downtime_reasons"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/targets":{
+        "https://smartfactory.bevywise.com/target":{
+            "xss_attack": {
+                "department": "<script>console.log(\"script target\");</script>","availability": 5,"performance": 5,"quality":5
+            },
+            "html_attack": {
+                "department":"<button>hello target</button>","availability": 5,"performance": 5,"quality":5
+            },
+            "session_cookies_theft":{
+                "department":"process1","availability": 5,"performance": 5,"quality":5
+            },
+            "BA_SE":{"department":"storeexecutiveposted","availability": 5,"performance": 5,"quality":5},
+            "BA_SM":{"department":"storemanagerposted","availability": 5,"performance": 5,"quality":5},
+            "BA_SV":{"department":"storeviewerposted","availability": 5,"performance": 5,"quality":5},
+            "BA_ME":{"department":"maintanenceexecutiveposted","availability": 5,"performance": 5,"quality":5},
+            "BA_MM":{"department":"maintanencemanagerposted","availability": 5,"performance": 5,"quality":5},
+            "BA_PH":{"department":"processheadposted","availability": 5,"performance": 5,"quality":5},
+            "BA_PS":{"department":"processsupervisorposted","availability": 5,"performance": 5,"quality":5},
+            "BA_PO":{"department":"processoperatorposted","availability": 5,"performance": 5,"quality":5}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"target"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/rawmaterial":{
+        "https://smartfactory.bevywise.com/raw_material_page":{
+            "xss_attack": {
+                "raw_material_number": "xss",
+                "raw_material_name": "xss",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "<script>console.log(\"hello raw\");</script>",
+                "rm_measurement_unit": "<script>console.log(\"hello raw\");</script>"
+            },
+            "html_attack": {
+                "raw_material_number": "html",
+                "raw_material_name": "html",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "<button>hello raw</button>",
+                "rm_measurement_unit": "<button>hello raw</button>"
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "raw_material_number": "cookie theif",
+                "raw_material_name": "cookie theif",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "cookie theif",
+                "rm_measurement_unit": "cookie theif"
+            },
+            "BA_SE":{
+                "raw_material_number": "storeexecutiveposted",
+                "raw_material_name": "storeexecutiveposted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "storeexecutiveposted",
+                "rm_measurement_unit": "storeexecutiveposted"
+            },
+            "BA_SM":{
+                "raw_material_number": "storemanagerposted",
+                "raw_material_name": "storemanagerposted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "storemanagerposted",
+                "rm_measurement_unit": "storemanagerposted"
+            },
+            "BA_SV":{
+                "raw_material_number": "storeviewerposted",
+                "raw_material_name": "storeviewerposted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "storeviewerposted",
+                "rm_measurement_unit": "storeviewerposted"
+            },
+            "BA_ME":{
+                "raw_material_number": "maintanenceexecutiveposted",
+                "raw_material_name": "maintanenceexecutiveposted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "maintanenceexecutiveposted",
+                "rm_measurement_unit": "maintanenceexecutiveposted"
+            },
+            "BA_MM":{
+                "raw_material_number": "maintanencemanagerposted",
+                "raw_material_name": "maintanencemanagerposted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "maintanencemanagerposted",
+                "rm_measurement_unit": "maintanencemanagerposted"
+            },
+            "BA_PH":{
+                "raw_material_number": "processheadposted",
+                "raw_material_name": "processheadposted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "processheadposted",
+                "rm_measurement_unit": "processheadposted"
+            },
+            "BA_PS":{
+                "raw_material_number": "processsupervisorposted",
+                "raw_material_name": "processsupervisorposted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "processsupervisorposted",
+                "rm_measurement_unit": "processsupervisorposted"
+            },
+            "BA_PO":{
+                "raw_material_number": "processoperatorposted",
+                "raw_material_name": "processoperatorposted",
+                "vendor_lead_time": 1,
+                "raw_material_cost": 5,
+                "measurement_type": "processoperatorposted",
+                "rm_measurement_unit": "processoperatorposted"
+            }
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"raw_material"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/rm_vs_parts":{
+        "https://smartfactory.bevywise.com/rm_vs_parts_page":{
+            "xss_attack": {
+                "part_name":"part1","raw_material":"<script>console.log(\"script non-existant raw material\");</script>","part_rm_factor":1
+            },
+            "html_attack": {
+                "part_name":"part1","raw_material":"<button>non-exist raw material</button>","part_rm_factor":1
+            },
+            "session_cookies_theft":{
+                "part_name":"part1","raw_material":"posted through cookies theft","part_rm_factor":1
+            },
+            "BA_SE":{"part_name":"part1","raw_material":"storeexecutiveposted","part_rm_factor":1},
+            "BA_SM":{"part_name":"part1","raw_material":"storemanagerposted","part_rm_factor":1},
+            "BA_SV":{"part_name":"part1","raw_material":"storeviewerposted","part_rm_factor":1},
+            "BA_ME":{"part_name":"part1","raw_material":"maintanenceexecutiveposted","part_rm_factor":1},
+            "BA_MM":{"part_name":"part1","raw_material":"maintanencemanagerposted","part_rm_factor":1},
+            "BA_PH":{"part_name":"part1","raw_material":"processheadposted","part_rm_factor":1},
+            "BA_PS":{"part_name":"part1","raw_material":"processsupervisorposted","part_rm_factor":1},
+            "BA_PO":{"part_name":"part1","raw_material":"processoperatorposted","part_rm_factor":1}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"rm_vs_parts"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/consumable":{
+        "https://smartfactory.bevywise.com/consumable_page":{
+            "xss_attack": {
+                "consumable_number": "<script>console.log(\"script consumable\");</script>","consumable_cost":8
+            },
+            "html_attack": {
+                "consumable_number":"<button>hello consumable</button>","consumable_cost":8
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "consumable_number":"posted through cookies theft","consumable_cost":8
+            },
+            "BA_SE":{"consumable_number":"storeexecutiveposted","consumable_cost":8},
+            "BA_SM":{"consumable_number":"storemanagerposted","consumable_cost":8},
+            "BA_SV":{"consumable_number":"storeviewerposted","consumable_cost":8},
+            "BA_ME":{"consumable_number":"maintanenceexecutiveposted","consumable_cost":8},
+            "BA_MM":{"consumable_number":"maintanencemanagerposted","consumable_cost":8},
+            "BA_PH":{"consumable_number":"processheadposted","consumable_cost":8},
+            "BA_PS":{"consumable_number":"processsupervisorposted","consumable_cost":8},
+            "BA_PO":{"consumable_number":"processoperatorposted","consumable_cost":8}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"consumable"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/customer":{
+        "https://smartfactory.bevywise.com/customer_page":{
+            "xss_attack": {
+                "customer_name": "<script>console.log(\"script customer\");</script>","country":"<script>console.log(\"script customercountry\");</script>"
+            },
+            "html_attack": {
+                "customer_name":"<button>hello customer</button>","country":"<button>customer country</button>"
+            },
+            "session_cookies_theft":{
+                "customer_name":"posted through cookies theft","country":"session theif country"
+            },
+            "BA_SE":{"customer_name":"storeexecutiveposted","country":"BASE country"},
+            "BA_SM":{"customer_name":"storemanagerposted","country":"BASM country"},
+            "BA_SV":{"customer_name":"storeviewerposted","country":"BASV country"},
+            "BA_ME":{"customer_name":"maintanenceexecutiveposted","country":"BAME country"},
+            "BA_MM":{"customer_name":"maintanencemanagerposted","country":"BAMM country"},
+            "BA_PH":{"customer_name":"processheadposted","country":"BAPH country"},
+            "BA_PS":{"customer_name":"processsupervisorposted","country":"BAPS country"},
+            "BA_PO":{"customer_name":"processoperatorposted","country":"BAPO country"}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"customer"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/vendor":{
+        "https://smartfactory.bevywise.com/vendor_page":{
+            "xss_attack": {
+                "vendor_name": "<script>console.log(\"script vendor\");</script>"
+            },
+            "html_attack": {
+                "vendor_name":"<button>hello vendor</button>"
+            },
+            "fileupload":{},
+            "session_cookies_theft":{
+                "vendor_name":"posted through cookies theft"
+            },
+            "BA_SE":{"vendor_name":"storeexecutiveposted"},
+            "BA_SM":{"vendor_name":"storemanagerposted"},
+            "BA_SV":{"vendor_name":"storeviewerposted"},
+            "BA_ME":{"vendor_name":"maintanenceexecutiveposted"},
+            "BA_MM":{"vendor_name":"maintanencemanagerposted"},
+            "BA_PH":{"vendor_name":"processheadposted"},
+            "BA_PS":{"vendor_name":"processsupervisorposted"},
+            "BA_PO":{"vendor_name":"processoperatorposted"}
+    },
+    "https://smartfactory.bevywise.com/master_delete":{
+        "from_other_user":{
+            "master":"vendor"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/employee_page":{
+        "https://smartfactory.bevywise.com/employee":{
+            "xss_attack": {
+                "department":"store","employee_id":"<script>console.log(\"script employee1\");</script>","role":"Executive","password":"123","role_id":6
+            },
+            "html_attack": {
+                "department":"store","employee_id":"<button>hello employee1</button>","role":"Executive","password":"123","role_id":6
+            },
+            "session_cookies_theft":{
+                "department":"store","employee_id":"posted through cookies theft1","role":"Executive","password":"123","role_id":6
+            },
+            "BA_SE":{"department":"store","employee_id":"storeexecutiveposted1","role":"Executive","password":"123","role_id":6},
+            "BA_SM":{"department":"store","employee_id":"storemanagerposted1","role":"Executive","password":"123","role_id":6},
+            "BA_SV":{"department":"store","employee_id":"storeviewerposted1","role":"Executive","password":"123","role_id":6},
+            "BA_ME":{"department":"store","employee_id":"maintanenceexecutiveposted1","role":"Executive","password":"123","role_id":6},
+            "BA_MM":{"department":"store","employee_id":"maintanencemanagerposted1","role":"Executive","password":"123","role_id":6},
+            "BA_PH":{"department":"store","employee_id":"processheadposted1","role":"Executive","password":"123","role_id":6},
+            "BA_PS":{"department":"store","employee_id":"processsupervisorposted1","role":"Executive","password":"123","role_id":6},
+            "BA_PO":{"department":"store","employee_id":"processoperatorposted1","role":"Executive","password":"123","role_id":6}
+    },
+    "https://smartfactory.bevywise.com/emp_master_delete_emp":{
+        "from_other_user":{
+            "master":"employee"
+            }
+        }
+    },
+    "https://smartfactory.bevywise.com/management/":{
+        "https://smartfactory.bevywise.com/ppc/api/edit_workorder/":{
+            "xss_attack": {
+                "e_wono":"WO-001","e_toolcode":"<script>console.log(\"script workorder\");</script>","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "html_attack": {
+                "e_wono":"WO-001","e_toolcode":"<button>hello workorder</button>","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "session_cookies_theft":{
+                "e_wono":"WO-001","e_toolcode":"edited by session cookie theft","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "BA_SE":{
+                "e_wono":"WO-001","e_toolcode":"BA ACCESS","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "BA_SM":{
+                "e_wono":"WO-001","e_toolcode":"BA ACCESS","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "BA_SV":{
+                "e_wono":"WO-001","e_toolcode":"BA ACCESS","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "BA_ME":{
+                "e_wono":"WO-001","e_toolcode":"BA ACCESS","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "BA_MM":{
+                "e_wono":"WO-001","e_toolcode":"BA ACCESS","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "BA_PH":{
+                "e_wono":"WO-001","e_toolcode":"BA ACCESS","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "BA_PS":{
+                "e_wono":"WO-001","e_toolcode":"BA ACCESS","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            },
+            "BA_PO":{
+                "e_wono":"WO-001","e_toolcode":"BA ACCESS","e_startdate":"2024-02-28","e_enddate":"2024-03-30"
+            }
+    }
+    },
+    "https://smartfactory.bevywise.com/store/#Dashboard":{
+        "https://smartfactory.bevywise.com/store/productionparts/":{
+            "xss_attack": {
+                "date": "2024-02-28","material_name": "<script>console.log(\"script inventory\");</script>","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            },
+            "html_attack": {
+                "date": "2024-02-28","material_name": "<button>hello inventory</button>","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            },
+            "session_cookies_theft":{
+                "date": "2024-02-28","material_name": "posted through cookies theft","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            },
+            "BA_SV":{
+                "date": "2024-02-28","material_name": "BA ACCESS","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            },
+            "BA_ME":{
+                "date": "2024-02-28","material_name": "BA ACCESS","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            },
+            "BA_MM":{
+                "date": "2024-02-28","material_name": "BA ACCESS","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            },
+            "BA_PH":{
+                "date": "2024-02-28","material_name": "BA ACCESS","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            },
+            "BA_PS":{
+                "date": "2024-02-28","material_name": "BA ACCESS","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            },
+            "BA_PO":{
+                "date": "2024-02-28","material_name": "BA ACCESS","material_id": "-","total_inwards": "8","quality_check": "yes","rejection": "2","available": "6","material_type": "Tools"
+            }
+    }
+    },
+    "https://smartfactory.bevywise.com/mrp/ppc_dashboard/":{
+        "https://smartfactory.bevywise.com/mrp/create_cust_po/":{
+            "xss_attack": {
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "<script>console.log(\"hello mrp\");</script>",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "html_attack": {
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "<button>hello mrp</button>",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "session_cookies_theft":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "posted by cookie theif",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_SE":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "BA access",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_SM":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "BA access",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_SV":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "BA access",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_ME":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "BA access",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_MM":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "BA access",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_PH":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "BA access",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_PS":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "BA access",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            },
+            "BA_PO":{
+                "po_date": "2024-03-11",
+                "make_to_stock": "on",
+                "cust_name": "BA access",
+                "part_name": "part1",
+                "po_qty": 18,
+                "date_of_delivery": "2024-03-11",
+                "cust_po_no":"", 
+                "cust_po_priority": "Medium"
+            }
+    }
+    },
+    "https://smartfactory.bevywise.com/department/":{
+        "https://smartfactory.bevywise.com/store/transaction":{
+            "xss_attack": {
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "<script>console.log(\"script department\")</script>","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "html_attack": {
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "<button>hello department</button>","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "session_cookies_theft":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "posted by session theif","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "BA_SE":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "BA ACCESS","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+
+            },
+            "BA_SM":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "BA ACCESS","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "BA_SV":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "BA ACCESS","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "BA_ME":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "BA ACCESS","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "BA_MM":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "BA ACCESS","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "BA_PS":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "BA ACCESS","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            },
+            "BA_PO":{
+                "req_date": "11-03-2024","from_dept": "vmpprocess","to_dept": "Store","wono": "Not Applicable","material_type": "Raw Material","material_name": "BA ACCESS","req_count": 5,"delivery_date": "24/05/2024","status": "pending","process_name": ""
+            }
+    }
+    },
+    "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard":{
+        "https://smartfactory.bevywise.com/maintenance/dashboard_data":{
+            "BA_SE":{},
+            "BA_SM":{},
+            "BA_SV":{},
+            "BA_ME":{},
+            "BA_PH":{},
+            "BA_PS":{},
+            "BA_PO":{}
+    }
+    }
+}
