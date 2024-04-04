@@ -579,22 +579,22 @@
     "https://smartfactory.bevywise.com/employee_page":{
         "https://smartfactory.bevywise.com/employee":{
             "xss_attack": {
-                "department":"store","employee_id":"<script>console.log(\"script employee1\");</script>","role":"Executive","password":"123","role_id":6
+                "department":"store","employee_id":"<script>console.log(\"script employee2\");</script>","role":"Executive","password":"123","role_id":6
             },
             "html_attack": {
-                "department":"store","employee_id":"<button>hello employee1</button>","role":"Executive","password":"123","role_id":6
+                "department":"store","employee_id":"<button>hello employee2</button>","role":"Executive","password":"123","role_id":6
             },
             "session_cookies_theft":{
-                "department":"store","employee_id":"posted through cookies theft1","role":"Executive","password":"123","role_id":6
+                "department":"store","employee_id":"posted through cookies theft2","role":"Executive","password":"123","role_id":6
             },
-            "BA_SE":{"department":"store","employee_id":"storeexecutiveposted1","role":"Executive","password":"123","role_id":6},
-            "BA_SM":{"department":"store","employee_id":"storemanagerposted1","role":"Executive","password":"123","role_id":6},
-            "BA_SV":{"department":"store","employee_id":"storeviewerposted1","role":"Executive","password":"123","role_id":6},
-            "BA_ME":{"department":"store","employee_id":"maintanenceexecutiveposted1","role":"Executive","password":"123","role_id":6},
-            "BA_MM":{"department":"store","employee_id":"maintanencemanagerposted1","role":"Executive","password":"123","role_id":6},
-            "BA_PH":{"department":"store","employee_id":"processheadposted1","role":"Executive","password":"123","role_id":6},
-            "BA_PS":{"department":"store","employee_id":"processsupervisorposted1","role":"Executive","password":"123","role_id":6},
-            "BA_PO":{"department":"store","employee_id":"processoperatorposted1","role":"Executive","password":"123","role_id":6}
+            "BA_SE":{"department":"store","employee_id":"storeexecutiveposted2","role":"Executive","password":"123","role_id":6},
+            "BA_SM":{"department":"store","employee_id":"storemanagerposted2","role":"Executive","password":"123","role_id":6},
+            "BA_SV":{"department":"store","employee_id":"storeviewerposted2","role":"Executive","password":"123","role_id":6},
+            "BA_ME":{"department":"store","employee_id":"maintanenceexecutiveposted2","role":"Executive","password":"123","role_id":6},
+            "BA_MM":{"department":"store","employee_id":"maintanencemanagerposted2","role":"Executive","password":"123","role_id":6},
+            "BA_PH":{"department":"store","employee_id":"processheadposted2","role":"Executive","password":"123","role_id":6},
+            "BA_PS":{"department":"store","employee_id":"processsupervisorposted2","role":"Executive","password":"123","role_id":6},
+            "BA_PO":{"department":"store","employee_id":"processoperatorposted2","role":"Executive","password":"123","role_id":6}
     },
     "https://smartfactory.bevywise.com/emp_master_delete_emp":{
         "from_other_user":{

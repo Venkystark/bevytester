@@ -117,19 +117,19 @@ def create_elements(session):
         print("error in assigning raw material for mrp")
 
 def create_users(session):
-    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-operator1@gmail.com","first_name":"process","last_name":"operator1", "role":"operator","password":password,"role_id":1},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-operator2@gmail.com","first_name":"process","last_name":"operator2", "role":"operator","password":password,"role_id":1},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
         print("process-operator created")
     else:
         print("error in creating process-operator")
-    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-supervisor1@gmail.com", "role":"supervisor","password":password,"role_id":2},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-supervisor2@gmail.com", "role":"supervisor","password":password,"role_id":2},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
         print(res.json())
         print("process supervisor created")
         print(res.status_code)
         print(res.text)
         supsess=get_ba_session("BA_PS")
-        op_res=supsess.post("https://smartfactory.bevywise.com/ppc/machine_list_op/",data={"csrfmiddlewaretoken":supsess.cookies.get('csrftoken'),"assign_operator":"process operator1","assign_machine":"vmpmachine","line_no":"vmpprocess","op_list":'["process_operator1"]'},headers={'Referer':'https://smartfactory.bevywise.com/'})
+        op_res=supsess.post("https://smartfactory.bevywise.com/ppc/machine_list_op/",data={"csrfmiddlewaretoken":supsess.cookies.get('csrftoken'),"assign_operator":"process operator2","assign_machine":"vmpmachine","line_no":"vmpprocess","op_list":'["process_operator2"]'},headers={'Referer':'https://smartfactory.bevywise.com/'})
         if op_res.ok:
             print("process-operator is assigned")
         else:
@@ -138,32 +138,32 @@ def create_users(session):
             print("trouble in assigning process-operator")
     else:
         print("error in creating process-supervisor")
-    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-head1@gmail.com", "role":"Department Head","password":password,"role_id":3},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-head2@gmail.com", "role":"Department Head","password":password,"role_id":3},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
         print("process head created")
     else:
         print("error in creating process-head")
-    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"store","employee_id":"vstore-executive1@gmail.com", "role":"Executive","password":password,"role_id":6},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"store","employee_id":"vstore-executive2@gmail.com", "role":"Executive","password":password,"role_id":6},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
         print("store-executive created")
     else:
         print("error in creating store-executive")
-    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"store","employee_id":"vstore-manager1@gmail.com", "role":"Manager","password":password,"role_id":7},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"store","employee_id":"vstore-manager2@gmail.com", "role":"Manager","password":password,"role_id":7},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
         print("store-manager created")
     else:
         print("error in creating store-manager")
-    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"store","employee_id":"vstore-viewer1@gmail.com", "role":"Viewer","password":password,"role_id":8},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"store","employee_id":"vstore-viewer2@gmail.com", "role":"Viewer","password":password,"role_id":8},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
         print("store-viewer created")
     else:
         print("error in creating store-viewer")
-    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"maintenance","employee_id":"vmain-executive1@gmail.com", "role":"Executive","password":password,"role_id":4},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"maintenance","employee_id":"vmain-executive2@gmail.com", "role":"Executive","password":password,"role_id":4},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
         print("main-executive created")
     else:
         print("error in creating main-executive")
-    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"maintenance","employee_id":"vmain-manager1@gmail.com", "role":"Manager","password":password,"role_id":5},headers={'Referer':'https://smartfactory.bevywise.com/'})
+    res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"maintenance","employee_id":"vmain-manager2@gmail.com", "role":"Manager","password":password,"role_id":5},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
         print("main-manager created")
     else:

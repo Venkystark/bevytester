@@ -129,4 +129,4 @@ def update():
             json.dump(result_dict, output_file, indent=2)
         return redirect(url_for('mqtt_attack_report'))
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
