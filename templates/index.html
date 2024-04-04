@@ -55,18 +55,25 @@
     <div class="container vertical-center">
         <div class="form-container">
             <h1>PENETRATION TESTER</h1>
-            <form action="/update" method="post">
+            <form id="penetration-test-form" action="/update" method="post">
                 <div class="form-group">
                     <select class="form-control" name="option">
-                        <option value="mes">Test Mes</option>
-                        <option value="mqtt">Test MQTT</option>
+                        <option value="mes">Mes</option>
+                        <option value="mqtt">MQTT</option>
                     </select>
                 </div>
                 <div class="form-group text-center">
-                    <input type="submit" class="btn btn-primary" value="Submit">
+                    <input id="submit-button" type="submit" class="btn btn-primary" value="Start Test">
                 </div>
             </form>
         </div>
     </div>
+    <script>
+        document.getElementById("penetration-test-form").addEventListener("submit", function(event) {
+            var button = document.getElementById("submit-button");
+            button.disabled = true;
+            button.value = "Testing";
+        });
+    </script>
 </body>
 </html>
