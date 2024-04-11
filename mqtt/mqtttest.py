@@ -155,7 +155,7 @@ def mqtt_test():
                             inner_json[inner_key]=append_details(inner_json[inner_key],broken.cookies.get('csrftoken'))
                         else:
                             if url=="https://publicmqtt.bevywise.com/bwiot/api/v1/graph/getReport/":
-                                time.sleep(1)
+                                time.sleep(2)
                             id=get_element(session,url)
                             # broken=get_other_user_session(inner_key)
                             if(url=="https://publicmqtt.bevywise.com/bwiot/api/v1/admin/getDeviceGroup"):
@@ -177,7 +177,8 @@ def mqtt_test():
                     report_res={
                         "Page":top_key,
                         "Attack":inner_key,
-                        "Statuscode":attack_res.status_code
+                        "Statuscode":attack_res.status_code,
+                        "Responsetext":attack_res.text
                     }
                     try:
                         with open('mqtt\\mqtt_attack_report.json','r') as file:

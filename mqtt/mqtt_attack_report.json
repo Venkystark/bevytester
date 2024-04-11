@@ -2,146 +2,175 @@
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
         "Attack": "xss_attack",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"User Created Successfully\", \"user_id\": \"v000044444@gmail.com\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
         "Attack": "html_attack",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"User Created Successfully\", \"user_id\": \"v000044444@gmail.com\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
         "Attack": "session_cookies_theft",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"User Created Successfully\", \"user_id\": \"v000044444@gmail.com\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
         "Attack": "from_other_user",
-        "Statuscode": 250
+        "Statuscode": 250,
+        "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
         "Attack": "BA_ADMIN",
-        "Statuscode": 250
+        "Statuscode": 250,
+        "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
         "Attack": "BA_STANDARD",
-        "Statuscode": 250
+        "Statuscode": 250,
+        "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
         "Attack": "xss_attack",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"Device group created successfully\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
         "Attack": "html_attack",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"Device group created successfully\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
         "Attack": "session_cookies_theft",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"Device group created successfully\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
         "Attack": "from_other_user",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
         "Attack": "BA_ADMIN",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
         "Attack": "BA_STANDARD",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
         "Attack": "xss_attack",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"status\":\"success\",\"id\":162,\"name\":\"<script>console.log(\\\"script dashboard\\\");</script>\",\"group\":123}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
         "Attack": "html_attack",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"status\":\"success\",\"id\":163,\"name\":\"<button>hello dash</button>\",\"group\":123}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
         "Attack": "session_cookies_theft",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"status\":\"success\",\"id\":164,\"name\":\"from cookie theif\",\"group\":123}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
         "Attack": "from_other_user",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
         "Attack": "BA_STANDARD",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
         "Attack": "xss_attack",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwiot-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
         "Attack": "html_attack",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwiot-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
         "Attack": "session_cookies_theft",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwiot-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
         "Attack": "from_other_user",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
         "Attack": "BA_ADMIN",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
         "Attack": "BA_STANDARD",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
         "Attack": "from_other_user",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\", \"permission\": \"Administrative\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
         "Attack": "BA_ADMIN",
-        "Statuscode": 250
+        "Statuscode": 250,
+        "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
         "Attack": "BA_STANDARD",
-        "Statuscode": 250
+        "Statuscode": 250,
+        "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
         "Attack": "from_other_user",
-        "Statuscode": 200
+        "Statuscode": 200,
+        "Responsetext": "{\"bwapi-status\": \"Success\", \"permission\": \"Standard\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
         "Attack": "BA_ADMIN",
-        "Statuscode": 250
+        "Statuscode": 250,
+        "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
         "Attack": "BA_STANDARD",
-        "Statuscode": 250
+        "Statuscode": 250,
+        "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     }
 ]

@@ -180,7 +180,8 @@ def mes_testv2():
                     report_dict={
                         "Page":top_key,
                         "Attack":inner_key,
-                        "Statuscode":attack_res.status_code
+                        "Statuscode":attack_res.status_code,
+                        "Responsetext":response_text
                     }
                     try:
                         with open('mes\\mes_attack_report.json','r') as file:
