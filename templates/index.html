@@ -74,6 +74,13 @@
             button.disabled = true;
             button.value = "Testing";
         });
+        window.addEventListener('pageshow', function(event) {
+            // Check if navigation type is 'back_forward'
+            if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
+              // Reload the page
+              location.reload();
+            }
+        });      
     </script>
 </body>
 </html>
