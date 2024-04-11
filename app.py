@@ -15,13 +15,24 @@ selected_option = None
 def index():
     # Pass the variable to the HTML template
     return render_template('index.html', selected_option=selected_option)
-@app.route('/attack_results')
-def attack_results():
-    with open('mes\\mes_success_attacks.json') as json_file:
-            success_data = json.load(json_file)
-    with open('mes\\mes_failure_attacks.json') as json_file:
-            failure_data = json.load(json_file)
-    return render_template('attack_results.html',success_data=success_data,failure_data=failure_data)
+
+@app.route('/mqtt_attack_log')
+def mqtt_attack_log():
+    with open('mqtt\\mqtt_attack_report.json') as file:
+        data=json.load(file)
+    return render_template('mqtt_attack_log.html',data=data)
+@app.route('/mes_attack_log')
+def mes_attack_log():
+    with open('mes\\mes_attack_report.json') as file:
+        data=json.load(file)
+    return render_template('mes_attack_log.html',data=data)
+# @app.route('/attack_results')
+# def attack_results():
+#     with open('mes\\mes_success_attacks.json') as json_file:
+#             success_data = json.load(json_file)
+#     with open('mes\\mes_failure_attacks.json') as json_file:
+#             failure_data = json.load(json_file)
+#     return render_template('attack_results.html',success_data=success_data,failure_data=failure_data)
 @app.route('/attack_report')
 def attack_report():
     with open('mes\\mes_final_report.json', 'r') as file:

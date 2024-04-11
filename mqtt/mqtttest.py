@@ -176,6 +176,8 @@ def mqtt_test():
                         attack_res.status_code=250
                     report_res={
                         "Page":top_key,
+                        "Endpoint":sub_key,
+                        "Payload":inner_json[inner_key],
                         "Attack":inner_key,
                         "Statuscode":attack_res.status_code,
                         "Responsetext":attack_res.text

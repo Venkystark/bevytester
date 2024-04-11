@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Attack Log</title>
+    <style>
+        body {
+            width: 100%;
+            overflow-x: auto; /* Enable horizontal scrolling */
+        }
+        h2 {
+            text-align: center; /* Center the h2 element */
+        }
+        table {
+            width: 100%; /* Set table width to 100% */
+            max-width: 1000px; /* Set maximum width for the table */
+            border-collapse: collapse;
+            margin: 0 auto; /* Center align the table */
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #c2d6f5; /* Sky blue color for table headers */
+            text-align: center; /* Align table headers in center */
+        }
+    </style>
+</head>
+<body>
+    <h2>Mes Attack Log</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Endpoint</th>
+                <th>Attack</th>
+                <th>Payload</th>
+                <th>Status Code</th>
+                <th>Attack Response</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            {% for item in data %}
+            <tr>
+                <td>{{ item['Endpoint'] }}</td>
+                <td>{{ item['Attack'] }}</td>
+                <td>{{ item['Payload'] }}</td>
+                <td>{{ item['Statuscode'] }}</td>
+                <td>{{ item['Responsetext'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

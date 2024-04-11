@@ -1,1350 +1,3123 @@
 [
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "<script>console.log(\"script process\");</script>",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "<button>hello process</button>",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "posted through cookies theft",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "storeexecutiveposted",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "kj43dCSXE7htmOkupJAIwkiF2S7pdIzGkFn4PErBbRnxfWNt8xJYovfPP32hhwZw"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "storemanagerposted",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "ejlSWE4sXGgrFicNKEwrc28GBY2YVC1EdARCgpM8EqVM0JwllFZvaupejdZjPJZ5"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "storeviewerposted",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "dau6dUbyhky3I453vFXMEpvmuv2iYUF5w50tCFNZtZjmORDlKnCQatixv4XCf9aE"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "maintanenceexecutiveposted",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "wNgpbyXr2VUsMPJ0Af8Y8CQrMAFCqHYYt24JIX20844tuGUfCrpEkraE7WQyB3eT"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "maintanencemanagerposted",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "5k5w4UskS6aA3IAzGIZOEYXTzqJbinknvSqOeHjKH5RSoWUTSz8Dd0870ahEgoh7"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "processheadposted",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "t91cb7Ztp9tZxv7ppHMxCPRUqzor9VYwRsgBNtVsLFmvInNPckfGIOXklHyoVQTN"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "processsupervisorposted",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "aeSY0wiZGOblX3cAeNHQVNNrpw4UXHgGMSBjey6PmoqV6b4YXdijYd658ChK8n0O"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/process",
+        "Payload": {
+            "process_name": "processoperatorposted",
+            "quality_check": "Yes",
+            "csrfmiddlewaretoken": "J0lOo0mwCV7vvC6lEDKGnoK720WE6f242bP4y9Tb22dl9syfz49okU7RXY49xlhb"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Process has been added!\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/process_page",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "process",
+            "id": "zE42zY4Bm4vK3bXSAHPZ",
+            "csrfmiddlewaretoken": "KfJMzxuiwoVL99BAfwzWT2Y8TldxPILDirPjAjHLz99xZj5YlHuax8LlGwOFzGFd"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "<script>console.log(\"script machine\");</script>",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "<button>hello machine</button>",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "posted through cookies theft",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "store executive posted",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "3qdjnu12yQXWYApOobhVkMYuegev3jiKbUDoDHxwu3Yaa0gtOGkgdX4RbiDEh3IK"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "store manager posted",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "kARlzjuJeaYWvwE6nuczBxwEltJJytmKetcyfB1Fqhlc5BDuWnA8shzJVJCSXPKj"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "store viewer posted",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "z7jPfXbSFKunAC8f1AqocgDltm438RPncV843svVTf1ovhbTh7NESFGFQF7j3Upi"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "maintanence executive posted",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "WESDEUFDnzVnxrrUirxrQIUlLub8G25w74L1fYscqi554pANBeEl4TkxlFaD3JNK"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "maintanence manager posted",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "DjvBG6YMZvtXifKFxQVzC8bOjfRj9Tgq646OHq4tK1jUd82wWbq9x8vBBt7Dm6QC"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "process head posted",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "YHvMHzR41rjQEILgb8DbhKnrZoLa5xj1LLR5MmRy1boy0KFXS1QVN5DxZFggforw"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "process supervisor posted",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "Q0UgY1KkTwJy5GY9hjymtGNpMEdONOsmsLh6XOxxPEYxLtNqFqPxthm5BnW3MHBR"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/machine",
+        "Payload": {
+            "machine_id": "process operator posted",
+            "process": "vmpprocess",
+            "csrfmiddlewaretoken": "lJJQArY69t38yLePC7JJJbzexcsohWfNRaXljrvRXRa8Ue76evRD8axMB5B8MaW9"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Machine has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/machine_page",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "machine",
+            "id": "5k42zY4Bm4vK3bXSPXN4",
+            "csrfmiddlewaretoken": "eMqNbhonsQQibJs14sBM2pCCkjiCR16Ai0WhaXy30Eh3iRnPiIqd0WGFn0c7qCUi"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "<script>console.log(\"script parts\");</script>",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "<button>hello parts</button>",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "posted through cookies theft",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "store executive posted",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "wUIHZiyN1EkC1lPvj9IEDdEEYQJxup9Mh80imNSzX0IKrV4XD1qiYuXDyDcXVQ4n"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "store manager posted",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "B1FF3acLMgm1Lz4x52coV3LU5dW05GlxUuyzy1vwIq10dcXpN5bnXwxWTsyzxSAB"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "store viewer posted",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "TnvDQN2Rh2loiQ0iK4ad1QKuyJQ4nN37HRMUnQW5DkQZzMrae6QsNZyHlTuiYcxb"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "maintanence executive posted",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "x6Y52x4pfuVMKqZZLqTI0WXd2WEjLWKKNgJox4gxq5BV5fRASczQ5tN3JwkjuOQV"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "maintanence manager posted",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "nYQzxbK8iwfAKxEpW0c770CE2klOl9eBkFJnXQv2yq4Uk0lo9efqfFYfkBkneT93"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "process head posted",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "5gf9qBcYhB6uJNzkjm6rYDGbEynH27ZWC6UXc97ZF5zcnCw5lVf66G6FshiFy44S"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "process supervisor posted",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "lL1BUIxDxuFdC9cdwrQLcD6I4XvvS4OOACvfeRtMEGOppu81JnmwTtWXUkyqSIpb"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/parts",
+        "Payload": {
+            "part_no": "process operator posted",
+            "part_cost": 5,
+            "csrfmiddlewaretoken": "MfOzZ8soaRMCq8RC5at0ImBoNEc3Y99dMFjnSy6vr68x2HN1zfWiiN0qp0S2N2fw"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Part has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/parts_page",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "parts",
+            "id": "-U42zY4Bm4vK3bXSYHM0",
+            "csrfmiddlewaretoken": "gXZl7w2yl08jW7PWtgcU8LCCNzyhZDEgKmKCo9ohu9XrXHovrXFuLuWNHa0NDnm8"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "<script>console.log(\"script tools\");</script>",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "<button>hello tools</button>",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "posted through cookies theft",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "store executive posted",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "KA2C12ST93DMGGjrcaq9ATUyTSn7N3ZPGqSvGBJkrAfWtdJ3tFDLLb1DuGCMtFzN"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "store manager posted",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "Mr2YGGUG1IkcR3dwRk77yqTKsR2OZXiDyI5VKNgCSJDTpXw4ebsRZnlxD72Wa7ZA"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "store viewer posted",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "niqsV5vhooklvzQj3qFfkwlq2AvMxZocVJRYCazy8dyFl4vRfzTsSGlFYUlka3eT"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "maintanence executive posted",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "EVJU469K8HB1Uqmsw5RzkjdVFxOl0uvK70t1klE6eFxE7rVcVG61ecdZco9trL2z"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "maintanence manager posted",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "GQARTvAXDCwqeyzihw9I5t6SbLKafWXWGSYfrk5Nnu9OPHJQmIMAaJP5eOgXi9Qv"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "process head posted",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "ORrtcZVoCmidaM64x8MlCPZNYVEg2KhuAAF7mhT3kstjncA4eF0gOyJMeOo7BXu3"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "process supervisor posted",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "SA41n7ltaHtPAPMHxQTuRVdTOkc2i2q0YZewwkPilCheptnmEoi5S6L50tzG31wV"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/tools_page",
+        "Payload": {
+            "tools_number": "process operator posted",
+            "process": "vmpprocess",
+            "tool_cost": "5",
+            "tool_sides": "5",
+            "tool_contact_time": "Parts",
+            "csrfmiddlewaretoken": "A0KX4XS7ESxGQTEC14nvxlxnfZWDBRV0cKaVP8aK4iaoG9qWSiuFJKaMb2eUdJpN"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Tools has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/tools",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "tools",
+            "id": "Ak42zY4Bm4vK3bXSgnRk",
+            "csrfmiddlewaretoken": "Im7x94wynqlIj8xpih9i2HGsWQgT1QFQCyjrjS3v3n058NAdOcmxZyJYUgzPBU8X"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part1",
+            "process": "process1",
+            "oporder": 1,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "<script>console.log('hello cycle times')</script>",
+            "quality_check": "sample",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part1",
+            "process": "process2",
+            "oporder": 2,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "<button>hello cycle</button>",
+            "quality_check": "sample",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "process2",
+            "oporder": 3,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "posted through cookies theft",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "storeexecutiveposted",
+            "oporder": 4,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "storeexecutiveposted",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "JtrLBdNKmBWgjYz2whjnFP4nWNk5QCMSFnUVNncJTppkOTiZuNzfwyKRh1vIXkEd"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "storemanagerposted",
+            "oporder": 5,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "storemanagerposted",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "Q9TIpzh6bRaCZInhD9NRMQjfVzo9avYFLtjOeX3sU0YJUaV8LuNfHLtC2Vdnh3hL"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "storeviewerposted",
+            "oporder": 6,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "storeviewerposted",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "qCv9nPK9LHGZRGDlJOFnDob8iYF9PEl0VnwpVsjtYOXhwGkP2rgfmRTiyaVZqA4r"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "maintanenceexecutiveposted",
+            "oporder": 7,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "maintanenceexecutiveposted",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "DVrAQUmByyNPdR0es8qNiRZrV96gjypuRS319K5iOuszDxtg33wt9o2l6a8M2yym"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "maintanencemanagerposted",
+            "oporder": 8,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "maintanencemanagerposted",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "pjFh7sH1I9yqzvLRyMH7a2nHECIpiZ6iWPvc7CL0Aq7f7QPzMucszjPHchQCXC4B"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "processheadposted",
+            "oporder": 9,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "processheadposted",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "WbXqsbeUz7fsPssHDhgf2LzxOOWaWzQRnmir25oAiLdFVVRUSmteMZmK54lG2aaA"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "processsupervisorposted",
+            "oporder": 10,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "processsupervisorposted",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "pnrgKgizndSBDzQhHm09mUYj2OsnRHZbSBy6oRiPpjdBmvEZVd9orClcUBmSgfh2"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/cycle_times",
+        "Payload": {
+            "part_number": "part2",
+            "process": "processoperatorposted",
+            "oporder": 11,
+            "part_ideal_cycle_time": 5,
+            "allowence": 5,
+            "part_per_cycle": 5,
+            "target_per_shift": "240",
+            "quality_check": "processoperatorposted",
+            "parts_to_inspect": "",
+            "inspect_interval": "1hr",
+            "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
+            "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
+            "csrfmiddlewaretoken": "pXmp2wD3npqwSBYW6EuubArwKcsDhO2h9MPJB5xLHO0ILtZQ1hKZltVWX4wNvFuG"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Cycle has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/cycle_page",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "cycle_times",
+            "id": "C042zY4Bm4vK3bXSpXT2",
+            "csrfmiddlewaretoken": "utn3QRA2QSPB8bv6AhMDVr6djNy84v3GsteMwU6XwmTgdU2REox6n4iYfIDProGz"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "<script>console.log(\"script r-rejection\");",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "<button>hello r-reason",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "posted through session thief",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "store executive posted",
+            "csrfmiddlewaretoken": "bKWP0am1YukrRV36HHAWTW6KHU8X1mTUQW7OAd9Y3LIJVEs5FQOvyR01ZSXoelRU"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "store manager posted",
+            "csrfmiddlewaretoken": "6vK46SZam5ZVbOhSLjD7uiSZkgt8AQ7603E3dz2n6ljxcBYFIiqqBkc4mVgqel19"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "store viewer posted",
+            "csrfmiddlewaretoken": "9vHl2kQshhX2tod1QElOIWfg9iNgbIJ6sMWfHZoML0jiFsIvy9lkSQ92SnSYbyS0"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "maintanence executive posted",
+            "csrfmiddlewaretoken": "KGlXprwogCXuy43CiA0XAb6axsKRp0zbMti0OyudVTauUfLKVWcfNtDNNYZNOhd8"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "maintanence manager posted",
+            "csrfmiddlewaretoken": "cRRFIwaOvLJ5urusQ9tNlS6OKaK3FWTeYI4VMvER1ZaJFnspRapekPrfdcmUA6GU"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "process head posted",
+            "csrfmiddlewaretoken": "nDkyKQOzdlNEG0mbeta333HoaKoiCOeHYMCKXNOEWqllCfybvWiLlGE2fdMZZhGK"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "process supervisor posted",
+            "csrfmiddlewaretoken": "HwfIgLs1QNO39Yf4CvHE4Rt2YWsY5ekTLCDij5MpWEr5aBucE7oO1H71zZwUJngP"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/bad_quality_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "process operator posted",
+            "csrfmiddlewaretoken": "s8hE8NRTVfRCXcRT2B1O1tKM6uaTyOdo8UmNlw770IsLWtevrU7JMrtFwJYbYM8n"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\" Quality reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/error-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "quality_reasons",
+            "id": "FE42zY4Bm4vK3bXSzHQz",
+            "csrfmiddlewaretoken": "SzExZRDxoYSmrWZhjdfSJ8phdiCSc4UqaBrdG36vFp2mzbBp5Axj458X1Macp0Qo"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "<script>console.log(\"script d-rejection\");",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "<button>hello d-rejection</button>",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "posted through session thief",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "store executive posted",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "3u1K0ZGQ1bOzt95P0idhDW1AQkD2tcCmf6x8s11Dm0ynnDqOqhwAnB4DzR9SmbZX"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "store manager posted",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "pWBowwmMhOsjf95SV1c84EQF7e6KNFburER6MLgRV6Zwm1VKba2XBc6Mw64mq9QR"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "store viewer posted",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "mJUtbcUWO1gR4nylUE2dEiMQ4Uj5Aib3mqqrOaB7eoIndfDNG3Q5T8OwMbuNguIo"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "maintanence executive posted",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "dRRpxas4mgybcFYB0S42DPjsG9Iw8OguvLGixGpVdel8yrYVGfWf3yhUgKxLKzfK"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "maintanence manager posted",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "0vBGXPmW3b8S1AlLjsq7wsnd4NOOB2We5EkOljLuZhV0mImHIpED2boGasZ9R6Km"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "process head posted",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "G2tQQ5uJnNU2PQImffr1p49JhyqYPtNn0BquHJyl3xwGInhsAFTpmIPs29p9u20m"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "process supervisor posted",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "Kw3cN3UHAiCZpDECM81RZTt8qslShE3LRMW82X0StYA8v2VyT3TznMwrFmb7FqAO"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/downtime_reason",
+        "Payload": {
+            "department": "vmpprocess",
+            "reason": "process operator posted",
+            "type": "availability",
+            "color": "#ffffff",
+            "csrfmiddlewaretoken": "kWFskhmPm2IBh47U4U0XRwxYX7q2M5aCvBgjpOCTQgcT3ZQjgHEbjF3nUhps9Btx"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Downtime reason has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/downtime-reason",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "downtime_reasons",
+            "id": "HU42zY4Bm4vK3bXS8HTV",
+            "csrfmiddlewaretoken": "6kP1yDdCBK2nHUGf2C4INRzCP3WPQsRXUANHwkvJg8m9jGqT2VOVQZSjUDWa7mJk"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "<script>console.log(\"script target\");</script>",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given datas are not in the selection list\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "<button>hello target</button>",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given datas are not in the selection list\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "process1",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "storeexecutiveposted",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "kRffXL3q2sy8qgWiihFuNJrjbSbOipgNpCjgsbOAI0cH8BY2CzvyqfaJI10yquKF"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "storemanagerposted",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "5hljmJpJxCDvMqx31oGRfZ4cYkdH00Hs8JR8QgH8DhG63lAc0vSJIKKKVO34OMhg"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "storeviewerposted",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "f8hsKp5O3sYsU7q5dp5UgaI1elnMGx3YfJqXZAmfsp6WSKhuaZDOXVvvEKqMyN53"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "maintanenceexecutiveposted",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "YTqP7tPBcC5QaZ7qsHD51SHPhEaqr55ye2i6XmosHSEiHVrDejsL0kIMD1F0VWgb"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "maintanencemanagerposted",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "q6Xc4a9UcL990iJciuOPFqak13msXdSTQMdVjkCU7NsnxWW2OpEnLyQGkFIxF0g2"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "processheadposted",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "er9q1xKMV0fFotQEfmTftq5e5XPXG5FRhFnXwQ57RatDYfGPsHI2LjqGRnu2mEuu"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "processsupervisorposted",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "54ynR0oxDoEIDAx6S973ybO8O89LoCmaxjiW36FpttfdcPrugWf3AToM33C4j083"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/target",
+        "Payload": {
+            "department": "processoperatorposted",
+            "availability": 5,
+            "performance": 5,
+            "quality": 5,
+            "csrfmiddlewaretoken": "IvO3CvDF4Sh14tWmegavNocfeSXA8lx2Nq1yWfzE5lkwpQVoUFPkOKXaWzfKHGiR"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Target has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/targets",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "target",
+            "id": "Jk43zY4Bm4vK3bXSFHSc",
+            "csrfmiddlewaretoken": "ma0OetSJRAl9BNQoGOESfEfSRSPMApKnMUSoo6vDypXKVuzozTQBE0Gp9CdNwPLX"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "xss",
+            "raw_material_name": "xss",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "<script>console.log(\"hello raw\");</script>",
+            "rm_measurement_unit": "<script>console.log(\"hello raw\");</script>",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "html",
+            "raw_material_name": "html",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "<button>hello raw</button>",
+            "rm_measurement_unit": "<button>hello raw</button>",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "cookie theif",
+            "raw_material_name": "cookie theif",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "cookie theif",
+            "rm_measurement_unit": "cookie theif",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "storeexecutiveposted",
+            "raw_material_name": "storeexecutiveposted",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "storeexecutiveposted",
+            "rm_measurement_unit": "storeexecutiveposted",
+            "csrfmiddlewaretoken": "qrJtYvTalVddAs7g2m4PJsCmWwBRaDFTrBLqEJKTEESGL0FXF7bPXM0PJz38Dwzv"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "storemanagerposted",
+            "raw_material_name": "storemanagerposted",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "storemanagerposted",
+            "rm_measurement_unit": "storemanagerposted",
+            "csrfmiddlewaretoken": "0F7GG1obEkRzPMNdhZxMSxcK5tDO5PTpDhgMFvcgl6fJeZdzcerY7pVCI7lw5s9T"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "storeviewerposted",
+            "raw_material_name": "storeviewerposted",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "storeviewerposted",
+            "rm_measurement_unit": "storeviewerposted",
+            "csrfmiddlewaretoken": "TkcsLQC49PQMhBfKVh00IfisozU1GuZ4o9xamWj2jQxKTU4MdIg5KefozUeCtTXo"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "maintanenceexecutiveposted",
+            "raw_material_name": "maintanenceexecutiveposted",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "maintanenceexecutiveposted",
+            "rm_measurement_unit": "maintanenceexecutiveposted",
+            "csrfmiddlewaretoken": "qOzXvNVyHdmQt5UCRBdsq7ZMDV8mwKFyAXDnPEAsEEJ7OHlgbYn1QX38B98l87TZ"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "maintanencemanagerposted",
+            "raw_material_name": "maintanencemanagerposted",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "maintanencemanagerposted",
+            "rm_measurement_unit": "maintanencemanagerposted",
+            "csrfmiddlewaretoken": "qQRyOqCS4DAJlvtcoe9Vp3ncpxQmXHFMssp7ExMmkaSdQBa8k9rrr2cm0dDTWqwY"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "processheadposted",
+            "raw_material_name": "processheadposted",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "processheadposted",
+            "rm_measurement_unit": "processheadposted",
+            "csrfmiddlewaretoken": "MfAOQ2Jt6DkyNMnnBH05MKLqsMNUklR976P1VzI3SSbhxc4aY7V9Rwi4m8eUEy91"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "processsupervisorposted",
+            "raw_material_name": "processsupervisorposted",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "processsupervisorposted",
+            "rm_measurement_unit": "processsupervisorposted",
+            "csrfmiddlewaretoken": "oF4A3yvLDt7N2Tm7aJo04A17z8MpAqOPx0LSSiz69m0T1jyhPreRwmThi0gyJWSb"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/raw_material_page",
+        "Payload": {
+            "raw_material_number": "processoperatorposted",
+            "raw_material_name": "processoperatorposted",
+            "vendor_lead_time": 1,
+            "raw_material_cost": 5,
+            "measurement_type": "processoperatorposted",
+            "rm_measurement_unit": "processoperatorposted",
+            "csrfmiddlewaretoken": "N2JW84MrgZFPFI5EF9NDk8iNW0C5ape7y8F19gYxM45jJ9fvSPOAsLNNlybKHcBW"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Raw Material has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rawmaterial",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "raw_material",
+            "id": "MU43zY4Bm4vK3bXSOXR2",
+            "csrfmiddlewaretoken": "kYqujVVAvpJZiJH5d0reVvt4DrOjlof3Fv1IlA2S8BtrvwIooDTVtbLWER1IV4nZ"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "<script>console.log(\"script non-existant raw material\");</script>",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "<button>non-exist raw material</button>",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "posted through cookies theft",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "storeexecutiveposted",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "hD2pucdU09Tv0kPtg2BlsyYjvJnuJ2tIBms2tupOAB9se8nMmaQXwacMUat0PmMb"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "storemanagerposted",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "ZjLvRZO4JAeyLAedmcfW3mIX7bTa7jsAc2OBTXlIiQpSYNu29EDyaHVVu05kGRFo"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "storeviewerposted",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "3Ilveboum90JRUfxLvSgFicciCQWkKngHR9nvpwTwNKONqJW5agH78uFjMVfCezF"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "maintanenceexecutiveposted",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "CT2J7Fpzp9SF4xBr9BeLOtnPmwljJ1dl0glxAvVkusI9KL3QLK6h93KfrorucRyx"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "maintanencemanagerposted",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "uLt01J1fLsxWiOyDc99D9geRguiM792stHrOKsiQ6lr2Gb3YaV2xmaixwGhYtLnp"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "processheadposted",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "7NQDHqn8QYLH2XsjFwkKFshThGqqfjte1lYSdtmkDUWHJueliosy9T0V8JGCjq5g"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "processsupervisorposted",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "5ZZpT33pcVUuW2Vgmq3Em3SAToppoEL738B2gSpqfcfzaxvExJc4YIPfE4t5QSxY"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/rm_vs_parts_page",
+        "Payload": {
+            "part_name": "part1",
+            "raw_material": "processoperatorposted",
+            "part_rm_factor": 1,
+            "csrfmiddlewaretoken": "H1875UclpVSRKSj6oYqE106AmXHjg1VkQ8FZJUnOVyFxIlG7Fch9w9LbRpeWdLMV"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Data has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/rm_vs_parts",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "rm_vs_parts",
+            "id": "RE43zY4Bm4vK3bXSW3TQ",
+            "csrfmiddlewaretoken": "WnuUluE7H86e6i6knI2HcVfcnteUrSmCZhysHDIpL2QwyqvADHIMQ2lEdMdZccTY"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "<script>console.log(\"script consumable\");</script>",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "<button>hello consumable</button>",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 250,
         "Responsetext": "{\"bw-api-status\":\"failed\",\"reason\":\"Given Format does not supported\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "posted through cookies theft",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "storeexecutiveposted",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "shEQ7Y8FQKvPkqE6aPLpSszYa0JXaiLuNN1LFWHYBaLynzw6nZnjOs5s0yLyvMHI"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "storemanagerposted",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "HQsBi6S4Abrd8IFO7fEP0BwRIZe11IFy9xbaNkHOQpSbrPSdxDyycWPNvDFvd2Ug"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "storeviewerposted",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "4ZqzTaSg5uMY1d65crlHJhUmhKo5EXkO2tR0BvbzxkjB8FJwFq6OCGZPfCFwg4kU"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "maintanenceexecutiveposted",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "DyR9f0QeYZoObwQw2dh8MoeMOgajm9UZtSn7nph0JZIJA5I6kIGNmvjG4CyX2GIC"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "maintanencemanagerposted",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "pDNkBu8YD9ENYvu2TFJiioi8P4RZ4yNkyrK2O6dUIgqNhgjaFb1BpDfigSXhYJlt"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "processheadposted",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "EnBwc0c8F9JfJuYRUYJNCLBAea9rts3QtNZslUhdCr4LkW0LOa6rpXgFM4BtjEdr"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "processsupervisorposted",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "rDkQDwNZU4DkiargYSffdKd9AVbTStnD4VHEny9nPssnowBLrrVfNPpZD640WOLN"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/consumable_page",
+        "Payload": {
+            "consumable_number": "processoperatorposted",
+            "consumable_cost": 8,
+            "csrfmiddlewaretoken": "Sulh8uxpyM0rMJwIDbSQyyqZH4ScTvurvXfox4Pcz8Fb2BCeH6HGIpgpXvbwGc8m"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Consumable has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/consumable",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "consumable",
+            "id": "TU43zY4Bm4vK3bXSf3RF",
+            "csrfmiddlewaretoken": "vYyfR3X4MWQC6JdXNy13pjuIJzu3su9ONd2jB4mYzFqWVxGezinJbJug65fp1la3"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "<script>console.log(\"script customer\");</script>",
+            "country": "<script>console.log(\"script customercountry\");</script>",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "<button>hello customer</button>",
+            "country": "<button>customer country</button>",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "posted through cookies theft",
+            "country": "session theif country",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "storeexecutiveposted",
+            "country": "BASE country",
+            "csrfmiddlewaretoken": "Ft9rRZmPiCFbiIMs5QwM90VmtuVUv84WeYXCmOdQAqsOW63dK7hn1ZZgWNYXaa0x"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "storemanagerposted",
+            "country": "BASM country",
+            "csrfmiddlewaretoken": "NhPLxrqNbnyMHKxjqRnQvIrEO1cmZysKMtDpHWf6lhKFX7WQD9nIfhVimpLLhQV9"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "storeviewerposted",
+            "country": "BASV country",
+            "csrfmiddlewaretoken": "sIeWRX91E84vj1mJ9FQpVDGEbfWI8x4GMnjtICzGgsMtMSekfihqy3YDtu4ZL7VK"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "maintanenceexecutiveposted",
+            "country": "BAME country",
+            "csrfmiddlewaretoken": "G2EEImBaY7QORuyCCEKD5fCWkpH0FlZnWdc7wOl4pEwDx1zaMMxGspBRxAQ5cYUV"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "maintanencemanagerposted",
+            "country": "BAMM country",
+            "csrfmiddlewaretoken": "ca65KrxDAFtHS9NH8WEfKxmigtOlPrm35CfR6QxBplVrhkfnMUskGJaFNNTmtGRD"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "processheadposted",
+            "country": "BAPH country",
+            "csrfmiddlewaretoken": "IRPgXAxvGc7pn43Lk6C3WVbyhjcYT2TrQiAEeubUdCNO4yKqwHdS1HzDhCoucUl5"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "processsupervisorposted",
+            "country": "BAPS country",
+            "csrfmiddlewaretoken": "ZJ9707wbtyaHaUNMie0wppABSubDGAMj4dMtTAl7kubYmPnijtPBSvvctFwQyvmc"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/customer_page",
+        "Payload": {
+            "customer_name": "processoperatorposted",
+            "country": "BAPO country",
+            "csrfmiddlewaretoken": "zaSEkOGcyhJfbFOMbqILxswbnkAaBCKpxpP1NfaSkQAGdBM5bofXFe4853GihzQO"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Customer has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/customer",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "customer",
+            "id": "UU43zY4Bm4vK3bXSinTS",
+            "csrfmiddlewaretoken": "4ksxx4UysO2uB3XLGEAMeCOry1OLNNCjOTP1wVfzo83O6YIC3wfBbbebYwS2NTYo"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "<script>console.log(\"script vendor\");</script>",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "<button>hello vendor</button>",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {},
         "Attack": "fileupload",
         "Statuscode": 250,
         "Responsetext": "web content"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "posted through cookies theft",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "storeexecutiveposted",
+            "csrfmiddlewaretoken": "Rs46ThZS4M43XRVpGH0TkhTYc039JtnI4aTp3eENxXJRk33hxBNSx3xjedfL1TH0"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "storemanagerposted",
+            "csrfmiddlewaretoken": "qBg5v1VnDifdVIPDMdFD9oaCQGpyQKIWkiB3IgvgL0BsFkFZ3V7e0AyJkQeBA8gd"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "storeviewerposted",
+            "csrfmiddlewaretoken": "Gc2P0SjiauAm7W2OZDEbs8paubrdldKmjuZ0p5dlgBoqknIpcpQmzGc5FTESh6mD"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "maintanenceexecutiveposted",
+            "csrfmiddlewaretoken": "8GB5kFEMdnBMyaOLBdCYR5OXL46gT2JlLZiCmpCeE5n5bcSb9SLnVMHHzilxBNH3"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "maintanencemanagerposted",
+            "csrfmiddlewaretoken": "X10RaFx0wSuhVrousP1eTTcqBSiWpBWAtSOUyDj7mEphAa96yUJqTvutkoh8VhWP"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "processheadposted",
+            "csrfmiddlewaretoken": "XUYyJdMCak2maVPjPivTMFA9WHjuwGxtIfoLL5dyWLmHGoyCdvpvqIgAs8PRIl7G"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "processsupervisorposted",
+            "csrfmiddlewaretoken": "NXph4TyuD4M45SjhxpzPb3jWTmQp5S1aUMacIn8A1ElS37zQQ4lCEvD2aEK0yVYy"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
+        "Payload": {
+            "vendor_name": "processoperatorposted",
+            "csrfmiddlewaretoken": "QsSf2fXJdRTl5fZZ2uER4ENDwaN77kMiu5pnn89qq0b5G965DkDBfvx0XOvDdLyh"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Vendor has been added\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/vendor",
+        "Endpoint": "https://smartfactory.bevywise.com/master_delete",
+        "Payload": {
+            "master": "vendor",
+            "id": "Y043zY4Bm4vK3bXSyHSY",
+            "csrfmiddlewaretoken": "u24Kcu7JWPMXVd7CIPDA8G8MgV2il12rngydl8jumKrdTgojhTXKmvwjaIrEym8a"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "<script>console.log(\"script employee2\");</script>",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "<button>hello employee2</button>",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "posted through cookies theft2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "storeexecutiveposted2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "l07PhWpprX2VPcPJJSavEVJviQlW5FQd1EgME9p75vu7KIXFAg8xqNBg8o1KZJ0I"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "storemanagerposted2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "irqy1Iu9QGIkZjFmtuRiPEewbKNh4bri1X40c2c4hKykr5Pm8dIAe6kSHoui2E2d"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "storeviewerposted2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "NVzH9lX979BIsexayejC9V2hXCB6LomVKwsmkve2vFmqQGHaXc3Yghfr1UZQUDL8"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "maintanenceexecutiveposted2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "8C1kZjkJF66ubjMXkiGtyKorNsqpiHCm8vMc5jlP9I7l6HDNTG5gDyyEHSXOmTbW"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "maintanencemanagerposted2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "H2cdN9phrOJstiyzu5IGzHPGDvra5T9LFoYbaxhNUrU8bJ9JkTMqRFm6265QexQg"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "processheadposted2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "dhHdiFZSYuKVfgeVDzUCS2dzOST1m2Tjo4ytweW8soafN99dwzqq0QRwfmrUNgZk"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "processsupervisorposted2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "feZGiWAFOqRwrOsTIiW0OieSA3nEjZtd4nU4T7dmNig7WgrvSPJBcLP9aMaosZaP"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/employee",
+        "Payload": {
+            "department": "store",
+            "employee_id": "processoperatorposted2",
+            "role": "Executive",
+            "password": "123",
+            "role_id": 6,
+            "csrfmiddlewaretoken": "IKYyq5hDbZcXWLp7PruzutPJ2xwZ6d3wKgFqKdBaZOX5w66624lBawZh40ZgadZQ"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/employee_page",
+        "Endpoint": "https://smartfactory.bevywise.com/emp_master_delete_emp",
+        "Payload": {
+            "master": "employee",
+            "id": "bk43zY4Bm4vK3bXS9nTz",
+            "csrfmiddlewaretoken": "OrZRtKY4lPnCz9B8BvDgV6tO01zALE8NgsAtI1Ef6YbiRvg4pmdUBCC4Gj2FkcgZ",
+            "email_id": "processoperatorposted2"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "<script>console.log(\"script workorder\");</script>",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "<button>hello workorder</button>",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "edited by session cookie theft",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "BA ACCESS",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "OMlOHoaIYGUZ6NGL0s0fqXQu7TEcKtRs1OJpDqqYhfb7iBOtbUuA4sk6V2JxFjb8"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "BA ACCESS",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "3QKAqXFGfjLobfpKLFDpL5SXxW2cZmaywO9okv9sgbL72aw8y9GC2lDmWnwmG0t9"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "BA ACCESS",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "mksD0uWBb0houMH5WxfygbVFqBjTBWiXmPZXs3RO2mVOCaLrbcipT3N4Jnb10g8B"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "BA ACCESS",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "j4F0KaEvoGgu6kihXPzTg4lSBH69TNCjOC76jCb29mnkR1l6WbvP2iiYrWkBylOh"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "BA ACCESS",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "vbY29xbYYVl5TpbMjGMcxu4gYqSZE3FnX1bMZQ0FobkRWfeqLkFd8IZouzU1L9iL"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "BA ACCESS",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "YHT16MPYAgzA8e4EPbObnE1yek5yeIuZNIlxIoV5Os4hzU4A2KiRNIHkAIt7nzvL"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "BA ACCESS",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "BFyJIDNlPnrGMsBLEldhkWqXZcxjuSOKGwJmPnYy3VxFLHXnwrIZkjSrEaCpsDkA"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/management/",
+        "Endpoint": "https://smartfactory.bevywise.com/ppc/api/edit_workorder/",
+        "Payload": {
+            "e_wono": "WO-001",
+            "e_toolcode": "BA ACCESS",
+            "e_startdate": "2024-02-28",
+            "e_enddate": "2024-03-30",
+            "csrfmiddlewaretoken": "bJynvRsmTHfk3OKCgBvSeK1j8ppNh4SZt3yda8ppYFnLLsmkXbH7qNo4kTpYpuGT"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"message\": \"Work-Order Edited Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "<script>console.log(\"script inventory\");</script>",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "<button>hello inventory</button>",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "posted through cookies theft",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "BA ACCESS",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "KdLi1izcbv4YXebhYRzEPZ0BuKEo4FH52ryd7njO29CUnjrmpO7LSRzun0kp408m"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "BA ACCESS",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "sHfUzYdKj0gowOqhjDAlg0jFzznYC5uqoZZXyYlKGyS66OQNvc0JfPo78uwQonH5"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "BA ACCESS",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "ZiqJlqqKeQ5VaSaYpQBIYJgGlTCNobTHeVXJ79srzehB8qYJsVh30Z7udAYUeGUN"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "BA ACCESS",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "xrk7YBROha0tTZ6sgz8xRqBWgaFlNeALDWBM5QaOC9cCbcAmOKPMMidJIZWt4Kdb"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "BA ACCESS",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "YTp1ck7eys63j1zRaiayT91KGv7NQy7qBnOF0fWCPJfnJsaau1CTbIZNiakAWdaj"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/store/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/store/productionparts/",
+        "Payload": {
+            "date": "2024-02-28",
+            "material_name": "BA ACCESS",
+            "material_id": "-",
+            "total_inwards": "8",
+            "quality_check": "yes",
+            "rejection": "2",
+            "available": "6",
+            "material_type": "Tools",
+            "csrfmiddlewaretoken": "AShLGQV1JFqKo4KFzHArIrJGQ4W5oZhzO6cr9oyTZKnnnsOR96IGpsyPenJOleM2"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"message\":\"Data Added Successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "<script>console.log(\"hello mrp\");</script>",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "<button>hello mrp</button>",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "posted by cookie theif",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "BA access",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "pLlwpMnoJ8AnbNoHdJnyFGHkisnVqBPSjpW4gg1NQtajRGI7KFqgNmrrD8Mti1lf"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "BA access",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "xzmVsiV2s2FXfET1vR1h5jUoy8fj9FbmxoeFQPB3uCg0PeG3SoTU3Kxtkoin9UBG"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "BA access",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "q2tg4yDuTtln0ErGJbs6tktVUPRq90XhDXjZDfwUuucc6jkKZCmMpxzqtbkodQhb"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "BA access",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "eYlX261FcePmYcaM6OqvMdKAYmrbgToVpd4twox5ISQs1Nhzv8E8GwvE5atgd6yN"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "BA access",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "EKAwPinJlWOQbavmTz6hwJcV0OW1h4b9w9mqP6Q2FeWk82439jvAAopQgiV87Wbo"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "BA access",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "4X3RSJMbaJXcok0cNWuX5p2mlCPV3ZYw2ZPuCNdivEbT1bFPSrIO72EBy5jN5khh"
+        },
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "BA access",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "rN786x90BPk9WUVEVseNQHk9DrSBBHRYfg76kfo1Lt1Ve0rN62nBr96NMKl9gqK9"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/mrp/ppc_dashboard/",
+        "Endpoint": "https://smartfactory.bevywise.com/mrp/create_cust_po/",
+        "Payload": {
+            "po_date": "2024-03-11",
+            "make_to_stock": "on",
+            "cust_name": "BA access",
+            "part_name": "part1",
+            "po_qty": 18,
+            "date_of_delivery": "2024-03-11",
+            "cust_po_no": "",
+            "cust_po_priority": "Medium",
+            "csrfmiddlewaretoken": "J95YpLIp0CgA0XQtP50ijaCau9rIrjvyLkXlxtbWaRnjN0NTECkuAmNxAh4x6PtU"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"status\": true, \"Reason\": \"Customer PO Created Successfully.\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "<script>console.log(\"script department\")</script>",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "<button>hello department</button>",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "posted by session theif",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "BA ACCESS",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "4NZERQUwr3FsdyukBTJ6WC44WokvfUIoVCLe22sijKAnECK9eHE9SbXGkQp3m8Kr"
+        },
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "BA ACCESS",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "ECInuahUuQJlTZbWJPDcewk4oFPUy40Vyphi4rtu4pav3yvYp6BFjeuawF04ZEWo"
+        },
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "BA ACCESS",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "fLpyf9cWlcaP2I65qynxzp4aQgO02sIzpTHUJccMqefpxYyXmEgsYJSIU9HAZ2s3"
+        },
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "BA ACCESS",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "cBpIBVgEpsjLzOl51F9xNXKWTGVYJDowhFbuzDqYitBs2BsaoSuhoz0gLQ1jVESa"
+        },
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "BA ACCESS",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "eJBFlG6v1jK5ePS2zoBuMNH3mf451UWHOq89lZ7pqi3UYZlGkRRya6Y1Nsl1dbgo"
+        },
         "Attack": "BA_MM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "BA ACCESS",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "TyObG95obtOLpJGcPlNdrWvDRcB722LVdp6zNG0SixNBSJT24I5t4vyUOCvnWFcZ"
+        },
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/department/",
+        "Endpoint": "https://smartfactory.bevywise.com/store/transaction",
+        "Payload": {
+            "req_date": "11-03-2024",
+            "from_dept": "vmpprocess",
+            "to_dept": "Store",
+            "wono": "Not Applicable",
+            "material_type": "Raw Material",
+            "material_name": "BA ACCESS",
+            "req_count": 5,
+            "delivery_date": "24/05/2024",
+            "status": "pending",
+            "process_name": "",
+            "csrfmiddlewaretoken": "ockOUklsaKJJZehb2u2ZSd1kSX6W5OoCpejfatE2oJpjvrNtrOhR804gYXFgOYqH"
+        },
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\":\"Success\",\"reason\":\"Request sent successfully\"}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/maintenance/dashboard_data",
+        "Payload": {},
         "Attack": "BA_SE",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"data\": [], \"count\": 0}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/maintenance/dashboard_data",
+        "Payload": {},
         "Attack": "BA_SM",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"data\": [], \"count\": 0}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/maintenance/dashboard_data",
+        "Payload": {},
         "Attack": "BA_SV",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"data\": [], \"count\": 0}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/maintenance/dashboard_data",
+        "Payload": {},
         "Attack": "BA_ME",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"data\": [], \"count\": 0}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/maintenance/dashboard_data",
+        "Payload": {},
         "Attack": "BA_PH",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"data\": [], \"count\": 0}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/maintenance/dashboard_data",
+        "Payload": {},
         "Attack": "BA_PS",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"data\": [], \"count\": 0}"
     },
     {
         "Page": "https://smartfactory.bevywise.com/maintenance/main_dashboard/#Dashboard",
+        "Endpoint": "https://smartfactory.bevywise.com/maintenance/dashboard_data",
+        "Payload": {},
         "Attack": "BA_PO",
         "Statuscode": 200,
         "Responsetext": "{\"bw-api-status\": \"Success\", \"data\": [], \"count\": 0}"

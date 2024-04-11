@@ -1,174 +1,349 @@
 [
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createUser",
+        "Payload": {
+            "display_name": "<script>console.log(\"script user\");</script>",
+            "username": "xss@gmail.com",
+            "mobile_no": 44444444444,
+            "permission": 2,
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"User Created Successfully\", \"user_id\": \"v000044444@gmail.com\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createUser",
+        "Payload": {
+            "display_name": "<button>hello user</button>",
+            "username": "html@gmail.com",
+            "mobile_no": 44444444444,
+            "permission": 2,
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"User Created Successfully\", \"user_id\": \"v000044444@gmail.com\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createUser",
+        "Payload": {
+            "display_name": "from cookie theif",
+            "username": "cookie_theif@gmail.com",
+            "mobile_no": 44444444444,
+            "permission": 2,
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"User Created Successfully\", \"user_id\": \"v000044444@gmail.com\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeUser",
+        "Payload": {
+            "id": 401,
+            "csrfmiddlewaretoken": "lvlp5AgECSB4HVInoyKaqu140DvqatDPYAbyPfGmswQbRUPT83lrwFNi3Q0mhmsF"
+        },
         "Attack": "from_other_user",
         "Statuscode": 250,
         "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeUser",
+        "Payload": {
+            "id": 401,
+            "csrfmiddlewaretoken": "GOLxPgePm1Jqwhgx9MJCyq1V3XiVyY2JklrOxugyTV5r9VmbVYWPMoa95tS3wFgd"
+        },
         "Attack": "BA_ADMIN",
         "Statuscode": 250,
         "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeUser",
+        "Payload": {
+            "id": 401,
+            "csrfmiddlewaretoken": "d327L6KhqCYEkmlZJZEf07xtKRIEvnqUlnB2gsGjhLQRhywBe5hvm5I7jKbysLk3"
+        },
         "Attack": "BA_STANDARD",
         "Statuscode": 250,
         "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDeviceGroup",
+        "Payload": {
+            "group_name": "<script>console.log(\"script group\");</script>",
+            "description": "script group",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"Device group created successfully\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDeviceGroup",
+        "Payload": {
+            "group_name": "<button>hello group</button>",
+            "description": "html group",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"Device group created successfully\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDeviceGroup",
+        "Payload": {
+            "group_name": "from cookie theif",
+            "description": "cookie theif group",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\", \"bwapi-status-reason\": \"Device group created successfully\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeDeviceGroup",
+        "Payload": {
+            "group_id": 296,
+            "csrfmiddlewaretoken": "UqIanieI3mMFQLWGX845LO0Vim8RUe1gRnW6iSNFjwWlYGen5k5fWog4iC5Ld6vE"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeDeviceGroup",
+        "Payload": {
+            "group_id": 297,
+            "csrfmiddlewaretoken": "hRtklLVE7vltuYAsXZfWgbi6PCSndFgJg27kw2pA1C7SQhjBrG4Q79wgqzuGNzEV"
+        },
         "Attack": "BA_ADMIN",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-deviceGroup",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/removeDeviceGroup",
+        "Payload": {
+            "group_id": 298,
+            "csrfmiddlewaretoken": "QGJqMXcDwpzpgcj29s6LSdfNIAZgvoz9BOLK23IRLHpGN4MddGNEfOfvtq5SRYP2"
+        },
         "Attack": "BA_STANDARD",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDashboard",
+        "Payload": {
+            "group_name": "maingroup",
+            "dashboard_name": "<script>console.log(\"script dashboard\");</script>",
+            "description": "script dashboard",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
-        "Responsetext": "{\"status\":\"success\",\"id\":162,\"name\":\"<script>console.log(\\\"script dashboard\\\");</script>\",\"group\":123}"
+        "Responsetext": "{\"status\":\"success\",\"id\":174,\"name\":\"<script>console.log(\\\"script dashboard\\\");</script>\",\"group\":123}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDashboard",
+        "Payload": {
+            "group_name": "maingroup",
+            "dashboard_name": "<button>hello dash</button>",
+            "description": "html dashboard",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
-        "Responsetext": "{\"status\":\"success\",\"id\":163,\"name\":\"<button>hello dash</button>\",\"group\":123}"
+        "Responsetext": "{\"status\":\"success\",\"id\":175,\"name\":\"<button>hello dash</button>\",\"group\":123}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/createDashboard",
+        "Payload": {
+            "group_name": "maingroup",
+            "dashboard_name": "from cookie theif",
+            "description": "cookie theif dashboard",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
-        "Responsetext": "{\"status\":\"success\",\"id\":164,\"name\":\"from cookie theif\",\"group\":123}"
+        "Responsetext": "{\"status\":\"success\",\"id\":176,\"name\":\"from cookie theif\",\"group\":123}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/deleteDashboard",
+        "Payload": {
+            "id": 174,
+            "csrfmiddlewaretoken": "Rn6eJ1axRws85gmn08prwoVEZWkJI2np75WweCUXYVJ4rjipG0eUJ1eKLFUNx5yw"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#dashboard",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/deleteDashboard",
+        "Payload": {
+            "id": 175,
+            "csrfmiddlewaretoken": "FKyNvqy3OwHHMwpZnusNEKYD74tYdrETk6loc3VNv0j4RSwTEoG9PlYCqW5YXM3Y"
+        },
         "Attack": "BA_STANDARD",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/graph/createReport/",
+        "Payload": {
+            "group": "maingroup",
+            "name": "<script>console.log(\"script Report\");</script>",
+            "description": "script Report",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "xss_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bwiot-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/graph/createReport/",
+        "Payload": {
+            "group": "maingroup",
+            "name": "<button>hello Report</button>",
+            "description": "html Report",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "html_attack",
         "Statuscode": 200,
         "Responsetext": "{\"bwiot-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/graph/createReport/",
+        "Payload": {
+            "group": "maingroup",
+            "name": "from cookie theif",
+            "description": "cookie theif Report",
+            "csrfmiddlewaretoken": "OSGl1ACAJjmhA4EMJ6xSjPghZy0aSGeQ81U1ist4rWc79ZzGgLeJgs9ns81j8Nsa"
+        },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
         "Responsetext": "{\"bwiot-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/graph/deleteMainGraph/",
+        "Payload": {
+            "report_id": "kAg0zY4B1mTppEXHwvm8",
+            "csrfmiddlewaretoken": "Sj5z0gF9coXMN6pz1LOokGwM9jSbgE1sHwlFYhWz39yoF9dsAzJOsVXPbXZ3V1f7"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/graph/deleteMainGraph/",
+        "Payload": {
+            "report_id": "kQg0zY4B1mTppEXHxPlQ",
+            "csrfmiddlewaretoken": "dFvB4ZbvEdWuhu8WzM46CdffE7OsimMDJvwRV3asCEJ3UnIT4H0pA3cTHRheMvzE"
+        },
         "Attack": "BA_ADMIN",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#Report",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/graph/deleteMainGraph/",
+        "Payload": {
+            "report_id": "kgg0zY4B1mTppEXHy_kV",
+            "csrfmiddlewaretoken": "orHCa64c6tPvyVTUcJ2xkPT2YBUWQNG7GJvBcneqJlNgvrCfLvmUqpFCpqB22NMh"
+        },
         "Attack": "BA_STANDARD",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\":\"Success\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/userRoleChange",
+        "Payload": {
+            "role": "administrative",
+            "userId": 193,
+            "csrfmiddlewaretoken": "FCLvanQ5nCKp5tyYLA7F80ubpXvYdYqbxrJF9781EiawRqew79Lwxd70EXlGohVA"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\", \"permission\": \"Administrative\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/userRoleChange",
+        "Payload": {
+            "role": "administrative",
+            "userId": 193,
+            "csrfmiddlewaretoken": "c7QO4iE9vx1nZeZdt9fD0OaIc3CA5735bjYjlSS5GFPovutvjnSqnyYtpcD13j1v"
+        },
         "Attack": "BA_ADMIN",
         "Statuscode": 250,
         "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Administrative_User",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/userRoleChange",
+        "Payload": {
+            "role": "administrative",
+            "userId": 193,
+            "csrfmiddlewaretoken": "1LNsiezHC40Z0NNqsZt12IqwSMYcknD64obDS0Nd5kj8pGBLba4k0oNw5zSzHySw"
+        },
         "Attack": "BA_STANDARD",
         "Statuscode": 250,
         "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/userRoleChange",
+        "Payload": {
+            "role": "standard",
+            "userId": 194,
+            "csrfmiddlewaretoken": "8u2aLbXPxszZcq71bvPuP1wkkaQ99J1LdvQva1h9VN7oaK4LMSlpTxZN2pykswCh"
+        },
         "Attack": "from_other_user",
         "Statuscode": 200,
         "Responsetext": "{\"bwapi-status\": \"Success\", \"permission\": \"Standard\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/userRoleChange",
+        "Payload": {
+            "role": "standard",
+            "userId": 194,
+            "csrfmiddlewaretoken": "KuMkSBNoOqkIiSiOtR8K8R5YFxsxvKV8sptCKHvUlKrwtN5Kh0DBuds34FKqo9WA"
+        },
         "Attack": "BA_ADMIN",
         "Statuscode": 250,
         "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"
     },
     {
         "Page": "https://publicmqtt.bevywise.com/#settings-user/Standard_User",
+        "Endpoint": "https://publicmqtt.bevywise.com/bwiot/api/v1/admin/userRoleChange",
+        "Payload": {
+            "role": "standard",
+            "userId": 194,
+            "csrfmiddlewaretoken": "r0BsJJAWX8Ok5vUDxipGdWMSSuIP9NfRlF9amWjj6hy4CHptWwdcCPq4a9BfAMSW"
+        },
         "Attack": "BA_STANDARD",
         "Statuscode": 250,
         "Responsetext": "{\"bwapi-status\": \"Failed\", \"bwapi-status-reason\": \"Permission denied\"}"

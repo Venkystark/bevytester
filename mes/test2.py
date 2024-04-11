@@ -179,6 +179,8 @@ def mes_testv2():
                     print("Url:",top_key,"Endpoint:",sub_key,"Attack:",inner_key,"Status_code:",attack_res.status_code,"Response_text:",response_text)
                     report_dict={
                         "Page":top_key,
+                        "Endpoint":sub_key,
+                        "Payload":inner_json[inner_key],
                         "Attack":inner_key,
                         "Statuscode":attack_res.status_code,
                         "Responsetext":response_text
