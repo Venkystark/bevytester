@@ -1,7 +1,7 @@
 import requests
 import uuid
 
-password="123"
+password="@Venkystark77"
 def generate_uuid():
     return str(uuid.uuid4())
 
@@ -119,6 +119,7 @@ def create_elements(session):
 def create_users(session):
     res=session.post("https://smartfactory.bevywise.com/employee",data={"csrfmiddlewaretoken":session.cookies.get('csrftoken'),"department":"vmpprocess","employee_id":"vprocess-operator2@gmail.com","first_name":"process","last_name":"operator2", "role":"operator","password":password,"role_id":1},headers={'Referer':'https://smartfactory.bevywise.com/'})
     if res.ok:
+        print(res.json())
         print("process-operator created")
     else:
         print("error in creating process-operator")
@@ -170,21 +171,21 @@ def create_users(session):
         print("error in creating main-manager")
 def login(user):
     if(user=="BA_SE"):
-        userId="vstore-executive1@gmail.com"
+        userId="vstore-executive2@gmail.com"
     elif(user=="BA_SM"):
-        userId="vstore-manager1@gmail.com"
+        userId="vstore-manager2@gmail.com"
     elif(user=="BA_SV"):
-        userId="vstore-viewer1@gmail.com"
+        userId="vstore-viewer2@gmail.com"
     elif(user=="BA_ME"):
-        userId="vmain-executive1@gmail.com"
+        userId="vmain-executive2@gmail.com"
     elif(user=="BA_MM"):
-        userId="vmain-manager1@gmail.com"
+        userId="vmain-manager2@gmail.com"
     elif(user=="BA_PH"):
-        userId="vprocess-head1@gmail.com"
+        userId="vprocess-head2@gmail.com"
     elif(user=="BA_PS"):
-        userId="vprocess-supervisor1@gmail.com"
+        userId="vprocess-supervisor2@gmail.com"
     elif(user=="BA_PO"):
-        userId="vprocess-operator1@gmail.com"  
+        userId="vprocess-operator2@gmail.com"  
     broken=requests.Session()
     login_csrf_response=broken.get("https://smartfactory.bevywise.com/login/")
     login_csrf=login_csrf_response.cookies.get('csrftoken')

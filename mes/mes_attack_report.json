@@ -5,7 +5,7 @@
         "Payload": {
             "process_name": "<script>console.log(\"script process\");</script>",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -17,7 +17,7 @@
         "Payload": {
             "process_name": "<button>hello process</button>",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -37,7 +37,7 @@
         "Payload": {
             "process_name": "posted through cookies theft",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -49,7 +49,7 @@
         "Payload": {
             "process_name": "storeexecutiveposted",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "kj43dCSXE7htmOkupJAIwkiF2S7pdIzGkFn4PErBbRnxfWNt8xJYovfPP32hhwZw"
+            "csrfmiddlewaretoken": "4ZY2LSfdpxG85oBeRkVnjqgazHo6Obt3dzunQB3EGPHEXhcUIBulL8UvsIuOJvLZ"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -61,7 +61,7 @@
         "Payload": {
             "process_name": "storemanagerposted",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "ejlSWE4sXGgrFicNKEwrc28GBY2YVC1EdARCgpM8EqVM0JwllFZvaupejdZjPJZ5"
+            "csrfmiddlewaretoken": "gnnVTyR0LpQibI0AmY8EDJPWcDgDb5Ii8fiOP71bVMcOIF3lvpWpNoCPeZizYqrH"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -73,7 +73,7 @@
         "Payload": {
             "process_name": "storeviewerposted",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "dau6dUbyhky3I453vFXMEpvmuv2iYUF5w50tCFNZtZjmORDlKnCQatixv4XCf9aE"
+            "csrfmiddlewaretoken": "ESj0FUa4uElCKU27efOL7QYyEkEH9XuxldcO3Jg8akSaCaeWaFqDEDxF202LUOw6"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -85,7 +85,7 @@
         "Payload": {
             "process_name": "maintanenceexecutiveposted",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "wNgpbyXr2VUsMPJ0Af8Y8CQrMAFCqHYYt24JIX20844tuGUfCrpEkraE7WQyB3eT"
+            "csrfmiddlewaretoken": "cLPIXgVPUdCx3j196Er7vBOrTBimqokhyiKhqd3S4eYQLtxyi4lNqtYLdB2iJsnN"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -97,7 +97,7 @@
         "Payload": {
             "process_name": "maintanencemanagerposted",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "5k5w4UskS6aA3IAzGIZOEYXTzqJbinknvSqOeHjKH5RSoWUTSz8Dd0870ahEgoh7"
+            "csrfmiddlewaretoken": "j02Bu1n2Z6sqctOyTQWwDdsl6fBJtaTI9a2fh7lyjomi682Xwv8J6yT3QyacCaGM"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -109,7 +109,7 @@
         "Payload": {
             "process_name": "processheadposted",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "t91cb7Ztp9tZxv7ppHMxCPRUqzor9VYwRsgBNtVsLFmvInNPckfGIOXklHyoVQTN"
+            "csrfmiddlewaretoken": "66UtfnJnc0Vz9W5rKkriH42Fn1gCRLtZIU249uWhj3txwRTaoU7xljEjjEoEIKZw"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -121,7 +121,7 @@
         "Payload": {
             "process_name": "processsupervisorposted",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "aeSY0wiZGOblX3cAeNHQVNNrpw4UXHgGMSBjey6PmoqV6b4YXdijYd658ChK8n0O"
+            "csrfmiddlewaretoken": "xU0D6pEc1QrYggzxhBLfpsYmc0fzBuLIwkqjTcpCaI37TT4LR5qNyYcXEHs60uWG"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -133,7 +133,7 @@
         "Payload": {
             "process_name": "processoperatorposted",
             "quality_check": "Yes",
-            "csrfmiddlewaretoken": "J0lOo0mwCV7vvC6lEDKGnoK720WE6f242bP4y9Tb22dl9syfz49okU7RXY49xlhb"
+            "csrfmiddlewaretoken": "QtHxHIUUNGte0KBe2f7AtBm4oSiE8FEukcjC5byF6sNvDMf6qpPylxEY7reHyMJZ"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -144,8 +144,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "process",
-            "id": "zE42zY4Bm4vK3bXSAHPZ",
-            "csrfmiddlewaretoken": "KfJMzxuiwoVL99BAfwzWT2Y8TldxPILDirPjAjHLz99xZj5YlHuax8LlGwOFzGFd"
+            "id": "5FSiKI8Bm4vK3bXShEHs",
+            "csrfmiddlewaretoken": "riIfnoFZieREn28ztq2ZHWG1N1PXqJNMmlq4vuXZkFHGBLH6OfakF4eTx6tQ5VOQ"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -157,7 +157,7 @@
         "Payload": {
             "machine_id": "<script>console.log(\"script machine\");</script>",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -169,7 +169,7 @@
         "Payload": {
             "machine_id": "<button>hello machine</button>",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -189,7 +189,7 @@
         "Payload": {
             "machine_id": "posted through cookies theft",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -201,7 +201,7 @@
         "Payload": {
             "machine_id": "store executive posted",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "3qdjnu12yQXWYApOobhVkMYuegev3jiKbUDoDHxwu3Yaa0gtOGkgdX4RbiDEh3IK"
+            "csrfmiddlewaretoken": "26CkHxVHignzFn3g9k10V9CEMneTOlmtENaskfoEU4yQkHXNB4UCzdWq9AmVA1Ow"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -213,7 +213,7 @@
         "Payload": {
             "machine_id": "store manager posted",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "kARlzjuJeaYWvwE6nuczBxwEltJJytmKetcyfB1Fqhlc5BDuWnA8shzJVJCSXPKj"
+            "csrfmiddlewaretoken": "Cs8YdFNHLXCROugwvgmSBZemfDvOiwGC6mdVm1CSAnZUv9O4VYW5f08M0plJvkvf"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -225,7 +225,7 @@
         "Payload": {
             "machine_id": "store viewer posted",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "z7jPfXbSFKunAC8f1AqocgDltm438RPncV843svVTf1ovhbTh7NESFGFQF7j3Upi"
+            "csrfmiddlewaretoken": "vPoWZq3WtGkHtm8740y5bSECyI2FW5OAHRRvY0PcBoZkrHsIEmxCcDNkGg9oCOu8"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -237,7 +237,7 @@
         "Payload": {
             "machine_id": "maintanence executive posted",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "WESDEUFDnzVnxrrUirxrQIUlLub8G25w74L1fYscqi554pANBeEl4TkxlFaD3JNK"
+            "csrfmiddlewaretoken": "fl3JMS3nHWamnADZ2lk5bQueURGo6J3TyFUJZZQ5EVzIiHKGSUdMlQDfeFJUxUMd"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -249,7 +249,7 @@
         "Payload": {
             "machine_id": "maintanence manager posted",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "DjvBG6YMZvtXifKFxQVzC8bOjfRj9Tgq646OHq4tK1jUd82wWbq9x8vBBt7Dm6QC"
+            "csrfmiddlewaretoken": "rvKLCwHydkoDpmdIbcWhQmHLoD2LvNg5515NQ8VOi7RGrVabXnZTMvewsXcpIawc"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -261,7 +261,7 @@
         "Payload": {
             "machine_id": "process head posted",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "YHvMHzR41rjQEILgb8DbhKnrZoLa5xj1LLR5MmRy1boy0KFXS1QVN5DxZFggforw"
+            "csrfmiddlewaretoken": "IX35aU4ZQq06gjF4XNSN0qcOkmrlX4HXlttrNc8ovjhsFyuZbqNH0mcYwbTjbv1m"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -273,7 +273,7 @@
         "Payload": {
             "machine_id": "process supervisor posted",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "Q0UgY1KkTwJy5GY9hjymtGNpMEdONOsmsLh6XOxxPEYxLtNqFqPxthm5BnW3MHBR"
+            "csrfmiddlewaretoken": "z36Mjr9Cj82EQAL7XLRr3qMKIAwIrdkQtxUJ9xfCTbXZ6JPXLdemk3CjmVnRmhbG"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -285,7 +285,7 @@
         "Payload": {
             "machine_id": "process operator posted",
             "process": "vmpprocess",
-            "csrfmiddlewaretoken": "lJJQArY69t38yLePC7JJJbzexcsohWfNRaXljrvRXRa8Ue76evRD8axMB5B8MaW9"
+            "csrfmiddlewaretoken": "uvVhoUd4OJrsGNyYMyvjjRbbuKG1keD9KnXNMzUDIgVXVya6FGIjMSnSlg2GhArO"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -296,8 +296,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "machine",
-            "id": "5k42zY4Bm4vK3bXSPXN4",
-            "csrfmiddlewaretoken": "eMqNbhonsQQibJs14sBM2pCCkjiCR16Ai0WhaXy30Eh3iRnPiIqd0WGFn0c7qCUi"
+            "id": "EFSiKI8Bm4vK3bXS-kKq",
+            "csrfmiddlewaretoken": "gRcIDwn6UGpU3JCEdaM67gmhhSzuOM1d0wfj9McHsvZUm74MQ07RwbMKDUlp7X45"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -309,7 +309,7 @@
         "Payload": {
             "part_no": "<script>console.log(\"script parts\");</script>",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -321,7 +321,7 @@
         "Payload": {
             "part_no": "<button>hello parts</button>",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -341,7 +341,7 @@
         "Payload": {
             "part_no": "posted through cookies theft",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -353,7 +353,7 @@
         "Payload": {
             "part_no": "store executive posted",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "wUIHZiyN1EkC1lPvj9IEDdEEYQJxup9Mh80imNSzX0IKrV4XD1qiYuXDyDcXVQ4n"
+            "csrfmiddlewaretoken": "mMYWvAOPmfoItof6WJ8LdKfJ5mB9N4KGJ53JZg5O2Jt9VAjUCczDeH6Cv2zJvNIO"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -365,7 +365,7 @@
         "Payload": {
             "part_no": "store manager posted",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "B1FF3acLMgm1Lz4x52coV3LU5dW05GlxUuyzy1vwIq10dcXpN5bnXwxWTsyzxSAB"
+            "csrfmiddlewaretoken": "qrASqsc2caIjKNTGdZK0FdDlrtoMoZZWZwcRRHTawya16OKnyGUdt5TPGNO1yJc9"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -377,7 +377,7 @@
         "Payload": {
             "part_no": "store viewer posted",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "TnvDQN2Rh2loiQ0iK4ad1QKuyJQ4nN37HRMUnQW5DkQZzMrae6QsNZyHlTuiYcxb"
+            "csrfmiddlewaretoken": "3BMlVBat8Od9wNaCmPlpUAgYdlPtSg41mfquNUDJlDD7THZhGXhzxASMm8dzVhcq"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -389,7 +389,7 @@
         "Payload": {
             "part_no": "maintanence executive posted",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "x6Y52x4pfuVMKqZZLqTI0WXd2WEjLWKKNgJox4gxq5BV5fRASczQ5tN3JwkjuOQV"
+            "csrfmiddlewaretoken": "EhB2rpKUeCxQxBGuz1UKV39ePm63tQneYKDColQDlO6V2jc9QJi8rSvCHl1vVFu6"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -401,7 +401,7 @@
         "Payload": {
             "part_no": "maintanence manager posted",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "nYQzxbK8iwfAKxEpW0c770CE2klOl9eBkFJnXQv2yq4Uk0lo9efqfFYfkBkneT93"
+            "csrfmiddlewaretoken": "OU5JWw1sbCJaJZ2axjqcOPNhaGJhKouqlsLREC2mJ2xFpim6We9dRITzLBw5RXyw"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -413,7 +413,7 @@
         "Payload": {
             "part_no": "process head posted",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "5gf9qBcYhB6uJNzkjm6rYDGbEynH27ZWC6UXc97ZF5zcnCw5lVf66G6FshiFy44S"
+            "csrfmiddlewaretoken": "mFr7Yv5iUsIhZ14cadFL8XEf9sKrcEtANZIjlnXHqBaPtohMOAdmUfyYeI84Cp2y"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -425,7 +425,7 @@
         "Payload": {
             "part_no": "process supervisor posted",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "lL1BUIxDxuFdC9cdwrQLcD6I4XvvS4OOACvfeRtMEGOppu81JnmwTtWXUkyqSIpb"
+            "csrfmiddlewaretoken": "dOq3SY4Xyg1MdNYVCjgQaDtU7uhSyox93IQjpvQpX3CrXcAxKycFzyPRCddsrRhv"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -437,7 +437,7 @@
         "Payload": {
             "part_no": "process operator posted",
             "part_cost": 5,
-            "csrfmiddlewaretoken": "MfOzZ8soaRMCq8RC5at0ImBoNEc3Y99dMFjnSy6vr68x2HN1zfWiiN0qp0S2N2fw"
+            "csrfmiddlewaretoken": "hFuYlzEq5v8kUzqdymjV1fKlnXwri6jPdtq3l07gmB9zJrxi7OWPbkrYqaayNDei"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -448,8 +448,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "parts",
-            "id": "-U42zY4Bm4vK3bXSYHM0",
-            "csrfmiddlewaretoken": "gXZl7w2yl08jW7PWtgcU8LCCNzyhZDEgKmKCo9ohu9XrXHovrXFuLuWNHa0NDnm8"
+            "id": "HVSjKI8Bm4vK3bXSJkI-",
+            "csrfmiddlewaretoken": "j6Gc95XPPwB3MyisGxWWgtpPTO3jNx6bxQs04qp2sLgGvby9W5YMxWGY0F51GFQ3"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -464,7 +464,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -479,7 +479,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -502,7 +502,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -517,7 +517,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "KA2C12ST93DMGGjrcaq9ATUyTSn7N3ZPGqSvGBJkrAfWtdJ3tFDLLb1DuGCMtFzN"
+            "csrfmiddlewaretoken": "cRVHXOryXGACHc9sNWt5E6N50Ui6HDoy2OvMEJYHukBuecSzy9k1oH95JqX7BoZ3"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -532,7 +532,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "Mr2YGGUG1IkcR3dwRk77yqTKsR2OZXiDyI5VKNgCSJDTpXw4ebsRZnlxD72Wa7ZA"
+            "csrfmiddlewaretoken": "OKeIR88YI9LJ25QSTpgfOsWKCTZSd1MT5sEnKOfQGYGBsNI7kHNuW7VUcErtr7yW"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -547,7 +547,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "niqsV5vhooklvzQj3qFfkwlq2AvMxZocVJRYCazy8dyFl4vRfzTsSGlFYUlka3eT"
+            "csrfmiddlewaretoken": "wSMN9xgwiNoU6EreWx7XqphkeiYoJOLxboaGJDA8mkMTBr2GQvLJZZJLTnFWOIX3"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -562,7 +562,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "EVJU469K8HB1Uqmsw5RzkjdVFxOl0uvK70t1klE6eFxE7rVcVG61ecdZco9trL2z"
+            "csrfmiddlewaretoken": "AWVaGlQ2CJcr0VLcG1BMCHF8yrsC5cWOmiAmnnBEHMjdNPtABvDlj6MibrAaIDja"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -577,7 +577,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "GQARTvAXDCwqeyzihw9I5t6SbLKafWXWGSYfrk5Nnu9OPHJQmIMAaJP5eOgXi9Qv"
+            "csrfmiddlewaretoken": "yc72rx4yambDqxYhpdFwDalJhusIQVEF5pdIiB803mHl8v5ReihsGev47DlDRJkJ"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -592,7 +592,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "ORrtcZVoCmidaM64x8MlCPZNYVEg2KhuAAF7mhT3kstjncA4eF0gOyJMeOo7BXu3"
+            "csrfmiddlewaretoken": "ZdE4qSIXVEEipg2vD3s9Sw7NvriLx95sD32KH1gRKRqj5lqawvNn1WPlZiJFVjMJ"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -607,7 +607,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "SA41n7ltaHtPAPMHxQTuRVdTOkc2i2q0YZewwkPilCheptnmEoi5S6L50tzG31wV"
+            "csrfmiddlewaretoken": "OTTKaCNhOe3d8dlgjOLII83eGkjnyHw5ZDLyZw5ToEqEw4pfRFw16RGcgivNBRcc"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -622,7 +622,7 @@
             "tool_cost": "5",
             "tool_sides": "5",
             "tool_contact_time": "Parts",
-            "csrfmiddlewaretoken": "A0KX4XS7ESxGQTEC14nvxlxnfZWDBRV0cKaVP8aK4iaoG9qWSiuFJKaMb2eUdJpN"
+            "csrfmiddlewaretoken": "VUUlC6NQH6gWLHEhajKefEqvJfUbwjUnkcEgeyF0VujuDVGf0x7rX0M8e9RQkiVb"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -633,8 +633,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "tools",
-            "id": "Ak42zY4Bm4vK3bXSgnRk",
-            "csrfmiddlewaretoken": "Im7x94wynqlIj8xpih9i2HGsWQgT1QFQCyjrjS3v3n058NAdOcmxZyJYUgzPBU8X"
+            "id": "K1SjKI8Bm4vK3bXSV0Jy",
+            "csrfmiddlewaretoken": "8CDYYYvFvgXmcf9XZuVbDpL78VSs1HejnF0lBksj68Z27CQDWwjcAfAZHXikt3IO"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -656,7 +656,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -678,7 +678,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -700,7 +700,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -722,7 +722,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "JtrLBdNKmBWgjYz2whjnFP4nWNk5QCMSFnUVNncJTppkOTiZuNzfwyKRh1vIXkEd"
+            "csrfmiddlewaretoken": "qgzudyl0jLJpkZDV9o8iqiJCEzAbIfEaWgF8knqVRW6Dw3CtobEZjSJmJfDXDx79"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -744,7 +744,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "Q9TIpzh6bRaCZInhD9NRMQjfVzo9avYFLtjOeX3sU0YJUaV8LuNfHLtC2Vdnh3hL"
+            "csrfmiddlewaretoken": "l84RBoIBj7Xw7YsrUOPFSHePZ5yZoNmSasJZBUSHsjBqZOFEQzhp6p3l6KCs76UX"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -766,7 +766,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "qCv9nPK9LHGZRGDlJOFnDob8iYF9PEl0VnwpVsjtYOXhwGkP2rgfmRTiyaVZqA4r"
+            "csrfmiddlewaretoken": "sqUKaVRiIKUTuUT6zXir7WEoE8GMau2NwOFUEt0KrNuH14bapAlyORgLeloJxXPU"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -788,7 +788,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "DVrAQUmByyNPdR0es8qNiRZrV96gjypuRS319K5iOuszDxtg33wt9o2l6a8M2yym"
+            "csrfmiddlewaretoken": "YSzrvUFWKLnf2FT3UPkqd0yx3MxG8MuZFWq6OeMqs3DRgQKfxcartgrNRg7HVoXr"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -810,7 +810,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "pjFh7sH1I9yqzvLRyMH7a2nHECIpiZ6iWPvc7CL0Aq7f7QPzMucszjPHchQCXC4B"
+            "csrfmiddlewaretoken": "8yOH6zddZUSOUYCxZmX0orCrp2MoW1qEhDZplcRkPn51gpwA4XBQDt19PX10kbPt"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -832,7 +832,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "WbXqsbeUz7fsPssHDhgf2LzxOOWaWzQRnmir25oAiLdFVVRUSmteMZmK54lG2aaA"
+            "csrfmiddlewaretoken": "PtdcTT03MjZdu5HHPTzv2EJrPP4DcBWCiK1oo7hfUf5Z2nxJPXDIaPrDepg0tZVa"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -854,7 +854,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "pnrgKgizndSBDzQhHm09mUYj2OsnRHZbSBy6oRiPpjdBmvEZVd9orClcUBmSgfh2"
+            "csrfmiddlewaretoken": "4DjshIQmwZOfEcSte5ZZqgeFN9Fcno7iGxMPuidkjWnVjgc35WXWcU9jCUHwk3Cx"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -876,7 +876,7 @@
             "inspect_interval": "1hr",
             "quality_parameter": "{\"qty_parameter\": {}, \"min_value\": {}, \"max_value\": {}}",
             "toolinfo_parameter": "{\"tool_number\": {}, \"tool_name\": {}, \"tool_time\": {}, \"tool_contact_time\": {}, \"no_of_cycles\": {}}",
-            "csrfmiddlewaretoken": "pXmp2wD3npqwSBYW6EuubArwKcsDhO2h9MPJB5xLHO0ILtZQ1hKZltVWX4wNvFuG"
+            "csrfmiddlewaretoken": "8qbRhQueqGSqxPCYGhVh3kzbeIMYDPCfxeBQUupmhg3QS2xvkqy9JxDaTNmWglWp"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -887,8 +887,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "cycle_times",
-            "id": "C042zY4Bm4vK3bXSpXT2",
-            "csrfmiddlewaretoken": "utn3QRA2QSPB8bv6AhMDVr6djNy84v3GsteMwU6XwmTgdU2REox6n4iYfIDProGz"
+            "id": "N1SjKI8Bm4vK3bXSgkJI",
+            "csrfmiddlewaretoken": "VYTZdt1vZOFyNA89cp9r7059tI948rLRcsWSYhxXKzsBkCkwECiLyDJVc9ND53Jo"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -900,7 +900,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "<script>console.log(\"script r-rejection\");",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -912,7 +912,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "<button>hello r-reason",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -932,7 +932,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "posted through session thief",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -944,7 +944,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "store executive posted",
-            "csrfmiddlewaretoken": "bKWP0am1YukrRV36HHAWTW6KHU8X1mTUQW7OAd9Y3LIJVEs5FQOvyR01ZSXoelRU"
+            "csrfmiddlewaretoken": "HwnsJ4wbYNpi5UQHJt7WX2NpTQ4lvD4SStB5VRgXSfKS6KZsC2tEr71YDlZjjbXr"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -956,7 +956,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "store manager posted",
-            "csrfmiddlewaretoken": "6vK46SZam5ZVbOhSLjD7uiSZkgt8AQ7603E3dz2n6ljxcBYFIiqqBkc4mVgqel19"
+            "csrfmiddlewaretoken": "P6DXrGl9QN7kNcN60O78EraR1SSbNHgjLhLA7R5lhwAtdUs9U8txkk2VF2OLdCyP"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -968,7 +968,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "store viewer posted",
-            "csrfmiddlewaretoken": "9vHl2kQshhX2tod1QElOIWfg9iNgbIJ6sMWfHZoML0jiFsIvy9lkSQ92SnSYbyS0"
+            "csrfmiddlewaretoken": "sqGMocS4VUJ20nQqED9FO6oSS6w7DArot0b9KeCwZ0Z9UThLe87IVD0IJ92ze7Lf"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -980,7 +980,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "maintanence executive posted",
-            "csrfmiddlewaretoken": "KGlXprwogCXuy43CiA0XAb6axsKRp0zbMti0OyudVTauUfLKVWcfNtDNNYZNOhd8"
+            "csrfmiddlewaretoken": "6SoqvsZVGWvSlJQeOW7LYUPG0mMfh1JYsQTjZoBeRBiSRTorlpzyJFjITUAlgARP"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -992,7 +992,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "maintanence manager posted",
-            "csrfmiddlewaretoken": "cRRFIwaOvLJ5urusQ9tNlS6OKaK3FWTeYI4VMvER1ZaJFnspRapekPrfdcmUA6GU"
+            "csrfmiddlewaretoken": "wNRZDJ0CIFoBZRzAQ7GNWMqdLSNb6Z5NZ5IpzrufL93C4X0iuRCdATCq1dBrmaqE"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -1004,7 +1004,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "process head posted",
-            "csrfmiddlewaretoken": "nDkyKQOzdlNEG0mbeta333HoaKoiCOeHYMCKXNOEWqllCfybvWiLlGE2fdMZZhGK"
+            "csrfmiddlewaretoken": "n5QFDG53Sac5N40iVYAu1dLmhkhwLm7vyeCiIikB23vH6vqYiSPaSBzelWKv61Ui"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -1016,7 +1016,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "process supervisor posted",
-            "csrfmiddlewaretoken": "HwfIgLs1QNO39Yf4CvHE4Rt2YWsY5ekTLCDij5MpWEr5aBucE7oO1H71zZwUJngP"
+            "csrfmiddlewaretoken": "U7wgDzNIPIKsWR0EdZD2MjwmbfU0iOAUtVaRqzAxypMClcSXfsARKukH6PluQFgg"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -1028,7 +1028,7 @@
         "Payload": {
             "department": "vmpprocess",
             "reason": "process operator posted",
-            "csrfmiddlewaretoken": "s8hE8NRTVfRCXcRT2B1O1tKM6uaTyOdo8UmNlw770IsLWtevrU7JMrtFwJYbYM8n"
+            "csrfmiddlewaretoken": "N336D0PBpz8po56V2LxqzAxT99UDzYeGf7YrKCPXUnAageQV0Hy2ZNsN9EcyK0vp"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -1039,8 +1039,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "quality_reasons",
-            "id": "FE42zY4Bm4vK3bXSzHQz",
-            "csrfmiddlewaretoken": "SzExZRDxoYSmrWZhjdfSJ8phdiCSc4UqaBrdG36vFp2mzbBp5Axj458X1Macp0Qo"
+            "id": "RFSjKI8Bm4vK3bXSskKv",
+            "csrfmiddlewaretoken": "J7NRa7PG8tINiS695xN98atIGZh0A1uMIc7rurvtrxgYJ4SCel1V8YtnFT0HRwPd"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -1054,7 +1054,7 @@
             "reason": "<script>console.log(\"script d-rejection\");",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -1068,7 +1068,7 @@
             "reason": "<button>hello d-rejection</button>",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -1090,7 +1090,7 @@
             "reason": "posted through session thief",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -1104,7 +1104,7 @@
             "reason": "store executive posted",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "3u1K0ZGQ1bOzt95P0idhDW1AQkD2tcCmf6x8s11Dm0ynnDqOqhwAnB4DzR9SmbZX"
+            "csrfmiddlewaretoken": "mY5TtXerRwkLIM5G7vGBtOn5vPI4efe5MWJEKpYFgZ3Kgo0sDIDjsJUtKyz597Kc"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -1118,7 +1118,7 @@
             "reason": "store manager posted",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "pWBowwmMhOsjf95SV1c84EQF7e6KNFburER6MLgRV6Zwm1VKba2XBc6Mw64mq9QR"
+            "csrfmiddlewaretoken": "3qN2U9EJ4aoBGzfVcN84Qbubg7Dke2D6vGZTvnXglDn42rFPAQnkHGMMEzuTG67r"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -1132,7 +1132,7 @@
             "reason": "store viewer posted",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "mJUtbcUWO1gR4nylUE2dEiMQ4Uj5Aib3mqqrOaB7eoIndfDNG3Q5T8OwMbuNguIo"
+            "csrfmiddlewaretoken": "6Q66vVAtNMAgmYXkpws4YikwoFq9JmSZUC0w7HK5MqZX6DxY10IVJMhe793bVqMy"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -1146,7 +1146,7 @@
             "reason": "maintanence executive posted",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "dRRpxas4mgybcFYB0S42DPjsG9Iw8OguvLGixGpVdel8yrYVGfWf3yhUgKxLKzfK"
+            "csrfmiddlewaretoken": "ZKiJdxrSNvSdVGuhRBAQ20UXK1znU9nv5lG9kCKPlWrcZGrOzGuueaPaJ1308hNt"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -1160,7 +1160,7 @@
             "reason": "maintanence manager posted",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "0vBGXPmW3b8S1AlLjsq7wsnd4NOOB2We5EkOljLuZhV0mImHIpED2boGasZ9R6Km"
+            "csrfmiddlewaretoken": "2XGagXX06Tu2JZF0UZtgW0eqzVLxcD19eLLzaLapElV5FauA6Bpw9KFi1yESpIkN"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -1174,7 +1174,7 @@
             "reason": "process head posted",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "G2tQQ5uJnNU2PQImffr1p49JhyqYPtNn0BquHJyl3xwGInhsAFTpmIPs29p9u20m"
+            "csrfmiddlewaretoken": "mNOytkrhZwKBhqHpDXXhavJOSCkJb0AR2V3IipmckDvfoUvmeYw2CQLMZv108oRz"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -1188,7 +1188,7 @@
             "reason": "process supervisor posted",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "Kw3cN3UHAiCZpDECM81RZTt8qslShE3LRMW82X0StYA8v2VyT3TznMwrFmb7FqAO"
+            "csrfmiddlewaretoken": "3cNOYGZYy3XMdd0V4Xm1YMNNNBcywSmk6746H8PxrLq4spI36yYMz2aDI9CVtbuh"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -1202,7 +1202,7 @@
             "reason": "process operator posted",
             "type": "availability",
             "color": "#ffffff",
-            "csrfmiddlewaretoken": "kWFskhmPm2IBh47U4U0XRwxYX7q2M5aCvBgjpOCTQgcT3ZQjgHEbjF3nUhps9Btx"
+            "csrfmiddlewaretoken": "LzYwv6JKAQsh7p2f5neqh02zeSMf77tVOrroZyD4uGB5jn0vtfM0tl5REoBU93VB"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -1213,8 +1213,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "downtime_reasons",
-            "id": "HU42zY4Bm4vK3bXS8HTV",
-            "csrfmiddlewaretoken": "6kP1yDdCBK2nHUGf2C4INRzCP3WPQsRXUANHwkvJg8m9jGqT2VOVQZSjUDWa7mJk"
+            "id": "UVSjKI8Bm4vK3bXS7UIO",
+            "csrfmiddlewaretoken": "ZIQK0lY2Sn5moQxESSxL1rEuslGkvnflFnHtd9ZIbzLX5OdhdUa4ymvvFEECzYYD"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -1228,7 +1228,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -1242,7 +1242,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -1256,7 +1256,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -1270,7 +1270,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "kRffXL3q2sy8qgWiihFuNJrjbSbOipgNpCjgsbOAI0cH8BY2CzvyqfaJI10yquKF"
+            "csrfmiddlewaretoken": "SBSYYiLEK2Gx5c2Rn1WfOKgJYot8N6VWJq214gFiOoNIEeflEmsVGfY8t3uI6sxe"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -1284,7 +1284,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "5hljmJpJxCDvMqx31oGRfZ4cYkdH00Hs8JR8QgH8DhG63lAc0vSJIKKKVO34OMhg"
+            "csrfmiddlewaretoken": "0kH2cJTX6UbVN4obMgdlHTL7mQ1ZKuRpPfgZpCLN3PSmaEGHN4nOWycvuJiUuggX"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -1298,7 +1298,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "f8hsKp5O3sYsU7q5dp5UgaI1elnMGx3YfJqXZAmfsp6WSKhuaZDOXVvvEKqMyN53"
+            "csrfmiddlewaretoken": "7YUJD9LVGjHaKZLb0SYOtd4x5GOrxFz1wPXA5HJ3KlY2X4e8A6nMcR4gQHML0x1x"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -1312,7 +1312,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "YTqP7tPBcC5QaZ7qsHD51SHPhEaqr55ye2i6XmosHSEiHVrDejsL0kIMD1F0VWgb"
+            "csrfmiddlewaretoken": "RT2HqmPVDQpdoyI8cZ5Y1LmVKASHSHciOgREE1I4WJG83h55HXEculkOwM1bX0Y3"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -1326,7 +1326,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "q6Xc4a9UcL990iJciuOPFqak13msXdSTQMdVjkCU7NsnxWW2OpEnLyQGkFIxF0g2"
+            "csrfmiddlewaretoken": "jVjT9S6R1HQIAT7FGr7fYZqtThXyQWcZbPpAt0FvrjW9JGjbdqE4MC2i77lhrwK2"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -1340,7 +1340,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "er9q1xKMV0fFotQEfmTftq5e5XPXG5FRhFnXwQ57RatDYfGPsHI2LjqGRnu2mEuu"
+            "csrfmiddlewaretoken": "UURZ5WD6s8HVnYE0kmZFODM9TB2g8tX4eNPbnRvj4naBrnkETiF1yfND5UqUJJlh"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -1354,7 +1354,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "54ynR0oxDoEIDAx6S973ybO8O89LoCmaxjiW36FpttfdcPrugWf3AToM33C4j083"
+            "csrfmiddlewaretoken": "w2dabt2dtsk91sR063euhFVQ4KA9Ld7MX7715xGgvkb65vQDqEqLqppXbzHLxFXa"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -1368,7 +1368,7 @@
             "availability": 5,
             "performance": 5,
             "quality": 5,
-            "csrfmiddlewaretoken": "IvO3CvDF4Sh14tWmegavNocfeSXA8lx2Nq1yWfzE5lkwpQVoUFPkOKXaWzfKHGiR"
+            "csrfmiddlewaretoken": "ZwztXc1ksEdf5uXsFzZx3DZhFKZD6IrtqTaaKyRrnjaQh3MVbA1sjF40inwD8ARF"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -1379,8 +1379,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "target",
-            "id": "Jk43zY4Bm4vK3bXSFHSc",
-            "csrfmiddlewaretoken": "ma0OetSJRAl9BNQoGOESfEfSRSPMApKnMUSoo6vDypXKVuzozTQBE0Gp9CdNwPLX"
+            "id": "X1SkKI8Bm4vK3bXSQUJz",
+            "csrfmiddlewaretoken": "tNk1tLpjeVpDUnScXuFvIQtcWONmtdl6xvz5H0IvgquN9xXjFCdlzcymS0lcVT56"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -1396,7 +1396,7 @@
             "raw_material_cost": 5,
             "measurement_type": "<script>console.log(\"hello raw\");</script>",
             "rm_measurement_unit": "<script>console.log(\"hello raw\");</script>",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -1412,7 +1412,7 @@
             "raw_material_cost": 5,
             "measurement_type": "<button>hello raw</button>",
             "rm_measurement_unit": "<button>hello raw</button>",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -1436,7 +1436,7 @@
             "raw_material_cost": 5,
             "measurement_type": "cookie theif",
             "rm_measurement_unit": "cookie theif",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -1452,7 +1452,7 @@
             "raw_material_cost": 5,
             "measurement_type": "storeexecutiveposted",
             "rm_measurement_unit": "storeexecutiveposted",
-            "csrfmiddlewaretoken": "qrJtYvTalVddAs7g2m4PJsCmWwBRaDFTrBLqEJKTEESGL0FXF7bPXM0PJz38Dwzv"
+            "csrfmiddlewaretoken": "7nUJKRWXHD0G8OgQ4oOsv0GJEuEFTbTp8J3CAkSAvB5FKV7Pcz3TD104coJ3KdwW"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -1468,7 +1468,7 @@
             "raw_material_cost": 5,
             "measurement_type": "storemanagerposted",
             "rm_measurement_unit": "storemanagerposted",
-            "csrfmiddlewaretoken": "0F7GG1obEkRzPMNdhZxMSxcK5tDO5PTpDhgMFvcgl6fJeZdzcerY7pVCI7lw5s9T"
+            "csrfmiddlewaretoken": "CBOnoXjHBkYFwwff29n3C4PQnxv0pNigljuf9lQ0tnBNyh6YkTpQmVACUWDCR0N0"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -1484,7 +1484,7 @@
             "raw_material_cost": 5,
             "measurement_type": "storeviewerposted",
             "rm_measurement_unit": "storeviewerposted",
-            "csrfmiddlewaretoken": "TkcsLQC49PQMhBfKVh00IfisozU1GuZ4o9xamWj2jQxKTU4MdIg5KefozUeCtTXo"
+            "csrfmiddlewaretoken": "SiEp0SQtstS0WayOQDYU5NnfIFzttT7kEBmJqfUyVRsj7aU3p07bh2jVCb7vbvbp"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -1500,7 +1500,7 @@
             "raw_material_cost": 5,
             "measurement_type": "maintanenceexecutiveposted",
             "rm_measurement_unit": "maintanenceexecutiveposted",
-            "csrfmiddlewaretoken": "qOzXvNVyHdmQt5UCRBdsq7ZMDV8mwKFyAXDnPEAsEEJ7OHlgbYn1QX38B98l87TZ"
+            "csrfmiddlewaretoken": "YiDt9YrNUwHklfqyP1sW5S5O2icwPylRmMl0korSeZcfc6CggmlKFAG9JyM1hRuG"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -1516,7 +1516,7 @@
             "raw_material_cost": 5,
             "measurement_type": "maintanencemanagerposted",
             "rm_measurement_unit": "maintanencemanagerposted",
-            "csrfmiddlewaretoken": "qQRyOqCS4DAJlvtcoe9Vp3ncpxQmXHFMssp7ExMmkaSdQBa8k9rrr2cm0dDTWqwY"
+            "csrfmiddlewaretoken": "sVLhSgJUU7j9KwvUXYcSqfj6eBnLQWvFMwJFfY3JEqwIj16HhPv4XPTb2YiRXb8U"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -1532,7 +1532,7 @@
             "raw_material_cost": 5,
             "measurement_type": "processheadposted",
             "rm_measurement_unit": "processheadposted",
-            "csrfmiddlewaretoken": "MfAOQ2Jt6DkyNMnnBH05MKLqsMNUklR976P1VzI3SSbhxc4aY7V9Rwi4m8eUEy91"
+            "csrfmiddlewaretoken": "vqrhSZHAmJy1E4kWKSqq4CtiI2ryNwF2iiVYdM2rNsPeBLdRuqhm4KlDQFjuuKIj"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -1548,7 +1548,7 @@
             "raw_material_cost": 5,
             "measurement_type": "processsupervisorposted",
             "rm_measurement_unit": "processsupervisorposted",
-            "csrfmiddlewaretoken": "oF4A3yvLDt7N2Tm7aJo04A17z8MpAqOPx0LSSiz69m0T1jyhPreRwmThi0gyJWSb"
+            "csrfmiddlewaretoken": "y2ZekNmdufkvHplCkA5EmLAxa5RxJYrxLzVsQP18MkNz4tZxIlxEJOOpKyC4azaH"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -1564,7 +1564,7 @@
             "raw_material_cost": 5,
             "measurement_type": "processoperatorposted",
             "rm_measurement_unit": "processoperatorposted",
-            "csrfmiddlewaretoken": "N2JW84MrgZFPFI5EF9NDk8iNW0C5ape7y8F19gYxM45jJ9fvSPOAsLNNlybKHcBW"
+            "csrfmiddlewaretoken": "UN7m6gQUyTME0Mk5QwYDEFLtKU8XQlU4EwbMRDvM0xvlBjGe0QkCZ4R2C4Z82BnT"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -1575,8 +1575,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "raw_material",
-            "id": "MU43zY4Bm4vK3bXSOXR2",
-            "csrfmiddlewaretoken": "kYqujVVAvpJZiJH5d0reVvt4DrOjlof3Fv1IlA2S8BtrvwIooDTVtbLWER1IV4nZ"
+            "id": "cFSkKI8Bm4vK3bXSb0Km",
+            "csrfmiddlewaretoken": "JhrjZjxkqZN6rSkH8UTsUafEJmY4w0hofSYxZlUPVQ4cE2MGR7LNwxqEHfGZWIBf"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -1589,7 +1589,7 @@
             "part_name": "part1",
             "raw_material": "<script>console.log(\"script non-existant raw material\");</script>",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -1602,7 +1602,7 @@
             "part_name": "part1",
             "raw_material": "<button>non-exist raw material</button>",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -1615,7 +1615,7 @@
             "part_name": "part1",
             "raw_material": "posted through cookies theft",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -1628,7 +1628,7 @@
             "part_name": "part1",
             "raw_material": "storeexecutiveposted",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "hD2pucdU09Tv0kPtg2BlsyYjvJnuJ2tIBms2tupOAB9se8nMmaQXwacMUat0PmMb"
+            "csrfmiddlewaretoken": "2Hpaqnql2LjkAf377okrYrkUA9PxZAiTApYi2pI3Pi3c7QerrtlL5rWjfK87gmJW"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -1641,7 +1641,7 @@
             "part_name": "part1",
             "raw_material": "storemanagerposted",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "ZjLvRZO4JAeyLAedmcfW3mIX7bTa7jsAc2OBTXlIiQpSYNu29EDyaHVVu05kGRFo"
+            "csrfmiddlewaretoken": "VQqp0EYtD5popHoB6U8pHiDQt7hctsXvDWbORLWY8nuyBzWnhXr4JpwSrlwyFkiV"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -1654,7 +1654,7 @@
             "part_name": "part1",
             "raw_material": "storeviewerposted",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "3Ilveboum90JRUfxLvSgFicciCQWkKngHR9nvpwTwNKONqJW5agH78uFjMVfCezF"
+            "csrfmiddlewaretoken": "yxz8DyT9PuRmNXHu0wyvtlV60lPLKoEJm1QKMHL3NesZChksQoYQpIdxZM788jhK"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -1667,7 +1667,7 @@
             "part_name": "part1",
             "raw_material": "maintanenceexecutiveposted",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "CT2J7Fpzp9SF4xBr9BeLOtnPmwljJ1dl0glxAvVkusI9KL3QLK6h93KfrorucRyx"
+            "csrfmiddlewaretoken": "UvaG02YeY19X2kCHutGumxUV0pElo3MDxX4GlbD8Lly61UoUuUMQkBP5ZWz3nkbS"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -1680,7 +1680,7 @@
             "part_name": "part1",
             "raw_material": "maintanencemanagerposted",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "uLt01J1fLsxWiOyDc99D9geRguiM792stHrOKsiQ6lr2Gb3YaV2xmaixwGhYtLnp"
+            "csrfmiddlewaretoken": "3dAz64snkaoNpHhda7dbalDcWZYUK97Emo0hTSSCFlDpyZ9aucEG2lIsy6bEA1XA"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -1693,7 +1693,7 @@
             "part_name": "part1",
             "raw_material": "processheadposted",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "7NQDHqn8QYLH2XsjFwkKFshThGqqfjte1lYSdtmkDUWHJueliosy9T0V8JGCjq5g"
+            "csrfmiddlewaretoken": "vyPcwGei9G8wMG33WMnC3OSbJNo6e9ZVAP7YBCz5QJDuf4YKfLziQwCYKzeP0j8P"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -1706,7 +1706,7 @@
             "part_name": "part1",
             "raw_material": "processsupervisorposted",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "5ZZpT33pcVUuW2Vgmq3Em3SAToppoEL738B2gSpqfcfzaxvExJc4YIPfE4t5QSxY"
+            "csrfmiddlewaretoken": "tq6zZVHTexf2dRxVZC2WLYFghnJFmrPCFCSRq79q1H3dUUn7oMPGhioRsbNPXI2t"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -1719,7 +1719,7 @@
             "part_name": "part1",
             "raw_material": "processoperatorposted",
             "part_rm_factor": 1,
-            "csrfmiddlewaretoken": "H1875UclpVSRKSj6oYqE106AmXHjg1VkQ8FZJUnOVyFxIlG7Fch9w9LbRpeWdLMV"
+            "csrfmiddlewaretoken": "tZk1lXFlW3F0MSmjRXyL8M9J6Wogc5sSFCUS1Jy3sedgUG4IDYFpwpyTrM2bYxBC"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -1730,8 +1730,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "rm_vs_parts",
-            "id": "RE43zY4Bm4vK3bXSW3TQ",
-            "csrfmiddlewaretoken": "WnuUluE7H86e6i6knI2HcVfcnteUrSmCZhysHDIpL2QwyqvADHIMQ2lEdMdZccTY"
+            "id": "fFSkKI8Bm4vK3bXSnkKC",
+            "csrfmiddlewaretoken": "e9nUI3ek7jJnDYUTd6rmcPc9VDcBVTZP7mfvzSoqLptaJU8L6UgogVdjI33hmYXN"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -1743,7 +1743,7 @@
         "Payload": {
             "consumable_number": "<script>console.log(\"script consumable\");</script>",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 250,
@@ -1755,7 +1755,7 @@
         "Payload": {
             "consumable_number": "<button>hello consumable</button>",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 250,
@@ -1775,7 +1775,7 @@
         "Payload": {
             "consumable_number": "posted through cookies theft",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -1787,7 +1787,7 @@
         "Payload": {
             "consumable_number": "storeexecutiveposted",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "shEQ7Y8FQKvPkqE6aPLpSszYa0JXaiLuNN1LFWHYBaLynzw6nZnjOs5s0yLyvMHI"
+            "csrfmiddlewaretoken": "Ds423pRdTIprNzZuO4B5NIh2WQIfjYHkwCQwcTvPjL7atXkLSN2pF5SQNXJRixc5"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -1799,7 +1799,7 @@
         "Payload": {
             "consumable_number": "storemanagerposted",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "HQsBi6S4Abrd8IFO7fEP0BwRIZe11IFy9xbaNkHOQpSbrPSdxDyycWPNvDFvd2Ug"
+            "csrfmiddlewaretoken": "Do8fTNSWWpOO0b0cFoKONqAijkSX9qlBRDGmMX5VBKbmJpcWPDGuufQUNzLSgPha"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -1811,7 +1811,7 @@
         "Payload": {
             "consumable_number": "storeviewerposted",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "4ZqzTaSg5uMY1d65crlHJhUmhKo5EXkO2tR0BvbzxkjB8FJwFq6OCGZPfCFwg4kU"
+            "csrfmiddlewaretoken": "Oqde8A6lqtPCXW8kyoE8VHgkQ8YQjKPfZSCxLIJOccu0bea5XebbQQRD1s02TOeR"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -1823,7 +1823,7 @@
         "Payload": {
             "consumable_number": "maintanenceexecutiveposted",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "DyR9f0QeYZoObwQw2dh8MoeMOgajm9UZtSn7nph0JZIJA5I6kIGNmvjG4CyX2GIC"
+            "csrfmiddlewaretoken": "3T0SUvECNSYcrFCDkxqoNcnUwY37qRAgNNEKM8Z52BX64t5UzX1nOknaeYrwxptM"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -1835,7 +1835,7 @@
         "Payload": {
             "consumable_number": "maintanencemanagerposted",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "pDNkBu8YD9ENYvu2TFJiioi8P4RZ4yNkyrK2O6dUIgqNhgjaFb1BpDfigSXhYJlt"
+            "csrfmiddlewaretoken": "ytGSf8wHf9lWAD3gjRuNxOJYI2mP98pgrnZw19bvlEfD66xkJQzOIhe5YBRVtHan"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -1847,7 +1847,7 @@
         "Payload": {
             "consumable_number": "processheadposted",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "EnBwc0c8F9JfJuYRUYJNCLBAea9rts3QtNZslUhdCr4LkW0LOa6rpXgFM4BtjEdr"
+            "csrfmiddlewaretoken": "ZIJefsinda6LFdmioVKl4RhlabJcfL1OeO77JTQ74v58J6DbuHgl27S75MW39SDB"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -1859,7 +1859,7 @@
         "Payload": {
             "consumable_number": "processsupervisorposted",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "rDkQDwNZU4DkiargYSffdKd9AVbTStnD4VHEny9nPssnowBLrrVfNPpZD640WOLN"
+            "csrfmiddlewaretoken": "O99F5waTzdQMqBuRt8RRwKJeVsmHaxN2qazHS50QC5AluqqojMkDNf8S5ELfNinD"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -1871,7 +1871,7 @@
         "Payload": {
             "consumable_number": "processoperatorposted",
             "consumable_cost": 8,
-            "csrfmiddlewaretoken": "Sulh8uxpyM0rMJwIDbSQyyqZH4ScTvurvXfox4Pcz8Fb2BCeH6HGIpgpXvbwGc8m"
+            "csrfmiddlewaretoken": "CmwOZFgnj7h7huWpAs6034YQNmursLaxTYkFHo88YwLZZZEDSAApflwmcITymrHt"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -1882,8 +1882,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "consumable",
-            "id": "TU43zY4Bm4vK3bXSf3RF",
-            "csrfmiddlewaretoken": "vYyfR3X4MWQC6JdXNy13pjuIJzu3su9ONd2jB4mYzFqWVxGezinJbJug65fp1la3"
+            "id": "iFSkKI8Bm4vK3bXSzEI1",
+            "csrfmiddlewaretoken": "Ojna6y9VZHVeL1DcT0JMuE4pOtlPzfcPuYEZ5KpaYuSHU5k5pGtu7soc0bBbo4mh"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -1895,7 +1895,7 @@
         "Payload": {
             "customer_name": "<script>console.log(\"script customer\");</script>",
             "country": "<script>console.log(\"script customercountry\");</script>",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -1907,7 +1907,7 @@
         "Payload": {
             "customer_name": "<button>hello customer</button>",
             "country": "<button>customer country</button>",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -1919,7 +1919,7 @@
         "Payload": {
             "customer_name": "posted through cookies theft",
             "country": "session theif country",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -1931,7 +1931,7 @@
         "Payload": {
             "customer_name": "storeexecutiveposted",
             "country": "BASE country",
-            "csrfmiddlewaretoken": "Ft9rRZmPiCFbiIMs5QwM90VmtuVUv84WeYXCmOdQAqsOW63dK7hn1ZZgWNYXaa0x"
+            "csrfmiddlewaretoken": "TPoys2tOrpUZrpzfpMWAIE7cf6UenNxgyY6ASg4irKxFMXs5qIfj7IVFkumSJmRH"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -1943,7 +1943,7 @@
         "Payload": {
             "customer_name": "storemanagerposted",
             "country": "BASM country",
-            "csrfmiddlewaretoken": "NhPLxrqNbnyMHKxjqRnQvIrEO1cmZysKMtDpHWf6lhKFX7WQD9nIfhVimpLLhQV9"
+            "csrfmiddlewaretoken": "sX2vzLbai1Uzyd26yxvEzkHPgjs1gwQGoEhz5fY6cPYrqLtjkqIbpqRn7tx0Zhnd"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -1955,7 +1955,7 @@
         "Payload": {
             "customer_name": "storeviewerposted",
             "country": "BASV country",
-            "csrfmiddlewaretoken": "sIeWRX91E84vj1mJ9FQpVDGEbfWI8x4GMnjtICzGgsMtMSekfihqy3YDtu4ZL7VK"
+            "csrfmiddlewaretoken": "AoPeVlx75rzEcbnoRlJN1MGzVDyQhww3fqT3e2BXv1yrrGUfOG7IFOuhSgigYmtV"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -1967,7 +1967,7 @@
         "Payload": {
             "customer_name": "maintanenceexecutiveposted",
             "country": "BAME country",
-            "csrfmiddlewaretoken": "G2EEImBaY7QORuyCCEKD5fCWkpH0FlZnWdc7wOl4pEwDx1zaMMxGspBRxAQ5cYUV"
+            "csrfmiddlewaretoken": "k7OBC3Wfwx3b736afaBwFzndWACxXaRswED8dTlahnfCUe60kvRFM8WdN44AfRWD"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -1979,7 +1979,7 @@
         "Payload": {
             "customer_name": "maintanencemanagerposted",
             "country": "BAMM country",
-            "csrfmiddlewaretoken": "ca65KrxDAFtHS9NH8WEfKxmigtOlPrm35CfR6QxBplVrhkfnMUskGJaFNNTmtGRD"
+            "csrfmiddlewaretoken": "yZfvIDGmxwfE45fSSLkb90FRu0BZuaJWqg7IXl3P8TDSMPD0wEaIHTlMyYCuwG7g"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -1991,7 +1991,7 @@
         "Payload": {
             "customer_name": "processheadposted",
             "country": "BAPH country",
-            "csrfmiddlewaretoken": "IRPgXAxvGc7pn43Lk6C3WVbyhjcYT2TrQiAEeubUdCNO4yKqwHdS1HzDhCoucUl5"
+            "csrfmiddlewaretoken": "FDUBBCiMwHHVYZ7StczUvRRA0RDB9xsnu1ku9nuXw7XljuTVuEO93uqc7STyr3XN"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -2003,7 +2003,7 @@
         "Payload": {
             "customer_name": "processsupervisorposted",
             "country": "BAPS country",
-            "csrfmiddlewaretoken": "ZJ9707wbtyaHaUNMie0wppABSubDGAMj4dMtTAl7kubYmPnijtPBSvvctFwQyvmc"
+            "csrfmiddlewaretoken": "zW8kcYWVtH8WPpqOidjEMrPv7RnX1m49IdffrhktJBeojlfbSZa2hccg4M9cWyrl"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -2015,7 +2015,7 @@
         "Payload": {
             "customer_name": "processoperatorposted",
             "country": "BAPO country",
-            "csrfmiddlewaretoken": "zaSEkOGcyhJfbFOMbqILxswbnkAaBCKpxpP1NfaSkQAGdBM5bofXFe4853GihzQO"
+            "csrfmiddlewaretoken": "MaA3Bilz1QymXFuBh3KOVRAps7SKi3WDsbwR5YTNqUI5xeMDEUDK3Jpc7YP0bX2h"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -2026,8 +2026,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "customer",
-            "id": "UU43zY4Bm4vK3bXSinTS",
-            "csrfmiddlewaretoken": "4ksxx4UysO2uB3XLGEAMeCOry1OLNNCjOTP1wVfzo83O6YIC3wfBbbebYwS2NTYo"
+            "id": "kVSkKI8Bm4vK3bXS5kLI",
+            "csrfmiddlewaretoken": "7f1BKfB4KITHUbKsNugt8lQjGUlZRDts9D3dite1kEIGeedHYwl6Lny9eXA6dEHe"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -2038,7 +2038,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "<script>console.log(\"script vendor\");</script>",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -2049,7 +2049,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "<button>hello vendor</button>",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -2068,7 +2068,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "posted through cookies theft",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -2079,7 +2079,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "storeexecutiveposted",
-            "csrfmiddlewaretoken": "Rs46ThZS4M43XRVpGH0TkhTYc039JtnI4aTp3eENxXJRk33hxBNSx3xjedfL1TH0"
+            "csrfmiddlewaretoken": "ISeFZiE9ChvivMSWw1wu9hZvNSfryNw39C7ynqGkKEz3rilPFhRIBb75RYQw6y5G"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -2090,7 +2090,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "storemanagerposted",
-            "csrfmiddlewaretoken": "qBg5v1VnDifdVIPDMdFD9oaCQGpyQKIWkiB3IgvgL0BsFkFZ3V7e0AyJkQeBA8gd"
+            "csrfmiddlewaretoken": "u4WJDAvl4JVDOCrIQP5O0gYR8CSwam61J4rAP0MyUtheTjf87zy5vRAg9fecOOYl"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -2101,7 +2101,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "storeviewerposted",
-            "csrfmiddlewaretoken": "Gc2P0SjiauAm7W2OZDEbs8paubrdldKmjuZ0p5dlgBoqknIpcpQmzGc5FTESh6mD"
+            "csrfmiddlewaretoken": "eSmLEArtmFdBkR2boo9qddUtlTk3vYBlqek3XqmOtnHBj7oREKHQlvCgC4nOqzLZ"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -2112,7 +2112,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "maintanenceexecutiveposted",
-            "csrfmiddlewaretoken": "8GB5kFEMdnBMyaOLBdCYR5OXL46gT2JlLZiCmpCeE5n5bcSb9SLnVMHHzilxBNH3"
+            "csrfmiddlewaretoken": "VjObEbklZrdQe1FUgrypDdCFPB7FybivuQFvMQHc3uInneMGBIbZjpXWzxIWFgB8"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -2123,7 +2123,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "maintanencemanagerposted",
-            "csrfmiddlewaretoken": "X10RaFx0wSuhVrousP1eTTcqBSiWpBWAtSOUyDj7mEphAa96yUJqTvutkoh8VhWP"
+            "csrfmiddlewaretoken": "FWcYbhKFLi9PT9SuqBLzikdBzCYGSg5c7MZfD4eBAhYICVO4MfxYA9sWQARsWdDx"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -2134,7 +2134,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "processheadposted",
-            "csrfmiddlewaretoken": "XUYyJdMCak2maVPjPivTMFA9WHjuwGxtIfoLL5dyWLmHGoyCdvpvqIgAs8PRIl7G"
+            "csrfmiddlewaretoken": "dEFHa9OvJgJ0RVL8zCWM3cYkiTd6UW4HQD7hVjxqMnLp3RIbYFCZU8diBXMxUloS"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -2145,7 +2145,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "processsupervisorposted",
-            "csrfmiddlewaretoken": "NXph4TyuD4M45SjhxpzPb3jWTmQp5S1aUMacIn8A1ElS37zQQ4lCEvD2aEK0yVYy"
+            "csrfmiddlewaretoken": "G1aksjyirU4iCEeA7KQohxHExjab6wQXOIitXQR2aXyoPyiRpny77YNEu4T8wQsU"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -2156,7 +2156,7 @@
         "Endpoint": "https://smartfactory.bevywise.com/vendor_page",
         "Payload": {
             "vendor_name": "processoperatorposted",
-            "csrfmiddlewaretoken": "QsSf2fXJdRTl5fZZ2uER4ENDwaN77kMiu5pnn89qq0b5G965DkDBfvx0XOvDdLyh"
+            "csrfmiddlewaretoken": "TCKc7xyRq1a5LEqqynY7jZHL9bPRIO6V4p4htyrEECQ0N35TBAJUkNmaNNwysNtQ"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -2167,8 +2167,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/master_delete",
         "Payload": {
             "master": "vendor",
-            "id": "Y043zY4Bm4vK3bXSyHSY",
-            "csrfmiddlewaretoken": "u24Kcu7JWPMXVd7CIPDA8G8MgV2il12rngydl8jumKrdTgojhTXKmvwjaIrEym8a"
+            "id": "pVSlKI8Bm4vK3bXSLkI_",
+            "csrfmiddlewaretoken": "GyFZlgqyenunLrIi5IRx3AWK5g0m5ZbSmt04RCSEJCJyPFHkFDRdjxPljSCu7UYv"
         },
         "Attack": "from_other_user",
         "Statuscode": 200,
@@ -2183,7 +2183,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -2198,7 +2198,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -2213,7 +2213,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -2228,7 +2228,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "l07PhWpprX2VPcPJJSavEVJviQlW5FQd1EgME9p75vu7KIXFAg8xqNBg8o1KZJ0I"
+            "csrfmiddlewaretoken": "RWgyFP7eWF80zb5bFZGDxHXZwZJwznMXjKKq5a3x97WGUcGQC0NfsvWaKs8hKv6L"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -2243,7 +2243,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "irqy1Iu9QGIkZjFmtuRiPEewbKNh4bri1X40c2c4hKykr5Pm8dIAe6kSHoui2E2d"
+            "csrfmiddlewaretoken": "he3sKp7mJ6XCZSUyElGG6H9RqtEwrkTtO1pHMj1WT4kakAHYR3H79BFjRaj9Dvh9"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -2258,7 +2258,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "NVzH9lX979BIsexayejC9V2hXCB6LomVKwsmkve2vFmqQGHaXc3Yghfr1UZQUDL8"
+            "csrfmiddlewaretoken": "w6UMZzxZqVKPLgTFmESlpY9I8jto32lXqLVf5uKGeQsAz9yBd9ZyQKN39ceMn3qh"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -2273,7 +2273,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "8C1kZjkJF66ubjMXkiGtyKorNsqpiHCm8vMc5jlP9I7l6HDNTG5gDyyEHSXOmTbW"
+            "csrfmiddlewaretoken": "LRc3d3CHW8Wu3GGDeUqjkjYGS12vUbds1zIMlSuyQXEltQhaektXV3VzIay8kyJV"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -2288,7 +2288,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "H2cdN9phrOJstiyzu5IGzHPGDvra5T9LFoYbaxhNUrU8bJ9JkTMqRFm6265QexQg"
+            "csrfmiddlewaretoken": "LtaZSlMdl2y0lFLWPoQA1je9m50WPkDptuieoGZLbZkrNU9DXDG8vTku4yZA67k9"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -2303,7 +2303,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "dhHdiFZSYuKVfgeVDzUCS2dzOST1m2Tjo4ytweW8soafN99dwzqq0QRwfmrUNgZk"
+            "csrfmiddlewaretoken": "gmZcEbw4VIejp68ZLwJtZDVUbqTt6wPxnku6LCoBFaAs63eQZVEay2wISoqqeoGC"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -2318,7 +2318,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "feZGiWAFOqRwrOsTIiW0OieSA3nEjZtd4nU4T7dmNig7WgrvSPJBcLP9aMaosZaP"
+            "csrfmiddlewaretoken": "eWk2uYeTHj4xTH0watLCW4iYRI5PkAQhESWmkj1YbmJQSCLDHcM95DOfXRg75317"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -2333,7 +2333,7 @@
             "role": "Executive",
             "password": "123",
             "role_id": 6,
-            "csrfmiddlewaretoken": "IKYyq5hDbZcXWLp7PruzutPJ2xwZ6d3wKgFqKdBaZOX5w66624lBawZh40ZgadZQ"
+            "csrfmiddlewaretoken": "GleLQer1qcRlHz7tLIIb1rt9EuzM9LqP7u7EhmGGfcSYOQC8TbtoYcYbHvEoYS9R"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -2344,8 +2344,8 @@
         "Endpoint": "https://smartfactory.bevywise.com/emp_master_delete_emp",
         "Payload": {
             "master": "employee",
-            "id": "bk43zY4Bm4vK3bXS9nTz",
-            "csrfmiddlewaretoken": "OrZRtKY4lPnCz9B8BvDgV6tO01zALE8NgsAtI1Ef6YbiRvg4pmdUBCC4Gj2FkcgZ",
+            "id": "tlSlKI8Bm4vK3bXSbELW",
+            "csrfmiddlewaretoken": "gcHmNCtZXpgI9vs5BcqWorFcaoKLfiVYvSluRtcsqLfBO4rG5ICzsh0SJ1Ir5Q2d",
             "email_id": "processoperatorposted2"
         },
         "Attack": "from_other_user",
@@ -2360,7 +2360,7 @@
             "e_toolcode": "<script>console.log(\"script workorder\");</script>",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -2374,7 +2374,7 @@
             "e_toolcode": "<button>hello workorder</button>",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -2388,7 +2388,7 @@
             "e_toolcode": "edited by session cookie theft",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -2402,7 +2402,7 @@
             "e_toolcode": "BA ACCESS",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "OMlOHoaIYGUZ6NGL0s0fqXQu7TEcKtRs1OJpDqqYhfb7iBOtbUuA4sk6V2JxFjb8"
+            "csrfmiddlewaretoken": "4xBqrpdburVNYPovhjhg9jeLKLUbbH24ScOROfiswVlhleeGFK2THqrXHS01LNW5"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -2416,7 +2416,7 @@
             "e_toolcode": "BA ACCESS",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "3QKAqXFGfjLobfpKLFDpL5SXxW2cZmaywO9okv9sgbL72aw8y9GC2lDmWnwmG0t9"
+            "csrfmiddlewaretoken": "RRDx07uHDcES2A5eTSOMbSpipR0sMjSvEaAHR3Ol3f15W1ySsR3mQcHxvS9oEowm"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -2430,7 +2430,7 @@
             "e_toolcode": "BA ACCESS",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "mksD0uWBb0houMH5WxfygbVFqBjTBWiXmPZXs3RO2mVOCaLrbcipT3N4Jnb10g8B"
+            "csrfmiddlewaretoken": "JvORD1KzBHN8KSsmCu57kgineRRhWKlxvTZAnt9FV9TzfPVcnSzb0fu9Iu9pOkrG"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -2444,7 +2444,7 @@
             "e_toolcode": "BA ACCESS",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "j4F0KaEvoGgu6kihXPzTg4lSBH69TNCjOC76jCb29mnkR1l6WbvP2iiYrWkBylOh"
+            "csrfmiddlewaretoken": "H1s2Il1GasxwfyGivKQPej23szevAxX8LrLYnXJCikiut4wAzqxxLedhCedd4Jls"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -2458,7 +2458,7 @@
             "e_toolcode": "BA ACCESS",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "vbY29xbYYVl5TpbMjGMcxu4gYqSZE3FnX1bMZQ0FobkRWfeqLkFd8IZouzU1L9iL"
+            "csrfmiddlewaretoken": "lf7Hvc2gaV8WszEAUqm2dYjbIfsao1XdmZTzdcWBWllyiMRjpz60ww73W4tkf7BY"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -2472,7 +2472,7 @@
             "e_toolcode": "BA ACCESS",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "YHT16MPYAgzA8e4EPbObnE1yek5yeIuZNIlxIoV5Os4hzU4A2KiRNIHkAIt7nzvL"
+            "csrfmiddlewaretoken": "TGKDI1uX5lroN4v7XNqxE4G3mh5oLl1pMxhIJXd6WkxTcG1rm7Hpigv5qp1O4iH4"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -2486,7 +2486,7 @@
             "e_toolcode": "BA ACCESS",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "BFyJIDNlPnrGMsBLEldhkWqXZcxjuSOKGwJmPnYy3VxFLHXnwrIZkjSrEaCpsDkA"
+            "csrfmiddlewaretoken": "il6bS44EYOLtl1BZqvuMf8JykNM2OncVlvnzsCH11gqv0wiu6bXmTwu33UgkYxwA"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -2500,7 +2500,7 @@
             "e_toolcode": "BA ACCESS",
             "e_startdate": "2024-02-28",
             "e_enddate": "2024-03-30",
-            "csrfmiddlewaretoken": "bJynvRsmTHfk3OKCgBvSeK1j8ppNh4SZt3yda8ppYFnLLsmkXbH7qNo4kTpYpuGT"
+            "csrfmiddlewaretoken": "4YDZnJ8ZHfh1HrCiKJlOIR1nbknY1HdTow0P7mdJul9K7viyjnsxPu3pawnch2rj"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -2518,7 +2518,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -2536,7 +2536,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -2554,7 +2554,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -2572,7 +2572,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "KdLi1izcbv4YXebhYRzEPZ0BuKEo4FH52ryd7njO29CUnjrmpO7LSRzun0kp408m"
+            "csrfmiddlewaretoken": "0pUQvla2l0R1fzLC8p7R8HWCwZZVPRBk30vnGNMdpgAq1tDiTRzhwUfm2fTofamB"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -2590,7 +2590,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "sHfUzYdKj0gowOqhjDAlg0jFzznYC5uqoZZXyYlKGyS66OQNvc0JfPo78uwQonH5"
+            "csrfmiddlewaretoken": "xR1agr64jkgOrlrsDe9YWRGVU531CRaquHEqG09WcGHjabhA7uCzhYlD0J4xYq16"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -2608,7 +2608,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "ZiqJlqqKeQ5VaSaYpQBIYJgGlTCNobTHeVXJ79srzehB8qYJsVh30Z7udAYUeGUN"
+            "csrfmiddlewaretoken": "Np0yir2SMHtnnHBvOVLAZMDflue97YIu6kIvlFLQ1YqOZ6qpvp4iGWHh9c3SNEij"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -2626,7 +2626,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "xrk7YBROha0tTZ6sgz8xRqBWgaFlNeALDWBM5QaOC9cCbcAmOKPMMidJIZWt4Kdb"
+            "csrfmiddlewaretoken": "BcRNGDW7zgn60taTO3HCaJIhFl17lk0c1strDi3OYclU0SSXTMb8TcuFST9dIIU0"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -2644,7 +2644,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "YTp1ck7eys63j1zRaiayT91KGv7NQy7qBnOF0fWCPJfnJsaau1CTbIZNiakAWdaj"
+            "csrfmiddlewaretoken": "sQd61t2DDJqIfkj2mrqwTGkQa6oB6mQ8m8Y3J8WbypDKFj5DogSHQaUJosKIWeE4"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -2662,7 +2662,7 @@
             "rejection": "2",
             "available": "6",
             "material_type": "Tools",
-            "csrfmiddlewaretoken": "AShLGQV1JFqKo4KFzHArIrJGQ4W5oZhzO6cr9oyTZKnnnsOR96IGpsyPenJOleM2"
+            "csrfmiddlewaretoken": "mDJE9LjdX0cN6Io5XlFjoHzaMDal5XvllD55JUvYSV3MGJE6tzXNdf5XyJ0DjRWC"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -2680,7 +2680,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -2698,7 +2698,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -2716,7 +2716,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -2734,7 +2734,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "pLlwpMnoJ8AnbNoHdJnyFGHkisnVqBPSjpW4gg1NQtajRGI7KFqgNmrrD8Mti1lf"
+            "csrfmiddlewaretoken": "ykHXKm5xDTWTDrpQ3jn8EH8n6owFwaqquUVAwWNNgadje8J455TPnNzM44D548xf"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -2752,7 +2752,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "xzmVsiV2s2FXfET1vR1h5jUoy8fj9FbmxoeFQPB3uCg0PeG3SoTU3Kxtkoin9UBG"
+            "csrfmiddlewaretoken": "gZiIZtnbSOjvdzumjkDD4kMoeAGLzSjvRrJW62g8M0urpvwipQrfEMpMooPFAzTb"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -2770,7 +2770,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "q2tg4yDuTtln0ErGJbs6tktVUPRq90XhDXjZDfwUuucc6jkKZCmMpxzqtbkodQhb"
+            "csrfmiddlewaretoken": "vAVxojWOqKB8J04MvWRpFoYgz0bQ8ME04jzXXjmXR2a2GmCwc3pxYNfaPQaLsbqw"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -2788,7 +2788,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "eYlX261FcePmYcaM6OqvMdKAYmrbgToVpd4twox5ISQs1Nhzv8E8GwvE5atgd6yN"
+            "csrfmiddlewaretoken": "KC1ZxkuJ8rGXxFCpvph5sOkk8ZJOQ10KITAJEdwQRshj0oEoUopJGHVkyrLWn5qD"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -2806,7 +2806,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "EKAwPinJlWOQbavmTz6hwJcV0OW1h4b9w9mqP6Q2FeWk82439jvAAopQgiV87Wbo"
+            "csrfmiddlewaretoken": "3evJdFqFTsnLkjc2l9lpfHpMCu6PUfYqUUat8s01Ic7ZPkyIl4Ee24r0ARp1Vlf5"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -2824,7 +2824,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "4X3RSJMbaJXcok0cNWuX5p2mlCPV3ZYw2ZPuCNdivEbT1bFPSrIO72EBy5jN5khh"
+            "csrfmiddlewaretoken": "SYE4eg6RXpIZmBA3n0fwTxhgDL4o35WtRxkeOvRxgH8ebpD8UgXvZWVwnJgKreSJ"
         },
         "Attack": "BA_PH",
         "Statuscode": 200,
@@ -2842,7 +2842,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "rN786x90BPk9WUVEVseNQHk9DrSBBHRYfg76kfo1Lt1Ve0rN62nBr96NMKl9gqK9"
+            "csrfmiddlewaretoken": "u9aNpiyHsmRNaqe6NDwIdGTzbZI9azgycuZk7N4zJnw6RseCOuLIEwv5CQBekznK"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -2860,7 +2860,7 @@
             "date_of_delivery": "2024-03-11",
             "cust_po_no": "",
             "cust_po_priority": "Medium",
-            "csrfmiddlewaretoken": "J95YpLIp0CgA0XQtP50ijaCau9rIrjvyLkXlxtbWaRnjN0NTECkuAmNxAh4x6PtU"
+            "csrfmiddlewaretoken": "vHHzv3p9j6Oa1127kISmmjDynDZhXqZb788kwTWUiq3NdwLIgBSOBpQonUxFVygq"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
@@ -2880,7 +2880,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "xss_attack",
         "Statuscode": 200,
@@ -2900,7 +2900,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "html_attack",
         "Statuscode": 200,
@@ -2920,7 +2920,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "pri3eenezB0pTusyGOeRS5w13f8l6ZNPKHzxk9bL4JbyJzXuQkcmYXjI4zqUeLgH"
+            "csrfmiddlewaretoken": "cqtuxCzBysw7dP7NOxfhjADGY9itofdAedbq1TOf4KqsCCa6ou7edPkgnjdUL9YV"
         },
         "Attack": "session_cookies_theft",
         "Statuscode": 200,
@@ -2940,7 +2940,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "4NZERQUwr3FsdyukBTJ6WC44WokvfUIoVCLe22sijKAnECK9eHE9SbXGkQp3m8Kr"
+            "csrfmiddlewaretoken": "MZI66PZkzYfP9L26SO7Q70FURahIMKFdChknSWj9pYjEzqZe62fne6RhX2HVY157"
         },
         "Attack": "BA_SE",
         "Statuscode": 200,
@@ -2960,7 +2960,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "ECInuahUuQJlTZbWJPDcewk4oFPUy40Vyphi4rtu4pav3yvYp6BFjeuawF04ZEWo"
+            "csrfmiddlewaretoken": "pRl2HCCRR4PCofrHeFEbugmig3plXNEngDjJDqBu3f3sA6eQ19ps3xHVr5UzCkQi"
         },
         "Attack": "BA_SM",
         "Statuscode": 200,
@@ -2980,7 +2980,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "fLpyf9cWlcaP2I65qynxzp4aQgO02sIzpTHUJccMqefpxYyXmEgsYJSIU9HAZ2s3"
+            "csrfmiddlewaretoken": "q9KGAz113s4NcGl2XDmReAjbqAb9HQJa2tuUw2hzleauk3prDAPpuof1dobqHdA7"
         },
         "Attack": "BA_SV",
         "Statuscode": 200,
@@ -3000,7 +3000,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "cBpIBVgEpsjLzOl51F9xNXKWTGVYJDowhFbuzDqYitBs2BsaoSuhoz0gLQ1jVESa"
+            "csrfmiddlewaretoken": "43KzDpfhURGAfWy6GxZWftF0PpK2Se1C1ZydczQL9KPdlIe9L2haVARM9mJBU1MY"
         },
         "Attack": "BA_ME",
         "Statuscode": 200,
@@ -3020,7 +3020,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "eJBFlG6v1jK5ePS2zoBuMNH3mf451UWHOq89lZ7pqi3UYZlGkRRya6Y1Nsl1dbgo"
+            "csrfmiddlewaretoken": "Z8uOl2KbETo8EgEz0mbX10A6tzLYIo28ND9jRztZZjW7WqBp1vQrX4sTdr5BwWjb"
         },
         "Attack": "BA_MM",
         "Statuscode": 200,
@@ -3040,7 +3040,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "TyObG95obtOLpJGcPlNdrWvDRcB722LVdp6zNG0SixNBSJT24I5t4vyUOCvnWFcZ"
+            "csrfmiddlewaretoken": "iDRtvi0QOvFAZ5LaVeKwHt7B52qGVAnD3x9VuWeMZb1aDbGMoN712q2GB1WpBYYs"
         },
         "Attack": "BA_PS",
         "Statuscode": 200,
@@ -3060,7 +3060,7 @@
             "delivery_date": "24/05/2024",
             "status": "pending",
             "process_name": "",
-            "csrfmiddlewaretoken": "ockOUklsaKJJZehb2u2ZSd1kSX6W5OoCpejfatE2oJpjvrNtrOhR804gYXFgOYqH"
+            "csrfmiddlewaretoken": "E43o1yFtdyk0pJc7CdxpSjAgEu5A3hDUC3kg7JIiuO4baNHCOuFJ7uhpu44pSioL"
         },
         "Attack": "BA_PO",
         "Statuscode": 200,
